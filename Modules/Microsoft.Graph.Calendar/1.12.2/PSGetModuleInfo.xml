@@ -1,0 +1,668 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Microsoft.Graph.Calendar</S>
+      <Version N="Version">1.12.2</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Graph PowerShell Cmdlets</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">msgraph-sdk-powershell</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2022-09-29T18:03:58-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2022-09-30T15:31:24.326399-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/devservicesagreement</URI>
+      <URI N="ProjectUri">https://github.com/microsoftgraph/msgraph-sdk-powershell</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/microsoftgraph/msgraph-sdk-powershell/master/documentation/images/graph_color256.png</URI>
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Microsoft</S>
+          <S>Office365</S>
+          <S>Graph</S>
+          <S>PowerShell</S>
+          <S>PSModule</S>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-MgGroupCalendar</S>
+                <S>Get-MgGroupCalendarMultiValueExtendedProperty</S>
+                <S>Get-MgGroupCalendarPermission</S>
+                <S>Get-MgGroupCalendarSingleValueExtendedProperty</S>
+                <S>Get-MgGroupCalendarView</S>
+                <S>Get-MgGroupEvent</S>
+                <S>Get-MgGroupEventAttachment</S>
+                <S>Get-MgGroupEventCalendar</S>
+                <S>Get-MgGroupEventExceptionOccurrence</S>
+                <S>Get-MgGroupEventExceptionOccurrenceAttachment</S>
+                <S>Get-MgGroupEventExceptionOccurrenceCalendar</S>
+                <S>Get-MgGroupEventExceptionOccurrenceExtension</S>
+                <S>Get-MgGroupEventExceptionOccurrenceInstance</S>
+                <S>Get-MgGroupEventExceptionOccurrenceInstanceAttachment</S>
+                <S>Get-MgGroupEventExceptionOccurrenceInstanceCalendar</S>
+                <S>Get-MgGroupEventExceptionOccurrenceInstanceExtension</S>
+                <S>Get-MgGroupEventExceptionOccurrenceInstanceMultiValueExtendedProperty</S>
+                <S>Get-MgGroupEventExceptionOccurrenceInstanceSingleValueExtendedProperty</S>
+                <S>Get-MgGroupEventExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Get-MgGroupEventExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Get-MgGroupEventExtension</S>
+                <S>Get-MgGroupEventInstance</S>
+                <S>Get-MgGroupEventInstanceAttachment</S>
+                <S>Get-MgGroupEventInstanceCalendar</S>
+                <S>Get-MgGroupEventInstanceExceptionOccurrence</S>
+                <S>Get-MgGroupEventInstanceExceptionOccurrenceAttachment</S>
+                <S>Get-MgGroupEventInstanceExceptionOccurrenceCalendar</S>
+                <S>Get-MgGroupEventInstanceExceptionOccurrenceExtension</S>
+                <S>Get-MgGroupEventInstanceExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Get-MgGroupEventInstanceExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Get-MgGroupEventInstanceExtension</S>
+                <S>Get-MgGroupEventInstanceMultiValueExtendedProperty</S>
+                <S>Get-MgGroupEventInstanceSingleValueExtendedProperty</S>
+                <S>Get-MgGroupEventMultiValueExtendedProperty</S>
+                <S>Get-MgGroupEventSingleValueExtendedProperty</S>
+                <S>Get-MgPlace</S>
+                <S>Get-MgUserCalendar</S>
+                <S>Get-MgUserCalendarEvent</S>
+                <S>Get-MgUserCalendarGroup</S>
+                <S>Get-MgUserCalendarGroupCalendar</S>
+                <S>Get-MgUserCalendarMultiValueExtendedProperty</S>
+                <S>Get-MgUserCalendarPermission</S>
+                <S>Get-MgUserCalendarSingleValueExtendedProperty</S>
+                <S>Get-MgUserCalendarView</S>
+                <S>Get-MgUserDefaultCalendar</S>
+                <S>Get-MgUserEvent</S>
+                <S>Get-MgUserEventAttachment</S>
+                <S>Get-MgUserEventCalendar</S>
+                <S>Get-MgUserEventExceptionOccurrence</S>
+                <S>Get-MgUserEventExceptionOccurrenceAttachment</S>
+                <S>Get-MgUserEventExceptionOccurrenceCalendar</S>
+                <S>Get-MgUserEventExceptionOccurrenceExtension</S>
+                <S>Get-MgUserEventExceptionOccurrenceInstance</S>
+                <S>Get-MgUserEventExceptionOccurrenceInstanceAttachment</S>
+                <S>Get-MgUserEventExceptionOccurrenceInstanceCalendar</S>
+                <S>Get-MgUserEventExceptionOccurrenceInstanceExtension</S>
+                <S>Get-MgUserEventExceptionOccurrenceInstanceMultiValueExtendedProperty</S>
+                <S>Get-MgUserEventExceptionOccurrenceInstanceSingleValueExtendedProperty</S>
+                <S>Get-MgUserEventExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Get-MgUserEventExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Get-MgUserEventExtension</S>
+                <S>Get-MgUserEventInstance</S>
+                <S>Get-MgUserEventInstanceAttachment</S>
+                <S>Get-MgUserEventInstanceCalendar</S>
+                <S>Get-MgUserEventInstanceExceptionOccurrence</S>
+                <S>Get-MgUserEventInstanceExceptionOccurrenceAttachment</S>
+                <S>Get-MgUserEventInstanceExceptionOccurrenceCalendar</S>
+                <S>Get-MgUserEventInstanceExceptionOccurrenceExtension</S>
+                <S>Get-MgUserEventInstanceExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Get-MgUserEventInstanceExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Get-MgUserEventInstanceExtension</S>
+                <S>Get-MgUserEventInstanceMultiValueExtendedProperty</S>
+                <S>Get-MgUserEventInstanceSingleValueExtendedProperty</S>
+                <S>Get-MgUserEventMultiValueExtendedProperty</S>
+                <S>Get-MgUserEventSingleValueExtendedProperty</S>
+                <S>New-MgGroupCalendarMultiValueExtendedProperty</S>
+                <S>New-MgGroupCalendarPermission</S>
+                <S>New-MgGroupCalendarSingleValueExtendedProperty</S>
+                <S>New-MgGroupEvent</S>
+                <S>New-MgGroupEventAttachment</S>
+                <S>New-MgGroupEventExceptionOccurrence</S>
+                <S>New-MgGroupEventExceptionOccurrenceAttachment</S>
+                <S>New-MgGroupEventExceptionOccurrenceExtension</S>
+                <S>New-MgGroupEventExceptionOccurrenceInstance</S>
+                <S>New-MgGroupEventExceptionOccurrenceInstanceAttachment</S>
+                <S>New-MgGroupEventExceptionOccurrenceInstanceExtension</S>
+                <S>New-MgGroupEventExceptionOccurrenceInstanceMultiValueExtendedProperty</S>
+                <S>New-MgGroupEventExceptionOccurrenceInstanceSingleValueExtendedProperty</S>
+                <S>New-MgGroupEventExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>New-MgGroupEventExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>New-MgGroupEventExtension</S>
+                <S>New-MgGroupEventInstance</S>
+                <S>New-MgGroupEventInstanceAttachment</S>
+                <S>New-MgGroupEventInstanceExceptionOccurrence</S>
+                <S>New-MgGroupEventInstanceExceptionOccurrenceAttachment</S>
+                <S>New-MgGroupEventInstanceExceptionOccurrenceExtension</S>
+                <S>New-MgGroupEventInstanceExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>New-MgGroupEventInstanceExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>New-MgGroupEventInstanceExtension</S>
+                <S>New-MgGroupEventInstanceMultiValueExtendedProperty</S>
+                <S>New-MgGroupEventInstanceSingleValueExtendedProperty</S>
+                <S>New-MgGroupEventMultiValueExtendedProperty</S>
+                <S>New-MgGroupEventSingleValueExtendedProperty</S>
+                <S>New-MgPlace</S>
+                <S>New-MgUserCalendar</S>
+                <S>New-MgUserCalendarEvent</S>
+                <S>New-MgUserCalendarGroup</S>
+                <S>New-MgUserCalendarGroupCalendar</S>
+                <S>New-MgUserCalendarMultiValueExtendedProperty</S>
+                <S>New-MgUserCalendarPermission</S>
+                <S>New-MgUserCalendarSingleValueExtendedProperty</S>
+                <S>New-MgUserEvent</S>
+                <S>New-MgUserEventAttachment</S>
+                <S>New-MgUserEventExceptionOccurrence</S>
+                <S>New-MgUserEventExceptionOccurrenceAttachment</S>
+                <S>New-MgUserEventExceptionOccurrenceExtension</S>
+                <S>New-MgUserEventExceptionOccurrenceInstance</S>
+                <S>New-MgUserEventExceptionOccurrenceInstanceAttachment</S>
+                <S>New-MgUserEventExceptionOccurrenceInstanceExtension</S>
+                <S>New-MgUserEventExceptionOccurrenceInstanceMultiValueExtendedProperty</S>
+                <S>New-MgUserEventExceptionOccurrenceInstanceSingleValueExtendedProperty</S>
+                <S>New-MgUserEventExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>New-MgUserEventExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>New-MgUserEventExtension</S>
+                <S>New-MgUserEventInstance</S>
+                <S>New-MgUserEventInstanceAttachment</S>
+                <S>New-MgUserEventInstanceExceptionOccurrence</S>
+                <S>New-MgUserEventInstanceExceptionOccurrenceAttachment</S>
+                <S>New-MgUserEventInstanceExceptionOccurrenceExtension</S>
+                <S>New-MgUserEventInstanceExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>New-MgUserEventInstanceExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>New-MgUserEventInstanceExtension</S>
+                <S>New-MgUserEventInstanceMultiValueExtendedProperty</S>
+                <S>New-MgUserEventInstanceSingleValueExtendedProperty</S>
+                <S>New-MgUserEventMultiValueExtendedProperty</S>
+                <S>New-MgUserEventSingleValueExtendedProperty</S>
+                <S>Remove-MgGroupCalendarMultiValueExtendedProperty</S>
+                <S>Remove-MgGroupCalendarPermission</S>
+                <S>Remove-MgGroupCalendarSingleValueExtendedProperty</S>
+                <S>Remove-MgGroupEvent</S>
+                <S>Remove-MgGroupEventAttachment</S>
+                <S>Remove-MgGroupEventExceptionOccurrence</S>
+                <S>Remove-MgGroupEventExceptionOccurrenceAttachment</S>
+                <S>Remove-MgGroupEventExceptionOccurrenceExtension</S>
+                <S>Remove-MgGroupEventExceptionOccurrenceInstance</S>
+                <S>Remove-MgGroupEventExceptionOccurrenceInstanceAttachment</S>
+                <S>Remove-MgGroupEventExceptionOccurrenceInstanceExtension</S>
+                <S>Remove-MgGroupEventExceptionOccurrenceInstanceMultiValueExtendedProperty</S>
+                <S>Remove-MgGroupEventExceptionOccurrenceInstanceSingleValueExtendedProperty</S>
+                <S>Remove-MgGroupEventExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Remove-MgGroupEventExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Remove-MgGroupEventExtension</S>
+                <S>Remove-MgGroupEventInstance</S>
+                <S>Remove-MgGroupEventInstanceAttachment</S>
+                <S>Remove-MgGroupEventInstanceExceptionOccurrence</S>
+                <S>Remove-MgGroupEventInstanceExceptionOccurrenceAttachment</S>
+                <S>Remove-MgGroupEventInstanceExceptionOccurrenceExtension</S>
+                <S>Remove-MgGroupEventInstanceExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Remove-MgGroupEventInstanceExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Remove-MgGroupEventInstanceExtension</S>
+                <S>Remove-MgGroupEventInstanceMultiValueExtendedProperty</S>
+                <S>Remove-MgGroupEventInstanceSingleValueExtendedProperty</S>
+                <S>Remove-MgGroupEventMultiValueExtendedProperty</S>
+                <S>Remove-MgGroupEventSingleValueExtendedProperty</S>
+                <S>Remove-MgPlace</S>
+                <S>Remove-MgUserCalendar</S>
+                <S>Remove-MgUserCalendarGroup</S>
+                <S>Remove-MgUserCalendarMultiValueExtendedProperty</S>
+                <S>Remove-MgUserCalendarPermission</S>
+                <S>Remove-MgUserCalendarSingleValueExtendedProperty</S>
+                <S>Remove-MgUserEvent</S>
+                <S>Remove-MgUserEventAttachment</S>
+                <S>Remove-MgUserEventExceptionOccurrence</S>
+                <S>Remove-MgUserEventExceptionOccurrenceAttachment</S>
+                <S>Remove-MgUserEventExceptionOccurrenceExtension</S>
+                <S>Remove-MgUserEventExceptionOccurrenceInstance</S>
+                <S>Remove-MgUserEventExceptionOccurrenceInstanceAttachment</S>
+                <S>Remove-MgUserEventExceptionOccurrenceInstanceExtension</S>
+                <S>Remove-MgUserEventExceptionOccurrenceInstanceMultiValueExtendedProperty</S>
+                <S>Remove-MgUserEventExceptionOccurrenceInstanceSingleValueExtendedProperty</S>
+                <S>Remove-MgUserEventExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Remove-MgUserEventExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Remove-MgUserEventExtension</S>
+                <S>Remove-MgUserEventInstance</S>
+                <S>Remove-MgUserEventInstanceAttachment</S>
+                <S>Remove-MgUserEventInstanceExceptionOccurrence</S>
+                <S>Remove-MgUserEventInstanceExceptionOccurrenceAttachment</S>
+                <S>Remove-MgUserEventInstanceExceptionOccurrenceExtension</S>
+                <S>Remove-MgUserEventInstanceExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Remove-MgUserEventInstanceExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Remove-MgUserEventInstanceExtension</S>
+                <S>Remove-MgUserEventInstanceMultiValueExtendedProperty</S>
+                <S>Remove-MgUserEventInstanceSingleValueExtendedProperty</S>
+                <S>Remove-MgUserEventMultiValueExtendedProperty</S>
+                <S>Remove-MgUserEventSingleValueExtendedProperty</S>
+                <S>Update-MgGroupCalendarMultiValueExtendedProperty</S>
+                <S>Update-MgGroupCalendarPermission</S>
+                <S>Update-MgGroupCalendarSingleValueExtendedProperty</S>
+                <S>Update-MgGroupEvent</S>
+                <S>Update-MgGroupEventAttachment</S>
+                <S>Update-MgGroupEventExceptionOccurrence</S>
+                <S>Update-MgGroupEventExceptionOccurrenceAttachment</S>
+                <S>Update-MgGroupEventExceptionOccurrenceExtension</S>
+                <S>Update-MgGroupEventExceptionOccurrenceInstance</S>
+                <S>Update-MgGroupEventExceptionOccurrenceInstanceAttachment</S>
+                <S>Update-MgGroupEventExceptionOccurrenceInstanceExtension</S>
+                <S>Update-MgGroupEventExceptionOccurrenceInstanceMultiValueExtendedProperty</S>
+                <S>Update-MgGroupEventExceptionOccurrenceInstanceSingleValueExtendedProperty</S>
+                <S>Update-MgGroupEventExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Update-MgGroupEventExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Update-MgGroupEventExtension</S>
+                <S>Update-MgGroupEventInstance</S>
+                <S>Update-MgGroupEventInstanceAttachment</S>
+                <S>Update-MgGroupEventInstanceExceptionOccurrence</S>
+                <S>Update-MgGroupEventInstanceExceptionOccurrenceAttachment</S>
+                <S>Update-MgGroupEventInstanceExceptionOccurrenceExtension</S>
+                <S>Update-MgGroupEventInstanceExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Update-MgGroupEventInstanceExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Update-MgGroupEventInstanceExtension</S>
+                <S>Update-MgGroupEventInstanceMultiValueExtendedProperty</S>
+                <S>Update-MgGroupEventInstanceSingleValueExtendedProperty</S>
+                <S>Update-MgGroupEventMultiValueExtendedProperty</S>
+                <S>Update-MgGroupEventSingleValueExtendedProperty</S>
+                <S>Update-MgPlace</S>
+                <S>Update-MgUserCalendar</S>
+                <S>Update-MgUserCalendarGroup</S>
+                <S>Update-MgUserCalendarMultiValueExtendedProperty</S>
+                <S>Update-MgUserCalendarPermission</S>
+                <S>Update-MgUserCalendarSingleValueExtendedProperty</S>
+                <S>Update-MgUserEvent</S>
+                <S>Update-MgUserEventAttachment</S>
+                <S>Update-MgUserEventExceptionOccurrence</S>
+                <S>Update-MgUserEventExceptionOccurrenceAttachment</S>
+                <S>Update-MgUserEventExceptionOccurrenceExtension</S>
+                <S>Update-MgUserEventExceptionOccurrenceInstance</S>
+                <S>Update-MgUserEventExceptionOccurrenceInstanceAttachment</S>
+                <S>Update-MgUserEventExceptionOccurrenceInstanceExtension</S>
+                <S>Update-MgUserEventExceptionOccurrenceInstanceMultiValueExtendedProperty</S>
+                <S>Update-MgUserEventExceptionOccurrenceInstanceSingleValueExtendedProperty</S>
+                <S>Update-MgUserEventExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Update-MgUserEventExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Update-MgUserEventExtension</S>
+                <S>Update-MgUserEventInstance</S>
+                <S>Update-MgUserEventInstanceAttachment</S>
+                <S>Update-MgUserEventInstanceExceptionOccurrence</S>
+                <S>Update-MgUserEventInstanceExceptionOccurrenceAttachment</S>
+                <S>Update-MgUserEventInstanceExceptionOccurrenceExtension</S>
+                <S>Update-MgUserEventInstanceExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Update-MgUserEventInstanceExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Update-MgUserEventInstanceExtension</S>
+                <S>Update-MgUserEventInstanceMultiValueExtendedProperty</S>
+                <S>Update-MgUserEventInstanceSingleValueExtendedProperty</S>
+                <S>Update-MgUserEventMultiValueExtendedProperty</S>
+                <S>Update-MgUserEventSingleValueExtendedProperty</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-MgGroupCalendar</S>
+                <S>Get-MgGroupCalendarMultiValueExtendedProperty</S>
+                <S>Get-MgGroupCalendarPermission</S>
+                <S>Get-MgGroupCalendarSingleValueExtendedProperty</S>
+                <S>Get-MgGroupCalendarView</S>
+                <S>Get-MgGroupEvent</S>
+                <S>Get-MgGroupEventAttachment</S>
+                <S>Get-MgGroupEventCalendar</S>
+                <S>Get-MgGroupEventExceptionOccurrence</S>
+                <S>Get-MgGroupEventExceptionOccurrenceAttachment</S>
+                <S>Get-MgGroupEventExceptionOccurrenceCalendar</S>
+                <S>Get-MgGroupEventExceptionOccurrenceExtension</S>
+                <S>Get-MgGroupEventExceptionOccurrenceInstance</S>
+                <S>Get-MgGroupEventExceptionOccurrenceInstanceAttachment</S>
+                <S>Get-MgGroupEventExceptionOccurrenceInstanceCalendar</S>
+                <S>Get-MgGroupEventExceptionOccurrenceInstanceExtension</S>
+                <S>Get-MgGroupEventExceptionOccurrenceInstanceMultiValueExtendedProperty</S>
+                <S>Get-MgGroupEventExceptionOccurrenceInstanceSingleValueExtendedProperty</S>
+                <S>Get-MgGroupEventExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Get-MgGroupEventExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Get-MgGroupEventExtension</S>
+                <S>Get-MgGroupEventInstance</S>
+                <S>Get-MgGroupEventInstanceAttachment</S>
+                <S>Get-MgGroupEventInstanceCalendar</S>
+                <S>Get-MgGroupEventInstanceExceptionOccurrence</S>
+                <S>Get-MgGroupEventInstanceExceptionOccurrenceAttachment</S>
+                <S>Get-MgGroupEventInstanceExceptionOccurrenceCalendar</S>
+                <S>Get-MgGroupEventInstanceExceptionOccurrenceExtension</S>
+                <S>Get-MgGroupEventInstanceExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Get-MgGroupEventInstanceExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Get-MgGroupEventInstanceExtension</S>
+                <S>Get-MgGroupEventInstanceMultiValueExtendedProperty</S>
+                <S>Get-MgGroupEventInstanceSingleValueExtendedProperty</S>
+                <S>Get-MgGroupEventMultiValueExtendedProperty</S>
+                <S>Get-MgGroupEventSingleValueExtendedProperty</S>
+                <S>Get-MgPlace</S>
+                <S>Get-MgUserCalendar</S>
+                <S>Get-MgUserCalendarEvent</S>
+                <S>Get-MgUserCalendarGroup</S>
+                <S>Get-MgUserCalendarGroupCalendar</S>
+                <S>Get-MgUserCalendarMultiValueExtendedProperty</S>
+                <S>Get-MgUserCalendarPermission</S>
+                <S>Get-MgUserCalendarSingleValueExtendedProperty</S>
+                <S>Get-MgUserCalendarView</S>
+                <S>Get-MgUserDefaultCalendar</S>
+                <S>Get-MgUserEvent</S>
+                <S>Get-MgUserEventAttachment</S>
+                <S>Get-MgUserEventCalendar</S>
+                <S>Get-MgUserEventExceptionOccurrence</S>
+                <S>Get-MgUserEventExceptionOccurrenceAttachment</S>
+                <S>Get-MgUserEventExceptionOccurrenceCalendar</S>
+                <S>Get-MgUserEventExceptionOccurrenceExtension</S>
+                <S>Get-MgUserEventExceptionOccurrenceInstance</S>
+                <S>Get-MgUserEventExceptionOccurrenceInstanceAttachment</S>
+                <S>Get-MgUserEventExceptionOccurrenceInstanceCalendar</S>
+                <S>Get-MgUserEventExceptionOccurrenceInstanceExtension</S>
+                <S>Get-MgUserEventExceptionOccurrenceInstanceMultiValueExtendedProperty</S>
+                <S>Get-MgUserEventExceptionOccurrenceInstanceSingleValueExtendedProperty</S>
+                <S>Get-MgUserEventExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Get-MgUserEventExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Get-MgUserEventExtension</S>
+                <S>Get-MgUserEventInstance</S>
+                <S>Get-MgUserEventInstanceAttachment</S>
+                <S>Get-MgUserEventInstanceCalendar</S>
+                <S>Get-MgUserEventInstanceExceptionOccurrence</S>
+                <S>Get-MgUserEventInstanceExceptionOccurrenceAttachment</S>
+                <S>Get-MgUserEventInstanceExceptionOccurrenceCalendar</S>
+                <S>Get-MgUserEventInstanceExceptionOccurrenceExtension</S>
+                <S>Get-MgUserEventInstanceExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Get-MgUserEventInstanceExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Get-MgUserEventInstanceExtension</S>
+                <S>Get-MgUserEventInstanceMultiValueExtendedProperty</S>
+                <S>Get-MgUserEventInstanceSingleValueExtendedProperty</S>
+                <S>Get-MgUserEventMultiValueExtendedProperty</S>
+                <S>Get-MgUserEventSingleValueExtendedProperty</S>
+                <S>New-MgGroupCalendarMultiValueExtendedProperty</S>
+                <S>New-MgGroupCalendarPermission</S>
+                <S>New-MgGroupCalendarSingleValueExtendedProperty</S>
+                <S>New-MgGroupEvent</S>
+                <S>New-MgGroupEventAttachment</S>
+                <S>New-MgGroupEventExceptionOccurrence</S>
+                <S>New-MgGroupEventExceptionOccurrenceAttachment</S>
+                <S>New-MgGroupEventExceptionOccurrenceExtension</S>
+                <S>New-MgGroupEventExceptionOccurrenceInstance</S>
+                <S>New-MgGroupEventExceptionOccurrenceInstanceAttachment</S>
+                <S>New-MgGroupEventExceptionOccurrenceInstanceExtension</S>
+                <S>New-MgGroupEventExceptionOccurrenceInstanceMultiValueExtendedProperty</S>
+                <S>New-MgGroupEventExceptionOccurrenceInstanceSingleValueExtendedProperty</S>
+                <S>New-MgGroupEventExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>New-MgGroupEventExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>New-MgGroupEventExtension</S>
+                <S>New-MgGroupEventInstance</S>
+                <S>New-MgGroupEventInstanceAttachment</S>
+                <S>New-MgGroupEventInstanceExceptionOccurrence</S>
+                <S>New-MgGroupEventInstanceExceptionOccurrenceAttachment</S>
+                <S>New-MgGroupEventInstanceExceptionOccurrenceExtension</S>
+                <S>New-MgGroupEventInstanceExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>New-MgGroupEventInstanceExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>New-MgGroupEventInstanceExtension</S>
+                <S>New-MgGroupEventInstanceMultiValueExtendedProperty</S>
+                <S>New-MgGroupEventInstanceSingleValueExtendedProperty</S>
+                <S>New-MgGroupEventMultiValueExtendedProperty</S>
+                <S>New-MgGroupEventSingleValueExtendedProperty</S>
+                <S>New-MgPlace</S>
+                <S>New-MgUserCalendar</S>
+                <S>New-MgUserCalendarEvent</S>
+                <S>New-MgUserCalendarGroup</S>
+                <S>New-MgUserCalendarGroupCalendar</S>
+                <S>New-MgUserCalendarMultiValueExtendedProperty</S>
+                <S>New-MgUserCalendarPermission</S>
+                <S>New-MgUserCalendarSingleValueExtendedProperty</S>
+                <S>New-MgUserEvent</S>
+                <S>New-MgUserEventAttachment</S>
+                <S>New-MgUserEventExceptionOccurrence</S>
+                <S>New-MgUserEventExceptionOccurrenceAttachment</S>
+                <S>New-MgUserEventExceptionOccurrenceExtension</S>
+                <S>New-MgUserEventExceptionOccurrenceInstance</S>
+                <S>New-MgUserEventExceptionOccurrenceInstanceAttachment</S>
+                <S>New-MgUserEventExceptionOccurrenceInstanceExtension</S>
+                <S>New-MgUserEventExceptionOccurrenceInstanceMultiValueExtendedProperty</S>
+                <S>New-MgUserEventExceptionOccurrenceInstanceSingleValueExtendedProperty</S>
+                <S>New-MgUserEventExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>New-MgUserEventExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>New-MgUserEventExtension</S>
+                <S>New-MgUserEventInstance</S>
+                <S>New-MgUserEventInstanceAttachment</S>
+                <S>New-MgUserEventInstanceExceptionOccurrence</S>
+                <S>New-MgUserEventInstanceExceptionOccurrenceAttachment</S>
+                <S>New-MgUserEventInstanceExceptionOccurrenceExtension</S>
+                <S>New-MgUserEventInstanceExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>New-MgUserEventInstanceExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>New-MgUserEventInstanceExtension</S>
+                <S>New-MgUserEventInstanceMultiValueExtendedProperty</S>
+                <S>New-MgUserEventInstanceSingleValueExtendedProperty</S>
+                <S>New-MgUserEventMultiValueExtendedProperty</S>
+                <S>New-MgUserEventSingleValueExtendedProperty</S>
+                <S>Remove-MgGroupCalendarMultiValueExtendedProperty</S>
+                <S>Remove-MgGroupCalendarPermission</S>
+                <S>Remove-MgGroupCalendarSingleValueExtendedProperty</S>
+                <S>Remove-MgGroupEvent</S>
+                <S>Remove-MgGroupEventAttachment</S>
+                <S>Remove-MgGroupEventExceptionOccurrence</S>
+                <S>Remove-MgGroupEventExceptionOccurrenceAttachment</S>
+                <S>Remove-MgGroupEventExceptionOccurrenceExtension</S>
+                <S>Remove-MgGroupEventExceptionOccurrenceInstance</S>
+                <S>Remove-MgGroupEventExceptionOccurrenceInstanceAttachment</S>
+                <S>Remove-MgGroupEventExceptionOccurrenceInstanceExtension</S>
+                <S>Remove-MgGroupEventExceptionOccurrenceInstanceMultiValueExtendedProperty</S>
+                <S>Remove-MgGroupEventExceptionOccurrenceInstanceSingleValueExtendedProperty</S>
+                <S>Remove-MgGroupEventExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Remove-MgGroupEventExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Remove-MgGroupEventExtension</S>
+                <S>Remove-MgGroupEventInstance</S>
+                <S>Remove-MgGroupEventInstanceAttachment</S>
+                <S>Remove-MgGroupEventInstanceExceptionOccurrence</S>
+                <S>Remove-MgGroupEventInstanceExceptionOccurrenceAttachment</S>
+                <S>Remove-MgGroupEventInstanceExceptionOccurrenceExtension</S>
+                <S>Remove-MgGroupEventInstanceExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Remove-MgGroupEventInstanceExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Remove-MgGroupEventInstanceExtension</S>
+                <S>Remove-MgGroupEventInstanceMultiValueExtendedProperty</S>
+                <S>Remove-MgGroupEventInstanceSingleValueExtendedProperty</S>
+                <S>Remove-MgGroupEventMultiValueExtendedProperty</S>
+                <S>Remove-MgGroupEventSingleValueExtendedProperty</S>
+                <S>Remove-MgPlace</S>
+                <S>Remove-MgUserCalendar</S>
+                <S>Remove-MgUserCalendarGroup</S>
+                <S>Remove-MgUserCalendarMultiValueExtendedProperty</S>
+                <S>Remove-MgUserCalendarPermission</S>
+                <S>Remove-MgUserCalendarSingleValueExtendedProperty</S>
+                <S>Remove-MgUserEvent</S>
+                <S>Remove-MgUserEventAttachment</S>
+                <S>Remove-MgUserEventExceptionOccurrence</S>
+                <S>Remove-MgUserEventExceptionOccurrenceAttachment</S>
+                <S>Remove-MgUserEventExceptionOccurrenceExtension</S>
+                <S>Remove-MgUserEventExceptionOccurrenceInstance</S>
+                <S>Remove-MgUserEventExceptionOccurrenceInstanceAttachment</S>
+                <S>Remove-MgUserEventExceptionOccurrenceInstanceExtension</S>
+                <S>Remove-MgUserEventExceptionOccurrenceInstanceMultiValueExtendedProperty</S>
+                <S>Remove-MgUserEventExceptionOccurrenceInstanceSingleValueExtendedProperty</S>
+                <S>Remove-MgUserEventExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Remove-MgUserEventExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Remove-MgUserEventExtension</S>
+                <S>Remove-MgUserEventInstance</S>
+                <S>Remove-MgUserEventInstanceAttachment</S>
+                <S>Remove-MgUserEventInstanceExceptionOccurrence</S>
+                <S>Remove-MgUserEventInstanceExceptionOccurrenceAttachment</S>
+                <S>Remove-MgUserEventInstanceExceptionOccurrenceExtension</S>
+                <S>Remove-MgUserEventInstanceExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Remove-MgUserEventInstanceExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Remove-MgUserEventInstanceExtension</S>
+                <S>Remove-MgUserEventInstanceMultiValueExtendedProperty</S>
+                <S>Remove-MgUserEventInstanceSingleValueExtendedProperty</S>
+                <S>Remove-MgUserEventMultiValueExtendedProperty</S>
+                <S>Remove-MgUserEventSingleValueExtendedProperty</S>
+                <S>Update-MgGroupCalendarMultiValueExtendedProperty</S>
+                <S>Update-MgGroupCalendarPermission</S>
+                <S>Update-MgGroupCalendarSingleValueExtendedProperty</S>
+                <S>Update-MgGroupEvent</S>
+                <S>Update-MgGroupEventAttachment</S>
+                <S>Update-MgGroupEventExceptionOccurrence</S>
+                <S>Update-MgGroupEventExceptionOccurrenceAttachment</S>
+                <S>Update-MgGroupEventExceptionOccurrenceExtension</S>
+                <S>Update-MgGroupEventExceptionOccurrenceInstance</S>
+                <S>Update-MgGroupEventExceptionOccurrenceInstanceAttachment</S>
+                <S>Update-MgGroupEventExceptionOccurrenceInstanceExtension</S>
+                <S>Update-MgGroupEventExceptionOccurrenceInstanceMultiValueExtendedProperty</S>
+                <S>Update-MgGroupEventExceptionOccurrenceInstanceSingleValueExtendedProperty</S>
+                <S>Update-MgGroupEventExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Update-MgGroupEventExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Update-MgGroupEventExtension</S>
+                <S>Update-MgGroupEventInstance</S>
+                <S>Update-MgGroupEventInstanceAttachment</S>
+                <S>Update-MgGroupEventInstanceExceptionOccurrence</S>
+                <S>Update-MgGroupEventInstanceExceptionOccurrenceAttachment</S>
+                <S>Update-MgGroupEventInstanceExceptionOccurrenceExtension</S>
+                <S>Update-MgGroupEventInstanceExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Update-MgGroupEventInstanceExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Update-MgGroupEventInstanceExtension</S>
+                <S>Update-MgGroupEventInstanceMultiValueExtendedProperty</S>
+                <S>Update-MgGroupEventInstanceSingleValueExtendedProperty</S>
+                <S>Update-MgGroupEventMultiValueExtendedProperty</S>
+                <S>Update-MgGroupEventSingleValueExtendedProperty</S>
+                <S>Update-MgPlace</S>
+                <S>Update-MgUserCalendar</S>
+                <S>Update-MgUserCalendarGroup</S>
+                <S>Update-MgUserCalendarMultiValueExtendedProperty</S>
+                <S>Update-MgUserCalendarPermission</S>
+                <S>Update-MgUserCalendarSingleValueExtendedProperty</S>
+                <S>Update-MgUserEvent</S>
+                <S>Update-MgUserEventAttachment</S>
+                <S>Update-MgUserEventExceptionOccurrence</S>
+                <S>Update-MgUserEventExceptionOccurrenceAttachment</S>
+                <S>Update-MgUserEventExceptionOccurrenceExtension</S>
+                <S>Update-MgUserEventExceptionOccurrenceInstance</S>
+                <S>Update-MgUserEventExceptionOccurrenceInstanceAttachment</S>
+                <S>Update-MgUserEventExceptionOccurrenceInstanceExtension</S>
+                <S>Update-MgUserEventExceptionOccurrenceInstanceMultiValueExtendedProperty</S>
+                <S>Update-MgUserEventExceptionOccurrenceInstanceSingleValueExtendedProperty</S>
+                <S>Update-MgUserEventExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Update-MgUserEventExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Update-MgUserEventExtension</S>
+                <S>Update-MgUserEventInstance</S>
+                <S>Update-MgUserEventInstanceAttachment</S>
+                <S>Update-MgUserEventInstanceExceptionOccurrence</S>
+                <S>Update-MgUserEventInstanceExceptionOccurrenceAttachment</S>
+                <S>Update-MgUserEventInstanceExceptionOccurrenceExtension</S>
+                <S>Update-MgUserEventInstanceExceptionOccurrenceMultiValueExtendedProperty</S>
+                <S>Update-MgUserEventInstanceExceptionOccurrenceSingleValueExtendedProperty</S>
+                <S>Update-MgUserEventInstanceExtension</S>
+                <S>Update-MgUserEventInstanceMultiValueExtendedProperty</S>
+                <S>Update-MgUserEventInstanceSingleValueExtendedProperty</S>
+                <S>Update-MgUserEventMultiValueExtendedProperty</S>
+                <S>Update-MgUserEventSingleValueExtendedProperty</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Microsoft.Graph.Authentication</S>
+              </En>
+              <En>
+                <S N="Key">RequiredVersion</S>
+                <S N="Value">1.12.2</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Microsoft.Graph.Authentication/[1.12.2]</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Graph PowerShell Cmdlets</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">3912</S>
+          <S N="downloadCount">424369</S>
+          <S N="packageSize">3453458</S>
+          <S N="published">9/29/2022 6:03:58 PM -05:00</S>
+          <S N="created">9/29/2022 6:03:58 PM -05:00</S>
+          <S N="lastUpdated">9/30/2022 8:28:22 PM -05:00</S>
+          <S N="tags">Microsoft Office365 Graph PowerShell PSModule PSIncludes_Cmdlet PSEdition_Core PSEdition_Desktop PSFunction_Get-MgGroupCalendar PSCommand_Get-MgGroupCalendar PSFunction_Get-MgGroupCalendarMultiValueExtendedProperty PSCommand_Get-MgGroupCalendarMultiValueExtendedProperty PSFunction_Get-MgGroupCalendarPermission PSCommand_Get-MgGroupCalendarPermission PSFunction_Get-MgGroupCalendarSingleValueExtendedProperty PSCommand_Get-MgGroupCalendarSingleValueExtendedProperty PSFunction_Get-MgGroupCalendarView PSCommand_Get-MgGroupCalendarView PSFunction_Get-MgGroupEvent PSCommand_Get-MgGroupEvent PSFunction_Get-MgGroupEventAttachment PSCommand_Get-MgGroupEventAttachment PSFunction_Get-MgGroupEventCalendar PSCommand_Get-MgGroupEventCalendar PSFunction_Get-MgGroupEventExceptionOccurrence PSCommand_Get-MgGroupEventExceptionOccurrence PSFunction_Get-MgGroupEventExceptionOccurrenceAttachment PSCommand_Get-MgGroupEventExceptionOccurrenceAttachment PSFunction_Get-MgGroupEventExceptionOccurrenceCalendar PSCommand_Get-MgGroupEventExceptionOccurrenceCalendar PSFunction_Get-MgGroupEventExceptionOccurrenceExtension PSCommand_Get-MgGroupEventExceptionOccurrenceExtension PSFunction_Get-MgGroupEventExceptionOccurrenceInstance PSCommand_Get-MgGroupEventExceptionOccurrenceInstance PSFunction_Get-MgGroupEventExceptionOccurrenceInstanceAttachment PSCommand_Get-MgGroupEventExceptionOccurrenceInstanceAttachment PSFunction_Get-MgGroupEventExceptionOccurrenceInstanceCalendar PSCommand_Get-MgGroupEventExceptionOccurrenceInstanceCalendar PSFunction_Get-MgGroupEventExceptionOccurrenceInstanceExtension PSCommand_Get-MgGroupEventExceptionOccurrenceInstanceExtension PSFunction_Get-MgGroupEventExceptionOccurrenceInstanceMultiValueExtendedProperty PSCommand_Get-MgGroupEventExceptionOccurrenceInstanceMultiValueExtendedProperty PSFunction_Get-MgGroupEventExceptionOccurrenceInstanceSingleValueExtendedProperty PSCommand_Get-MgGroupEventExceptionOccurrenceInstanceSingleValueExtendedProperty PSFunction_Get-MgGroupEventExceptionOccurrenceMultiValueExtendedProperty PSCommand_Get-MgGroupEventExceptionOccurrenceMultiValueExtendedProperty PSFunction_Get-MgGroupEventExceptionOccurrenceSingleValueExtendedProperty PSCommand_Get-MgGroupEventExceptionOccurrenceSingleValueExtendedProperty PSFunction_Get-MgGroupEventExtension PSCommand_Get-MgGroupEventExtension PSFunction_Get-MgGroupEventInstance PSCommand_Get-MgGroupEventInstance PSFunction_Get-MgGroupEventInstanceAttachment PSCommand_Get-MgGroupEventInstanceAttachment PSFunction_Get-MgGroupEventInstanceCalendar PSCommand_Get-MgGroupEventInstanceCalendar PSFunction_Get-MgGroupEventInstanceExceptionOccurrence PSCommand_Get-MgGroupEventInstanceExceptionOccurrence PSFunction_Get-MgGroupEventInstanceExceptionOccurrenceAttachment PSCommand_Get-MgGroupEventInstanceExceptionOccurrenceAttachment PSFunction_Get-MgGroupEventInstanceExceptionOccurrenceCalendar PSCommand_Get-MgGroupEventInstanceExceptionOccurrenceCalendar PSFunction_Get-MgGroupEventInstanceExceptionOccurrenceExtension PSCommand_Get-MgGroupEventInstanceExceptionOccurrenceExtension PSFunction_Get-MgGroupEventInstanceExceptionOccurrenceMultiValueExtendedProperty PSCommand_Get-MgGroupEventInstanceExceptionOccurrenceMultiValueExtendedProperty PSFunction_Get-MgGroupEventInstanceExceptionOccurrenceSingleValueExtendedProperty PSCommand_Get-MgGroupEventInstanceExceptionOccurrenceSingleValueExtendedProperty PSFunction_Get-MgGroupEventInstanceExtension PSCommand_Get-MgGroupEventInstanceExtension PSFunction_Get-MgGroupEventInstanceMultiValueExtendedProperty PSCommand_Get-MgGroupEventInstanceMultiValueExtendedProperty PSFunction_Get-MgGroupEventInstanceSingleValueExtendedProperty PSCommand_Get-MgGroupEventInstanceSingleValueExtendedProperty PSFunction_Get-MgGroupEventMultiValueExtendedProperty PSCommand_Get-MgGroupEventMultiValueExtendedProperty PSFunction_Get-MgGroupEventSingleValueExtendedProperty PSCommand_Get-MgGroupEventSingleValueExtendedProperty PSFunction_Get-MgPlace PSCommand_Get-MgPlace PSFunction_Get-MgUserCalendar PSCommand_Get-MgUserCalendar PSFunction_Get-MgUserCalendarEvent PSCommand_Get-MgUserCalendarEvent PSFunction_Get-MgUserCalendarGroup PSCommand_Get-MgUserCalendarGroup PSFunction_Get-MgUserCalendarGroupCalendar PSCommand_Get-MgUserCalendarGroupCalendar PSFunction_Get-MgUserCalendarMultiValueExtendedProperty PSCommand_Get-MgUserCalendarMultiValueExtendedProperty PSFunction_Get-MgUserCalendarPermission PSCommand_Get-MgUserCalendarPermission PSFunction_Get-MgUserCalendarSingleValueExtendedProperty PSCommand_Get-MgUserCalendarSingleValueExtendedProperty PSFunction_Get-MgUserCalendarView PSCommand_Get-MgUserCalendarView PSFunction_Get-MgUserDefaultCalendar PSCommand_Get-MgUserDefaultCalendar PSFunction_Get-MgUserEvent PSCommand_Get-MgUserEvent PSFunction_Get-MgUserEventAttachment PSCommand_Get-MgUserEventAttachment PSFunction_Get-MgUserEventCalendar PSCommand_Get-MgUserEventCalendar PSFunction_Get-MgUserEventExceptionOccurrence PSCommand_Get-MgUserEventExceptionOccurrence PSFunction_Get-MgUserEventExceptionOccurrenceAttachment PSCommand_Get-MgUserEventExceptionOccurrenceAttachment PSFunction_Get-MgUserEventExceptionOccurrenceCalendar PSCommand_Get-MgUserEventExceptionOccurrenceCalendar PSFunction_Get-MgUserEventExceptionOccurrenceExtension PSCommand_Get-MgUserEventExceptionOccurrenceExtension PSFunction_Get-MgUserEventExceptionOccurrenceInstance PSCommand_Get-MgUserEventExceptionOccurrenceInstance PSFunction_Get-MgUserEventExceptionOccurrenceInstanceAttachment PSCommand_Get-MgUserEventExceptionOccurrenceInstanceAttachment PSFunction_Get-MgUserEventExceptionOccurrenceInstanceCalendar PSCommand_Get-MgUserEventExceptionOccurrenceInstanceCalendar PSFunction_Get-MgUserEventExceptionOccurrenceInstanceExtension PSCommand_Get-MgUserEventExceptionOccurrenceInstanceExtension PSFunction_Get-MgUserEventExceptionOccurrenceInstanceMultiValueExtendedProperty PSCommand_Get-MgUserEventExceptionOccurrenceInstanceMultiValueExtendedProperty PSFunction_Get-MgUserEventExceptionOccurrenceInstanceSingleValueExtendedProperty PSCommand_Get-MgUserEventExceptionOccurrenceInstanceSingleValueExtendedProperty PSFunction_Get-MgUserEventExceptionOccurrenceMultiValueExtendedProperty PSCommand_Get-MgUserEventExceptionOccurrenceMultiValueExtendedProperty PSFunction_Get-MgUserEventExceptionOccurrenceSingleValueExtendedProperty PSCommand_Get-MgUserEventExceptionOccurrenceSingleValueExtendedProperty PSFunction_Get-MgUserEventExtension PSCommand_Get-MgUserEventExtension PSFunction_Get-MgUserEventInstance PSCommand_Get-MgUserEventInstance PSFunction_Get-MgUserEventInstanceAttachment PSCommand_Get-MgUserEventInstanceAttachment PSFunction_Get-MgUserEventInstanceCalendar PSCommand_Get-MgUserEventInstanceCalendar PSFunction_Get-MgUserEventInstanceExceptionOccurrence PSCommand_Get-MgUserEventInstanceExceptionOccurrence PSFunction_Get-MgUserEventInstanceExceptionOccurrenceAttachment PSCommand_Get-MgUserEventInstanceExceptionOccurrenceAttachment PSFunction_Get-MgUserEventInstanceExceptionOccurrenceCalendar PSCommand_Get-MgUserEventInstanceExceptionOccurrenceCalendar PSFunction_Get-MgUserEventInstanceExceptionOccurrenceExtension PSCommand_Get-MgUserEventInstanceExceptionOccurrenceExtension PSFunction_Get-MgUserEventInstanceExceptionOccurrenceMultiValueExtendedProperty PSCommand_Get-MgUserEventInstanceExceptionOccurrenceMultiValueExtendedProperty PSFunction_Get-MgUserEventInstanceExceptionOccurrenceSingleValueExtendedProperty PSCommand_Get-MgUserEventInstanceExceptionOccurrenceSingleValueExtendedProperty PSFunction_Get-MgUserEventInstanceExtension PSCommand_Get-MgUserEventInstanceExtension PSFunction_Get-MgUserEventInstanceMultiValueExtendedProperty PSCommand_Get-MgUserEventInstanceMultiValueExtendedProperty PSFunction_Get-MgUserEventInstanceSingleValueExtendedProperty PSCommand_Get-MgUserEventInstanceSingleValueExtendedProperty PSFunction_Get-MgUserEventMultiValueExtendedProperty PSCommand_Get-MgUserEventMultiValueExtendedProperty PSFunction_Get-MgUserEventSingleValueExtendedProperty PSCommand_Get-MgUserEventSingleValueExtendedProperty PSFunction_New-MgGroupCalendarMultiValueExtendedProperty PSCommand_New-MgGroupCalendarMultiValueExtendedProperty PSFunction_New-MgGroupCalendarPermission PSCommand_New-MgGroupCalendarPermission PSFunction_New-MgGroupCalendarSingleValueExtendedProperty PSCommand_New-MgGroupCalendarSingleValueExtendedProperty PSFunction_New-MgGroupEvent PSCommand_New-MgGroupEvent PSFunction_New-MgGroupEventAttachment PSCommand_New-MgGroupEventAttachment PSFunction_New-MgGroupEventExceptionOccurrence PSCommand_New-MgGroupEventExceptionOccurrence PSFunction_New-MgGroupEventExceptionOccurrenceAttachment PSCommand_New-MgGroupEventExceptionOccurrenceAttachment PSFunction_New-MgGroupEventExceptionOccurrenceExtension PSCommand_New-MgGroupEventExceptionOccurrenceExtension PSFunction_New-MgGroupEventExceptionOccurrenceInstance PSCommand_New-MgGroupEventExceptionOccurrenceInstance PSFunction_New-MgGroupEventExceptionOccurrenceInstanceAttachment PSCommand_New-MgGroupEventExceptionOccurrenceInstanceAttachment PSFunction_New-MgGroupEventExceptionOccurrenceInstanceExtension PSCommand_New-MgGroupEventExceptionOccurrenceInstanceExtension PSFunction_New-MgGroupEventExceptionOccurrenceInstanceMultiValueExtendedProperty PSCommand_New-MgGroupEventExceptionOccurrenceInstanceMultiValueExtendedProperty PSFunction_New-MgGroupEventExceptionOccurrenceInstanceSingleValueExtendedProperty PSCommand_New-MgGroupEventExceptionOccurrenceInstanceSingleValueExtendedProperty PSFunction_New-MgGroupEventExceptionOccurrenceMultiValueExtendedProperty PSCommand_New-MgGroupEventExceptionOccurrenceMultiValueExtendedProperty PSFunction_New-MgGroupEventExceptionOccurrenceSingleValueExtendedProperty PSCommand_New-MgGroupEventExceptionOccurrenceSingleValueExtendedProperty PSFunction_New-MgGroupEventExtension PSCommand_New-MgGroupEventExtension PSFunction_New-MgGroupEventInstance PSCommand_New-MgGroupEventInstance PSFunction_New-MgGroupEventInstanceAttachment PSCommand_New-MgGroupEventInstanceAttachment PSFunction_New-MgGroupEventInstanceExceptionOccurrence PSCommand_New-MgGroupEventInstanceExceptionOccurrence PSFunction_New-MgGroupEventInstanceExceptionOccurrenceAttachment PSCommand_New-MgGroupEventInstanceExceptionOccurrenceAttachment PSFunction_New-MgGroupEventInstanceExceptionOccurrenceExtension PSCommand_New-MgGroupEventInstanceExceptionOccurrenceExtension PSFunction_New-MgGroupEventInstanceExceptionOccurrenceMultiValueExtendedProperty PSCommand_New-MgGroupEventInstanceExceptionOccurrenceMultiValueExtendedProperty PSFunction_New-MgGroupEventInstanceExceptionOccurrenceSingleValueExtendedProperty PSCommand_New-MgGroupEventInstanceExceptionOccurrenceSingleValueExtendedProperty PSFunction_New-MgGroupEventInstanceExtension PSCommand_New-MgGroupEventInstanceExtension PSFunction_New-MgGroupEventInstanceMultiValueExtendedProperty PSCommand_New-MgGroupEventInstanceMultiValueExtendedProperty PSFunction_New-MgGroupEventInstanceSingleValueExtendedProperty PSCommand_New-MgGroupEventInstanceSingleValueExtendedProperty PSFunction_New-MgGroupEventMultiValueExtendedProperty PSCommand_New-MgGroupEventMultiValueExtendedProperty PSFunction_New-MgGroupEventSingleValueExtendedProperty PSCommand_New-MgGroupEventSingleValueExtendedProperty PSFunction_New-MgPlace PSCommand_New-MgPlace PSFunction_New-MgUserCalendar PSCommand_New-MgUserCalendar PSFunction_New-MgUserCalendarEvent PSCommand_New-MgUserCalendarEvent PSFunction_New-MgUserCalendarGroup PSCommand_New-MgUserCalendarGroup PSFunction_New-MgUserCalendarGroupCalendar PSCommand_New-MgUserCalendarGroupCalendar PSFunction_New-MgUserCalendarMultiValueExtendedProperty PSCommand_New-MgUserCalendarMultiValueExtendedProperty PSFunction_New-MgUserCalendarPermission PSCommand_New-MgUserCalendarPermission PSFunction_New-MgUserCalendarSingleValueExtendedProperty PSCommand_New-MgUserCalendarSingleValueExtendedProperty PSFunction_New-MgUserEvent PSCommand_New-MgUserEvent PSFunction_New-MgUserEventAttachment PSCommand_New-MgUserEventAttachment PSFunction_New-MgUserEventExceptionOccurrence PSCommand_New-MgUserEventExceptionOccurrence PSFunction_New-MgUserEventExceptionOccurrenceAttachment PSCommand_New-MgUserEventExceptionOccurrenceAttachment PSFunction_New-MgUserEventExceptionOccurrenceExtension PSCommand_New-MgUserEventExceptionOccurrenceExtension PSFunction_New-MgUserEventExceptionOccurrenceInstance PSCommand_New-MgUserEventExceptionOccurrenceInstance PSFunction_New-MgUserEventExceptionOccurrenceInstanceAttachment PSCommand_New-MgUserEventExceptionOccurrenceInstanceAttachment PSFunction_New-MgUserEventExceptionOccurrenceInstanceExtension PSCommand_New-MgUserEventExceptionOccurrenceInstanceExtension PSFunction_New-MgUserEventExceptionOccurrenceInstanceMultiValueExtendedProperty PSCommand_New-MgUserEventExceptionOccurrenceInstanceMultiValueExtendedProperty PSFunction_New-MgUserEventExceptionOccurrenceInstanceSingleValueExtendedProperty PSCommand_New-MgUserEventExceptionOccurrenceInstanceSingleValueExtendedProperty PSFunction_New-MgUserEventExceptionOccurrenceMultiValueExtendedProperty PSCommand_New-MgUserEventExceptionOccurrenceMultiValueExtendedProperty PSFunction_New-MgUserEventExceptionOccurrenceSingleValueExtendedProperty PSCommand_New-MgUserEventExceptionOccurrenceSingleValueExtendedProperty PSFunction_New-MgUserEventExtension PSCommand_New-MgUserEventExtension PSFunction_New-MgUserEventInstance PSCommand_New-MgUserEventInstance PSFunction_New-MgUserEventInstanceAttachment PSCommand_New-MgUserEventInstanceAttachment PSFunction_New-MgUserEventInstanceExceptionOccurrence PSCommand_New-MgUserEventInstanceExceptionOccurrence PSFunction_New-MgUserEventInstanceExceptionOccurrenceAttachment PSCommand_New-MgUserEventInstanceExceptionOccurrenceAttachment PSFunction_New-MgUserEventInstanceExceptionOccurrenceExtension PSCommand_New-MgUserEventInstanceExceptionOccurrenceExtension PSFunction_New-MgUserEventInstanceExceptionOccurrenceMultiValueExtendedProperty PSCommand_New-MgUserEventInstanceExceptionOccurrenceMultiValueExtendedProperty PSFunction_New-MgUserEventInstanceExceptionOccurrenceSingleValueExtendedProperty PSCommand_New-MgUserEventInstanceExceptionOccurrenceSingleValueExtendedProperty PSFunction_New-MgUserEventInstanceExtension PSCommand_New-MgUserEventInstanceExtension PSFunction_New-MgUserEventInstanceMultiValueExtendedProperty PSCommand_New-MgUserEventInstanceMultiValueExtendedProperty PSFunction_New-MgUserEventInstanceSingleValueExtendedProperty PSCommand_New-MgUserEventInstanceSingleValueExtendedProperty PSFunction_New-MgUserEventMultiValueExtendedProperty PSCommand_New-MgUserEventMultiValueExtendedProperty PSFunction_New-MgUserEventSingleValueExtendedProperty PSCommand_New-MgUserEventSingleValueExtendedProperty PSFunction_Remove-MgGroupCalendarMultiValueExtendedProperty PSCommand_Remove-MgGroupCalendarMultiValueExtendedProperty PSFunction_Remove-MgGroupCalendarPermission PSCommand_Remove-MgGroupCalendarPermission PSFunction_Remove-MgGroupCalendarSingleValueExtendedProperty PSCommand_Remove-MgGroupCalendarSingleValueExtendedProperty PSFunction_Remove-MgGroupEvent PSCommand_Remove-MgGroupEvent PSFunction_Remove-MgGroupEventAttachment PSCommand_Remove-MgGroupEventAttachment PSFunction_Remove-MgGroupEventExceptionOccurrence PSCommand_Remove-MgGroupEventExceptionOccurrence PSFunction_Remove-MgGroupEventExceptionOccurrenceAttachment PSCommand_Remove-MgGroupEventExceptionOccurrenceAttachment PSFunction_Remove-MgGroupEventExceptionOccurrenceExtension PSCommand_Remove-MgGroupEventExceptionOccurrenceExtension PSFunction_Remove-MgGroupEventExceptionOccurrenceInstance PSCommand_Remove-MgGroupEventExceptionOccurrenceInstance PSFunction_Remove-MgGroupEventExceptionOccurrenceInstanceAttachment PSCommand_Remove-MgGroupEventExceptionOccurrenceInstanceAttachment PSFunction_Remove-MgGroupEventExceptionOccurrenceInstanceExtension PSCommand_Remove-MgGroupEventExceptionOccurrenceInstanceExtension PSFunction_Remove-MgGroupEventExceptionOccurrenceInstanceMultiValueExtendedProperty PSCommand_Remove-MgGroupEventExceptionOccurrenceInstanceMultiValueExtendedProperty PSFunction_Remove-MgGroupEventExceptionOccurrenceInstanceSingleValueExtendedProperty PSCommand_Remove-MgGroupEventExceptionOccurrenceInstanceSingleValueExtendedProperty PSFunction_Remove-MgGroupEventExceptionOccurrenceMultiValueExtendedProperty PSCommand_Remove-MgGroupEventExceptionOccurrenceMultiValueExtendedProperty PSFunction_Remove-MgGroupEventExceptionOccurrenceSingleValueExtendedProperty PSCommand_Remove-MgGroupEventExceptionOccurrenceSingleValueExtendedProperty PSFunction_Remove-MgGroupEventExtension PSCommand_Remove-MgGroupEventExtension PSFunction_Remove-MgGroupEventInstance PSCommand_Remove-MgGroupEventInstance PSFunction_Remove-MgGroupEventInstanceAttachment PSCommand_Remove-MgGroupEventInstanceAttachment PSFunction_Remove-MgGroupEventInstanceExceptionOccurrence PSCommand_Remove-MgGroupEventInstanceExceptionOccurrence PSFunction_Remove-MgGroupEventInstanceExceptionOccurrenceAttachment PSCommand_Remove-MgGroupEventInstanceExceptionOccurrenceAttachment PSFunction_Remove-MgGroupEventInstanceExceptionOccurrenceExtension PSCommand_Remove-MgGroupEventInstanceExceptionOccurrenceExtension PSFunction_Remove-MgGroupEventInstanceExceptionOccurrenceMultiValueExtendedProperty PSCommand_Remove-MgGroupEventInstanceExceptionOccurrenceMultiValueExtendedProperty PSFunction_Remove-MgGroupEventInstanceExceptionOccurrenceSingleValueExtendedProperty PSCommand_Remove-MgGroupEventInstanceExceptionOccurrenceSingleValueExtendedProperty PSFunction_Remove-MgGroupEventInstanceExtension PSCommand_Remove-MgGroupEventInstanceExtension PSFunction_Remove-MgGroupEventInstanceMultiValueExtendedProperty PSCommand_Remove-MgGroupEventInstanceMultiValueExtendedProperty PSFunction_Remove-MgGroupEventInstanceSingleValueExtendedProperty PSCommand_Remove-MgGroupEventInstanceSingleValueExtendedProperty PSFunction_Remove-MgGroupEventMultiValueExtendedProperty PSCommand_Remove-MgGroupEventMultiValueExtendedProperty PSFunction_Remove-MgGroupEventSingleValueExtendedProperty PSCommand_Remove-MgGroupEventSingleValueExtendedProperty PSFunction_Remove-MgPlace PSCommand_Remove-MgPlace PSFunction_Remove-MgUserCalendar PSCommand_Remove-MgUserCalendar PSFunction_Remove-MgUserCalendarGroup PSCommand_Remove-MgUserCalendarGroup PSFunction_Remove-MgUserCalendarMultiValueExtendedProperty PSCommand_Remove-MgUserCalendarMultiValueExtendedProperty PSFunction_Remove-MgUserCalendarPermission PSCommand_Remove-MgUserCalendarPermission PSFunction_Remove-MgUserCalendarSingleValueExtendedProperty PSCommand_Remove-MgUserCalendarSingleValueExtendedProperty PSFunction_Remove-MgUserEvent PSCommand_Remove-MgUserEvent PSFunction_Remove-MgUserEventAttachment PSCommand_Remove-MgUserEventAttachment PSFunction_Remove-MgUserEventExceptionOccurrence PSCommand_Remove-MgUserEventExceptionOccurrence PSFunction_Remove-MgUserEventExceptionOccurrenceAttachment PSCommand_Remove-MgUserEventExceptionOccurrenceAttachment PSFunction_Remove-MgUserEventExceptionOccurrenceExtension PSCommand_Remove-MgUserEventExceptionOccurrenceExtension PSFunction_Remove-MgUserEventExceptionOccurrenceInstance PSCommand_Remove-MgUserEventExceptionOccurrenceInstance PSFunction_Remove-MgUserEventExceptionOccurrenceInstanceAttachment PSCommand_Remove-MgUserEventExceptionOccurrenceInstanceAttachment PSFunction_Remove-MgUserEventExceptionOccurrenceInstanceExtension PSCommand_Remove-MgUserEventExceptionOccurrenceInstanceExtension PSFunction_Remove-MgUserEventExceptionOccurrenceInstanceMultiValueExtendedProperty PSCommand_Remove-MgUserEventExceptionOccurrenceInstanceMultiValueExtendedProperty PSFunction_Remove-MgUserEventExceptionOccurrenceInstanceSingleValueExtendedProperty PSCommand_Remove-MgUserEventExceptionOccurrenceInstanceSingleValueExtendedProperty PSFunction_Remove-MgUserEventExceptionOccurrenceMultiValueExtendedProperty PSCommand_Remove-MgUserEventExceptionOccurrenceMultiValueExtendedProperty PSFunction_Remove-MgUserEventExceptionOccurrenceSingleValueExtendedProperty PSCommand_Remove-MgUserEventExceptionOccurrenceSingleValueExtendedProperty PSFunction_Remove-MgUserEventExtension PSCommand_Remove-MgUserEventExtension PSFunction_Remove-MgUserEventInstance PSCommand_Remove-MgUserEventInstance PSFunction_Remove-MgUserEventInstanceAttachment PSCommand_Remove-MgUserEventInstanceAttachment PSFunction_Remove-MgUserEventInstanceExceptionOccurrence PSCommand_Remove-MgUserEventInstanceExceptionOccurrence PSFunction_Remove-MgUserEventInstanceExceptionOccurrenceAttachment PSCommand_Remove-MgUserEventInstanceExceptionOccurrenceAttachment PSFunction_Remove-MgUserEventInstanceExceptionOccurrenceExtension PSCommand_Remove-MgUserEventInstanceExceptionOccurrenceExtension PSFunction_Remove-MgUserEventInstanceExceptionOccurrenceMultiValueExtendedProperty PSCommand_Remove-MgUserEventInstanceExceptionOccurrenceMultiValueExtendedProperty PSFunction_Remove-MgUserEventInstanceExceptionOccurrenceSingleValueExtendedProperty PSCommand_Remove-MgUserEventInstanceExceptionOccurrenceSingleValueExtendedProperty PSFunction_Remove-MgUserEventInstanceExtension PSCommand_Remove-MgUserEventInstanceExtension PSFunction_Remove-MgUserEventInstanceMultiValueExtendedProperty PSCommand_Remove-MgUserEventInstanceMultiValueExtendedProperty PSFunction_Remove-MgUserEventInstanceSingleValueExtendedProperty PSCommand_Remove-MgUserEventInstanceSingleValueExtendedProperty PSFunction_Remove-MgUserEventMultiValueExtendedProperty PSCommand_Remove-MgUserEventMultiValueExtendedProperty PSFunction_Remove-MgUserEventSingleValueExtendedProperty PSCommand_Remove-MgUserEventSingleValueExtendedProperty PSFunction_Update-MgGroupCalendarMultiValueExtendedProperty PSCommand_Update-MgGroupCalendarMultiValueExtendedProperty PSFunction_Update-MgGroupCalendarPermission PSCommand_Update-MgGroupCalendarPermission PSFunction_Update-MgGroupCalendarSingleValueExtendedProperty PSCommand_Update-MgGroupCalendarSingleValueExtendedProperty PSFunction_Update-MgGroupEvent PSCommand_Update-MgGroupEvent PSFunction_Update-MgGroupEventAttachment PSCommand_Update-MgGroupEventAttachment PSFunction_Update-MgGroupEventExceptionOccurrence PSCommand_Update-MgGroupEventExceptionOccurrence PSFunction_Update-MgGroupEventExceptionOccurrenceAttachment PSCommand_Update-MgGroupEventExceptionOccurrenceAttachment PSFunction_Update-MgGroupEventExceptionOccurrenceExtension PSCommand_Update-MgGroupEventExceptionOccurrenceExtension PSFunction_Update-MgGroupEventExceptionOccurrenceInstance PSCommand_Update-MgGroupEventExceptionOccurrenceInstance PSFunction_Update-MgGroupEventExceptionOccurrenceInstanceAttachment PSCommand_Update-MgGroupEventExceptionOccurrenceInstanceAttachment PSFunction_Update-MgGroupEventExceptionOccurrenceInstanceExtension PSCommand_Update-MgGroupEventExceptionOccurrenceInstanceExtension PSFunction_Update-MgGroupEventExceptionOccurrenceInstanceMultiValueExtendedProperty PSCommand_Update-MgGroupEventExceptionOccurrenceInstanceMultiValueExtendedProperty PSFunction_Update-MgGroupEventExceptionOccurrenceInstanceSingleValueExtendedProperty PSCommand_Update-MgGroupEventExceptionOccurrenceInstanceSingleValueExtendedProperty PSFunction_Update-MgGroupEventExceptionOccurrenceMultiValueExtendedProperty PSCommand_Update-MgGroupEventExceptionOccurrenceMultiValueExtendedProperty PSFunction_Update-MgGroupEventExceptionOccurrenceSingleValueExtendedProperty PSCommand_Update-MgGroupEventExceptionOccurrenceSingleValueExtendedProperty PSFunction_Update-MgGroupEventExtension PSCommand_Update-MgGroupEventExtension PSFunction_Update-MgGroupEventInstance PSCommand_Update-MgGroupEventInstance PSFunction_Update-MgGroupEventInstanceAttachment PSCommand_Update-MgGroupEventInstanceAttachment PSFunction_Update-MgGroupEventInstanceExceptionOccurrence PSCommand_Update-MgGroupEventInstanceExceptionOccurrence PSFunction_Update-MgGroupEventInstanceExceptionOccurrenceAttachment PSCommand_Update-MgGroupEventInstanceExceptionOccurrenceAttachment PSFunction_Update-MgGroupEventInstanceExceptionOccurrenceExtension PSCommand_Update-MgGroupEventInstanceExceptionOccurrenceExtension PSFunction_Update-MgGroupEventInstanceExceptionOccurrenceMultiValueExtendedProperty PSCommand_Update-MgGroupEventInstanceExceptionOccurrenceMultiValueExtendedProperty PSFunction_Update-MgGroupEventInstanceExceptionOccurrenceSingleValueExtendedProperty PSCommand_Update-MgGroupEventInstanceExceptionOccurrenceSingleValueExtendedProperty PSFunction_Update-MgGroupEventInstanceExtension PSCommand_Update-MgGroupEventInstanceExtension PSFunction_Update-MgGroupEventInstanceMultiValueExtendedProperty PSCommand_Update-MgGroupEventInstanceMultiValueExtendedProperty PSFunction_Update-MgGroupEventInstanceSingleValueExtendedProperty PSCommand_Update-MgGroupEventInstanceSingleValueExtendedProperty PSFunction_Update-MgGroupEventMultiValueExtendedProperty PSCommand_Update-MgGroupEventMultiValueExtendedProperty PSFunction_Update-MgGroupEventSingleValueExtendedProperty PSCommand_Update-MgGroupEventSingleValueExtendedProperty PSFunction_Update-MgPlace PSCommand_Update-MgPlace PSFunction_Update-MgUserCalendar PSCommand_Update-MgUserCalendar PSFunction_Update-MgUserCalendarGroup PSCommand_Update-MgUserCalendarGroup PSFunction_Update-MgUserCalendarMultiValueExtendedProperty PSCommand_Update-MgUserCalendarMultiValueExtendedProperty PSFunction_Update-MgUserCalendarPermission PSCommand_Update-MgUserCalendarPermission PSFunction_Update-MgUserCalendarSingleValueExtendedProperty PSCommand_Update-MgUserCalendarSingleValueExtendedProperty PSFunction_Update-MgUserEvent PSCommand_Update-MgUserEvent PSFunction_Update-MgUserEventAttachment PSCommand_Update-MgUserEventAttachment PSFunction_Update-MgUserEventExceptionOccurrence PSCommand_Update-MgUserEventExceptionOccurrence PSFunction_Update-MgUserEventExceptionOccurrenceAttachment PSCommand_Update-MgUserEventExceptionOccurrenceAttachment PSFunction_Update-MgUserEventExceptionOccurrenceExtension PSCommand_Update-MgUserEventExceptionOccurrenceExtension PSFunction_Update-MgUserEventExceptionOccurrenceInstance PSCommand_Update-MgUserEventExceptionOccurrenceInstance PSFunction_Update-MgUserEventExceptionOccurrenceInstanceAttachment PSCommand_Update-MgUserEventExceptionOccurrenceInstanceAttachment PSFunction_Update-MgUserEventExceptionOccurrenceInstanceExtension PSCommand_Update-MgUserEventExceptionOccurrenceInstanceExtension PSFunction_Update-MgUserEventExceptionOccurrenceInstanceMultiValueExtendedProperty PSCommand_Update-MgUserEventExceptionOccurrenceInstanceMultiValueExtendedProperty PSFunction_Update-MgUserEventExceptionOccurrenceInstanceSingleValueExtendedProperty PSCommand_Update-MgUserEventExceptionOccurrenceInstanceSingleValueExtendedProperty PSFunction_Update-MgUserEventExceptionOccurrenceMultiValueExtendedProperty PSCommand_Update-MgUserEventExceptionOccurrenceMultiValueExtendedProperty PSFunction_Update-MgUserEventExceptionOccurrenceSingleValueExtendedProperty PSCommand_Update-MgUserEventExceptionOccurrenceSingleValueExtendedProperty PSFunction_Update-MgUserEventExtension PSCommand_Update-MgUserEventExtension PSFunction_Update-MgUserEventInstance PSCommand_Update-MgUserEventInstance PSFunction_Update-MgUserEventInstanceAttachment PSCommand_Update-MgUserEventInstanceAttachment PSFunction_Update-MgUserEventInstanceExceptionOccurrence PSCommand_Update-MgUserEventInstanceExceptionOccurrence PSFunction_Update-MgUserEventInstanceExceptionOccurrenceAttachment PSCommand_Update-MgUserEventInstanceExceptionOccurrenceAttachment PSFunction_Update-MgUserEventInstanceExceptionOccurrenceExtension PSCommand_Update-MgUserEventInstanceExceptionOccurrenceExtension PSFunction_Update-MgUserEventInstanceExceptionOccurrenceMultiValueExtendedProperty PSCommand_Update-MgUserEventInstanceExceptionOccurrenceMultiValueExtendedProperty PSFunction_Update-MgUserEventInstanceExceptionOccurrenceSingleValueExtendedProperty PSCommand_Update-MgUserEventInstanceExceptionOccurrenceSingleValueExtendedProperty PSFunction_Update-MgUserEventInstanceExtension PSCommand_Update-MgUserEventInstanceExtension PSFunction_Update-MgUserEventInstanceMultiValueExtendedProperty PSCommand_Update-MgUserEventInstanceMultiValueExtendedProperty PSFunction_Update-MgUserEventInstanceSingleValueExtendedProperty PSCommand_Update-MgUserEventInstanceSingleValueExtendedProperty PSFunction_Update-MgUserEventMultiValueExtendedProperty PSCommand_Update-MgUserEventMultiValueExtendedProperty PSFunction_Update-MgUserEventSingleValueExtendedProperty PSCommand_Update-MgUserEventSingleValueExtendedProperty PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2022-09-30T20:28:22Z</S>
+          <S N="NormalizedVersion">1.12.2</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Microsoft.Graph.Calendar.nuspec|Microsoft.Graph.Calendar.format.ps1xml|Microsoft.Graph.Calendar.psd1|Microsoft.Graph.Calendar.psm1|bin\Microsoft.Graph.Calendar.private.dll|bin\Microsoft.Graph.Calendar.private.deps.json|internal\Microsoft.Graph.Calendar.internal.psm1|custom\Microsoft.Graph.Calendar.custom.psm1|exports\v1.0\ProxyCmdletDefinitions.ps1|exports\v1.0-beta\ProxyCmdletDefinitions.ps1|.signature.p7s</S>
+          <S N="GUID">bf2ee476-ae5b-4a53-9fa8-943f3a49bf93</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">4.7.2</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\Josh Work\OneDrive - TDSYNNEX\Documents\PowerShell\Modules\Microsoft.Graph.Calendar\1.12.2</S>
+    </MS>
+  </Obj>
+</Objs>

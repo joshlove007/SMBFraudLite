@@ -1,0 +1,360 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Microsoft.Graph.Compliance</S>
+      <Version N="Version">1.12.2</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Graph PowerShell Cmdlets</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">msgraph-sdk-powershell</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2022-09-29T18:04:06-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2022-09-30T15:31:40.5199298-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/devservicesagreement</URI>
+      <URI N="ProjectUri">https://github.com/microsoftgraph/msgraph-sdk-powershell</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/microsoftgraph/msgraph-sdk-powershell/master/documentation/images/graph_color256.png</URI>
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Microsoft</S>
+          <S>Office365</S>
+          <S>Graph</S>
+          <S>PowerShell</S>
+          <S>PSModule</S>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-MgComplianceEdiscoveryCaseCustodianHold</S>
+                <S>Add-MgComplianceEdiscoveryCaseNoncustodialDataSourceHold</S>
+                <S>Add-MgComplianceEdiscoveryCaseReviewSetQueryTag</S>
+                <S>Add-MgComplianceEdiscoveryCaseReviewSetToReviewSet</S>
+                <S>Clear-MgComplianceEdiscoveryCaseSourceCollectionData</S>
+                <S>Close-MgComplianceEdiscoveryCase</S>
+                <S>Export-MgComplianceEdiscoveryCaseReviewSet</S>
+                <S>Get-MgCompliance</S>
+                <S>Get-MgComplianceEdiscovery</S>
+                <S>Get-MgComplianceEdiscoveryCase</S>
+                <S>Get-MgComplianceEdiscoveryCaseCustodian</S>
+                <S>Get-MgComplianceEdiscoveryCaseCustodianSiteSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseCustodianSiteSourceSite</S>
+                <S>Get-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSourceGroup</S>
+                <S>Get-MgComplianceEdiscoveryCaseCustodianUserSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseLegalHold</S>
+                <S>Get-MgComplianceEdiscoveryCaseLegalHoldSiteSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseLegalHoldSiteSourceSite</S>
+                <S>Get-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSourceGroup</S>
+                <S>Get-MgComplianceEdiscoveryCaseLegalHoldUserSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseNoncustodialDataSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseOperation</S>
+                <S>Get-MgComplianceEdiscoveryCaseReviewSet</S>
+                <S>Get-MgComplianceEdiscoveryCaseReviewSetQuery</S>
+                <S>Get-MgComplianceEdiscoveryCaseSetting</S>
+                <S>Get-MgComplianceEdiscoveryCaseSourceCollection</S>
+                <S>Get-MgComplianceEdiscoveryCaseSourceCollectionAdditionalSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseSourceCollectionAddToReviewSetOperation</S>
+                <S>Get-MgComplianceEdiscoveryCaseSourceCollectionCustodianSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseSourceCollectionLastEstimateStatisticsOperation</S>
+                <S>Get-MgComplianceEdiscoveryCaseSourceCollectionNoncustodialSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseTag</S>
+                <S>Get-MgComplianceEdiscoveryCaseTagChildTag</S>
+                <S>Get-MgComplianceEdiscoveryCaseTagParent</S>
+                <S>Initialize-MgComplianceEdiscoveryCaseCustodian</S>
+                <S>Invoke-MgAsComplianceEdiscoveryCaseTagHierarchy</S>
+                <S>Invoke-MgEstimateComplianceEdiscoveryCaseSourceCollectionStatistics</S>
+                <S>Invoke-MgReopenComplianceEdiscoveryCase</S>
+                <S>New-MgComplianceEdiscoveryCase</S>
+                <S>New-MgComplianceEdiscoveryCaseCustodian</S>
+                <S>New-MgComplianceEdiscoveryCaseCustodianSiteSource</S>
+                <S>New-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSource</S>
+                <S>New-MgComplianceEdiscoveryCaseCustodianUserSource</S>
+                <S>New-MgComplianceEdiscoveryCaseLegalHold</S>
+                <S>New-MgComplianceEdiscoveryCaseLegalHoldSiteSource</S>
+                <S>New-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSource</S>
+                <S>New-MgComplianceEdiscoveryCaseLegalHoldUserSource</S>
+                <S>New-MgComplianceEdiscoveryCaseNoncustodialDataSource</S>
+                <S>New-MgComplianceEdiscoveryCaseOperation</S>
+                <S>New-MgComplianceEdiscoveryCaseReviewSet</S>
+                <S>New-MgComplianceEdiscoveryCaseReviewSetQuery</S>
+                <S>New-MgComplianceEdiscoveryCaseSourceCollection</S>
+                <S>New-MgComplianceEdiscoveryCaseSourceCollectionAdditionalSource</S>
+                <S>New-MgComplianceEdiscoveryCaseTag</S>
+                <S>Publish-MgComplianceEdiscoveryCaseCustodian</S>
+                <S>Publish-MgComplianceEdiscoveryCaseNoncustodialDataSource</S>
+                <S>Remove-MgComplianceEdiscovery</S>
+                <S>Remove-MgComplianceEdiscoveryCase</S>
+                <S>Remove-MgComplianceEdiscoveryCaseCustodian</S>
+                <S>Remove-MgComplianceEdiscoveryCaseCustodianHold</S>
+                <S>Remove-MgComplianceEdiscoveryCaseCustodianSiteSource</S>
+                <S>Remove-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSource</S>
+                <S>Remove-MgComplianceEdiscoveryCaseCustodianUserSource</S>
+                <S>Remove-MgComplianceEdiscoveryCaseLegalHold</S>
+                <S>Remove-MgComplianceEdiscoveryCaseLegalHoldSiteSource</S>
+                <S>Remove-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSource</S>
+                <S>Remove-MgComplianceEdiscoveryCaseLegalHoldUserSource</S>
+                <S>Remove-MgComplianceEdiscoveryCaseNoncustodialDataSource</S>
+                <S>Remove-MgComplianceEdiscoveryCaseNoncustodialDataSourceHold</S>
+                <S>Remove-MgComplianceEdiscoveryCaseOperation</S>
+                <S>Remove-MgComplianceEdiscoveryCaseReviewSet</S>
+                <S>Remove-MgComplianceEdiscoveryCaseReviewSetQuery</S>
+                <S>Remove-MgComplianceEdiscoveryCaseSetting</S>
+                <S>Remove-MgComplianceEdiscoveryCaseSourceCollection</S>
+                <S>Remove-MgComplianceEdiscoveryCaseSourceCollectionAdditionalSource</S>
+                <S>Remove-MgComplianceEdiscoveryCaseTag</S>
+                <S>Reset-MgComplianceEdiscoveryCaseSettingToDefault</S>
+                <S>Update-MgCompliance</S>
+                <S>Update-MgComplianceEdiscovery</S>
+                <S>Update-MgComplianceEdiscoveryCase</S>
+                <S>Update-MgComplianceEdiscoveryCaseCustodian</S>
+                <S>Update-MgComplianceEdiscoveryCaseCustodianIndex</S>
+                <S>Update-MgComplianceEdiscoveryCaseCustodianSiteSource</S>
+                <S>Update-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSource</S>
+                <S>Update-MgComplianceEdiscoveryCaseCustodianUserSource</S>
+                <S>Update-MgComplianceEdiscoveryCaseLegalHold</S>
+                <S>Update-MgComplianceEdiscoveryCaseLegalHoldSiteSource</S>
+                <S>Update-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSource</S>
+                <S>Update-MgComplianceEdiscoveryCaseLegalHoldUserSource</S>
+                <S>Update-MgComplianceEdiscoveryCaseNoncustodialDataSource</S>
+                <S>Update-MgComplianceEdiscoveryCaseNoncustodialDataSourceIndex</S>
+                <S>Update-MgComplianceEdiscoveryCaseOperation</S>
+                <S>Update-MgComplianceEdiscoveryCaseReviewSet</S>
+                <S>Update-MgComplianceEdiscoveryCaseReviewSetQuery</S>
+                <S>Update-MgComplianceEdiscoveryCaseSetting</S>
+                <S>Update-MgComplianceEdiscoveryCaseSourceCollection</S>
+                <S>Update-MgComplianceEdiscoveryCaseSourceCollectionAdditionalSource</S>
+                <S>Update-MgComplianceEdiscoveryCaseTag</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-MgComplianceEdiscoveryCaseCustodianHold</S>
+                <S>Add-MgComplianceEdiscoveryCaseNoncustodialDataSourceHold</S>
+                <S>Add-MgComplianceEdiscoveryCaseReviewSetQueryTag</S>
+                <S>Add-MgComplianceEdiscoveryCaseReviewSetToReviewSet</S>
+                <S>Clear-MgComplianceEdiscoveryCaseSourceCollectionData</S>
+                <S>Close-MgComplianceEdiscoveryCase</S>
+                <S>Export-MgComplianceEdiscoveryCaseReviewSet</S>
+                <S>Get-MgCompliance</S>
+                <S>Get-MgComplianceEdiscovery</S>
+                <S>Get-MgComplianceEdiscoveryCase</S>
+                <S>Get-MgComplianceEdiscoveryCaseCustodian</S>
+                <S>Get-MgComplianceEdiscoveryCaseCustodianSiteSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseCustodianSiteSourceSite</S>
+                <S>Get-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSourceGroup</S>
+                <S>Get-MgComplianceEdiscoveryCaseCustodianUserSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseLegalHold</S>
+                <S>Get-MgComplianceEdiscoveryCaseLegalHoldSiteSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseLegalHoldSiteSourceSite</S>
+                <S>Get-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSourceGroup</S>
+                <S>Get-MgComplianceEdiscoveryCaseLegalHoldUserSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseNoncustodialDataSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseOperation</S>
+                <S>Get-MgComplianceEdiscoveryCaseReviewSet</S>
+                <S>Get-MgComplianceEdiscoveryCaseReviewSetQuery</S>
+                <S>Get-MgComplianceEdiscoveryCaseSetting</S>
+                <S>Get-MgComplianceEdiscoveryCaseSourceCollection</S>
+                <S>Get-MgComplianceEdiscoveryCaseSourceCollectionAdditionalSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseSourceCollectionAddToReviewSetOperation</S>
+                <S>Get-MgComplianceEdiscoveryCaseSourceCollectionCustodianSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseSourceCollectionLastEstimateStatisticsOperation</S>
+                <S>Get-MgComplianceEdiscoveryCaseSourceCollectionNoncustodialSource</S>
+                <S>Get-MgComplianceEdiscoveryCaseTag</S>
+                <S>Get-MgComplianceEdiscoveryCaseTagChildTag</S>
+                <S>Get-MgComplianceEdiscoveryCaseTagParent</S>
+                <S>Initialize-MgComplianceEdiscoveryCaseCustodian</S>
+                <S>Invoke-MgAsComplianceEdiscoveryCaseTagHierarchy</S>
+                <S>Invoke-MgEstimateComplianceEdiscoveryCaseSourceCollectionStatistics</S>
+                <S>Invoke-MgReopenComplianceEdiscoveryCase</S>
+                <S>New-MgComplianceEdiscoveryCase</S>
+                <S>New-MgComplianceEdiscoveryCaseCustodian</S>
+                <S>New-MgComplianceEdiscoveryCaseCustodianSiteSource</S>
+                <S>New-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSource</S>
+                <S>New-MgComplianceEdiscoveryCaseCustodianUserSource</S>
+                <S>New-MgComplianceEdiscoveryCaseLegalHold</S>
+                <S>New-MgComplianceEdiscoveryCaseLegalHoldSiteSource</S>
+                <S>New-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSource</S>
+                <S>New-MgComplianceEdiscoveryCaseLegalHoldUserSource</S>
+                <S>New-MgComplianceEdiscoveryCaseNoncustodialDataSource</S>
+                <S>New-MgComplianceEdiscoveryCaseOperation</S>
+                <S>New-MgComplianceEdiscoveryCaseReviewSet</S>
+                <S>New-MgComplianceEdiscoveryCaseReviewSetQuery</S>
+                <S>New-MgComplianceEdiscoveryCaseSourceCollection</S>
+                <S>New-MgComplianceEdiscoveryCaseSourceCollectionAdditionalSource</S>
+                <S>New-MgComplianceEdiscoveryCaseTag</S>
+                <S>Publish-MgComplianceEdiscoveryCaseCustodian</S>
+                <S>Publish-MgComplianceEdiscoveryCaseNoncustodialDataSource</S>
+                <S>Remove-MgComplianceEdiscovery</S>
+                <S>Remove-MgComplianceEdiscoveryCase</S>
+                <S>Remove-MgComplianceEdiscoveryCaseCustodian</S>
+                <S>Remove-MgComplianceEdiscoveryCaseCustodianHold</S>
+                <S>Remove-MgComplianceEdiscoveryCaseCustodianSiteSource</S>
+                <S>Remove-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSource</S>
+                <S>Remove-MgComplianceEdiscoveryCaseCustodianUserSource</S>
+                <S>Remove-MgComplianceEdiscoveryCaseLegalHold</S>
+                <S>Remove-MgComplianceEdiscoveryCaseLegalHoldSiteSource</S>
+                <S>Remove-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSource</S>
+                <S>Remove-MgComplianceEdiscoveryCaseLegalHoldUserSource</S>
+                <S>Remove-MgComplianceEdiscoveryCaseNoncustodialDataSource</S>
+                <S>Remove-MgComplianceEdiscoveryCaseNoncustodialDataSourceHold</S>
+                <S>Remove-MgComplianceEdiscoveryCaseOperation</S>
+                <S>Remove-MgComplianceEdiscoveryCaseReviewSet</S>
+                <S>Remove-MgComplianceEdiscoveryCaseReviewSetQuery</S>
+                <S>Remove-MgComplianceEdiscoveryCaseSetting</S>
+                <S>Remove-MgComplianceEdiscoveryCaseSourceCollection</S>
+                <S>Remove-MgComplianceEdiscoveryCaseSourceCollectionAdditionalSource</S>
+                <S>Remove-MgComplianceEdiscoveryCaseTag</S>
+                <S>Reset-MgComplianceEdiscoveryCaseSettingToDefault</S>
+                <S>Update-MgCompliance</S>
+                <S>Update-MgComplianceEdiscovery</S>
+                <S>Update-MgComplianceEdiscoveryCase</S>
+                <S>Update-MgComplianceEdiscoveryCaseCustodian</S>
+                <S>Update-MgComplianceEdiscoveryCaseCustodianIndex</S>
+                <S>Update-MgComplianceEdiscoveryCaseCustodianSiteSource</S>
+                <S>Update-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSource</S>
+                <S>Update-MgComplianceEdiscoveryCaseCustodianUserSource</S>
+                <S>Update-MgComplianceEdiscoveryCaseLegalHold</S>
+                <S>Update-MgComplianceEdiscoveryCaseLegalHoldSiteSource</S>
+                <S>Update-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSource</S>
+                <S>Update-MgComplianceEdiscoveryCaseLegalHoldUserSource</S>
+                <S>Update-MgComplianceEdiscoveryCaseNoncustodialDataSource</S>
+                <S>Update-MgComplianceEdiscoveryCaseNoncustodialDataSourceIndex</S>
+                <S>Update-MgComplianceEdiscoveryCaseOperation</S>
+                <S>Update-MgComplianceEdiscoveryCaseReviewSet</S>
+                <S>Update-MgComplianceEdiscoveryCaseReviewSetQuery</S>
+                <S>Update-MgComplianceEdiscoveryCaseSetting</S>
+                <S>Update-MgComplianceEdiscoveryCaseSourceCollection</S>
+                <S>Update-MgComplianceEdiscoveryCaseSourceCollectionAdditionalSource</S>
+                <S>Update-MgComplianceEdiscoveryCaseTag</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Microsoft.Graph.Authentication</S>
+              </En>
+              <En>
+                <S N="Key">RequiredVersion</S>
+                <S N="Value">1.12.2</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Microsoft.Graph.Authentication/[1.12.2]</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Graph PowerShell Cmdlets</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">3763</S>
+          <S N="downloadCount">422809</S>
+          <S N="packageSize">3129404</S>
+          <S N="published">9/29/2022 6:04:06 PM -05:00</S>
+          <S N="created">9/29/2022 6:04:06 PM -05:00</S>
+          <S N="lastUpdated">9/30/2022 8:28:22 PM -05:00</S>
+          <S N="tags">Microsoft Office365 Graph PowerShell PSModule PSIncludes_Cmdlet PSEdition_Core PSEdition_Desktop PSFunction_Add-MgComplianceEdiscoveryCaseCustodianHold PSCommand_Add-MgComplianceEdiscoveryCaseCustodianHold PSFunction_Add-MgComplianceEdiscoveryCaseNoncustodialDataSourceHold PSCommand_Add-MgComplianceEdiscoveryCaseNoncustodialDataSourceHold PSFunction_Add-MgComplianceEdiscoveryCaseReviewSetQueryTag PSCommand_Add-MgComplianceEdiscoveryCaseReviewSetQueryTag PSFunction_Add-MgComplianceEdiscoveryCaseReviewSetToReviewSet PSCommand_Add-MgComplianceEdiscoveryCaseReviewSetToReviewSet PSFunction_Clear-MgComplianceEdiscoveryCaseSourceCollectionData PSCommand_Clear-MgComplianceEdiscoveryCaseSourceCollectionData PSFunction_Close-MgComplianceEdiscoveryCase PSCommand_Close-MgComplianceEdiscoveryCase PSFunction_Export-MgComplianceEdiscoveryCaseReviewSet PSCommand_Export-MgComplianceEdiscoveryCaseReviewSet PSFunction_Get-MgCompliance PSCommand_Get-MgCompliance PSFunction_Get-MgComplianceEdiscovery PSCommand_Get-MgComplianceEdiscovery PSFunction_Get-MgComplianceEdiscoveryCase PSCommand_Get-MgComplianceEdiscoveryCase PSFunction_Get-MgComplianceEdiscoveryCaseCustodian PSCommand_Get-MgComplianceEdiscoveryCaseCustodian PSFunction_Get-MgComplianceEdiscoveryCaseCustodianSiteSource PSCommand_Get-MgComplianceEdiscoveryCaseCustodianSiteSource PSFunction_Get-MgComplianceEdiscoveryCaseCustodianSiteSourceSite PSCommand_Get-MgComplianceEdiscoveryCaseCustodianSiteSourceSite PSFunction_Get-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSource PSCommand_Get-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSource PSFunction_Get-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSourceGroup PSCommand_Get-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSourceGroup PSFunction_Get-MgComplianceEdiscoveryCaseCustodianUserSource PSCommand_Get-MgComplianceEdiscoveryCaseCustodianUserSource PSFunction_Get-MgComplianceEdiscoveryCaseLegalHold PSCommand_Get-MgComplianceEdiscoveryCaseLegalHold PSFunction_Get-MgComplianceEdiscoveryCaseLegalHoldSiteSource PSCommand_Get-MgComplianceEdiscoveryCaseLegalHoldSiteSource PSFunction_Get-MgComplianceEdiscoveryCaseLegalHoldSiteSourceSite PSCommand_Get-MgComplianceEdiscoveryCaseLegalHoldSiteSourceSite PSFunction_Get-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSource PSCommand_Get-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSource PSFunction_Get-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSourceGroup PSCommand_Get-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSourceGroup PSFunction_Get-MgComplianceEdiscoveryCaseLegalHoldUserSource PSCommand_Get-MgComplianceEdiscoveryCaseLegalHoldUserSource PSFunction_Get-MgComplianceEdiscoveryCaseNoncustodialDataSource PSCommand_Get-MgComplianceEdiscoveryCaseNoncustodialDataSource PSFunction_Get-MgComplianceEdiscoveryCaseOperation PSCommand_Get-MgComplianceEdiscoveryCaseOperation PSFunction_Get-MgComplianceEdiscoveryCaseReviewSet PSCommand_Get-MgComplianceEdiscoveryCaseReviewSet PSFunction_Get-MgComplianceEdiscoveryCaseReviewSetQuery PSCommand_Get-MgComplianceEdiscoveryCaseReviewSetQuery PSFunction_Get-MgComplianceEdiscoveryCaseSetting PSCommand_Get-MgComplianceEdiscoveryCaseSetting PSFunction_Get-MgComplianceEdiscoveryCaseSourceCollection PSCommand_Get-MgComplianceEdiscoveryCaseSourceCollection PSFunction_Get-MgComplianceEdiscoveryCaseSourceCollectionAdditionalSource PSCommand_Get-MgComplianceEdiscoveryCaseSourceCollectionAdditionalSource PSFunction_Get-MgComplianceEdiscoveryCaseSourceCollectionAddToReviewSetOperation PSCommand_Get-MgComplianceEdiscoveryCaseSourceCollectionAddToReviewSetOperation PSFunction_Get-MgComplianceEdiscoveryCaseSourceCollectionCustodianSource PSCommand_Get-MgComplianceEdiscoveryCaseSourceCollectionCustodianSource PSFunction_Get-MgComplianceEdiscoveryCaseSourceCollectionLastEstimateStatisticsOperation PSCommand_Get-MgComplianceEdiscoveryCaseSourceCollectionLastEstimateStatisticsOperation PSFunction_Get-MgComplianceEdiscoveryCaseSourceCollectionNoncustodialSource PSCommand_Get-MgComplianceEdiscoveryCaseSourceCollectionNoncustodialSource PSFunction_Get-MgComplianceEdiscoveryCaseTag PSCommand_Get-MgComplianceEdiscoveryCaseTag PSFunction_Get-MgComplianceEdiscoveryCaseTagChildTag PSCommand_Get-MgComplianceEdiscoveryCaseTagChildTag PSFunction_Get-MgComplianceEdiscoveryCaseTagParent PSCommand_Get-MgComplianceEdiscoveryCaseTagParent PSFunction_Initialize-MgComplianceEdiscoveryCaseCustodian PSCommand_Initialize-MgComplianceEdiscoveryCaseCustodian PSFunction_Invoke-MgAsComplianceEdiscoveryCaseTagHierarchy PSCommand_Invoke-MgAsComplianceEdiscoveryCaseTagHierarchy PSFunction_Invoke-MgEstimateComplianceEdiscoveryCaseSourceCollectionStatistics PSCommand_Invoke-MgEstimateComplianceEdiscoveryCaseSourceCollectionStatistics PSFunction_Invoke-MgReopenComplianceEdiscoveryCase PSCommand_Invoke-MgReopenComplianceEdiscoveryCase PSFunction_New-MgComplianceEdiscoveryCase PSCommand_New-MgComplianceEdiscoveryCase PSFunction_New-MgComplianceEdiscoveryCaseCustodian PSCommand_New-MgComplianceEdiscoveryCaseCustodian PSFunction_New-MgComplianceEdiscoveryCaseCustodianSiteSource PSCommand_New-MgComplianceEdiscoveryCaseCustodianSiteSource PSFunction_New-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSource PSCommand_New-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSource PSFunction_New-MgComplianceEdiscoveryCaseCustodianUserSource PSCommand_New-MgComplianceEdiscoveryCaseCustodianUserSource PSFunction_New-MgComplianceEdiscoveryCaseLegalHold PSCommand_New-MgComplianceEdiscoveryCaseLegalHold PSFunction_New-MgComplianceEdiscoveryCaseLegalHoldSiteSource PSCommand_New-MgComplianceEdiscoveryCaseLegalHoldSiteSource PSFunction_New-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSource PSCommand_New-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSource PSFunction_New-MgComplianceEdiscoveryCaseLegalHoldUserSource PSCommand_New-MgComplianceEdiscoveryCaseLegalHoldUserSource PSFunction_New-MgComplianceEdiscoveryCaseNoncustodialDataSource PSCommand_New-MgComplianceEdiscoveryCaseNoncustodialDataSource PSFunction_New-MgComplianceEdiscoveryCaseOperation PSCommand_New-MgComplianceEdiscoveryCaseOperation PSFunction_New-MgComplianceEdiscoveryCaseReviewSet PSCommand_New-MgComplianceEdiscoveryCaseReviewSet PSFunction_New-MgComplianceEdiscoveryCaseReviewSetQuery PSCommand_New-MgComplianceEdiscoveryCaseReviewSetQuery PSFunction_New-MgComplianceEdiscoveryCaseSourceCollection PSCommand_New-MgComplianceEdiscoveryCaseSourceCollection PSFunction_New-MgComplianceEdiscoveryCaseSourceCollectionAdditionalSource PSCommand_New-MgComplianceEdiscoveryCaseSourceCollectionAdditionalSource PSFunction_New-MgComplianceEdiscoveryCaseTag PSCommand_New-MgComplianceEdiscoveryCaseTag PSFunction_Publish-MgComplianceEdiscoveryCaseCustodian PSCommand_Publish-MgComplianceEdiscoveryCaseCustodian PSFunction_Publish-MgComplianceEdiscoveryCaseNoncustodialDataSource PSCommand_Publish-MgComplianceEdiscoveryCaseNoncustodialDataSource PSFunction_Remove-MgComplianceEdiscovery PSCommand_Remove-MgComplianceEdiscovery PSFunction_Remove-MgComplianceEdiscoveryCase PSCommand_Remove-MgComplianceEdiscoveryCase PSFunction_Remove-MgComplianceEdiscoveryCaseCustodian PSCommand_Remove-MgComplianceEdiscoveryCaseCustodian PSFunction_Remove-MgComplianceEdiscoveryCaseCustodianHold PSCommand_Remove-MgComplianceEdiscoveryCaseCustodianHold PSFunction_Remove-MgComplianceEdiscoveryCaseCustodianSiteSource PSCommand_Remove-MgComplianceEdiscoveryCaseCustodianSiteSource PSFunction_Remove-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSource PSCommand_Remove-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSource PSFunction_Remove-MgComplianceEdiscoveryCaseCustodianUserSource PSCommand_Remove-MgComplianceEdiscoveryCaseCustodianUserSource PSFunction_Remove-MgComplianceEdiscoveryCaseLegalHold PSCommand_Remove-MgComplianceEdiscoveryCaseLegalHold PSFunction_Remove-MgComplianceEdiscoveryCaseLegalHoldSiteSource PSCommand_Remove-MgComplianceEdiscoveryCaseLegalHoldSiteSource PSFunction_Remove-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSource PSCommand_Remove-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSource PSFunction_Remove-MgComplianceEdiscoveryCaseLegalHoldUserSource PSCommand_Remove-MgComplianceEdiscoveryCaseLegalHoldUserSource PSFunction_Remove-MgComplianceEdiscoveryCaseNoncustodialDataSource PSCommand_Remove-MgComplianceEdiscoveryCaseNoncustodialDataSource PSFunction_Remove-MgComplianceEdiscoveryCaseNoncustodialDataSourceHold PSCommand_Remove-MgComplianceEdiscoveryCaseNoncustodialDataSourceHold PSFunction_Remove-MgComplianceEdiscoveryCaseOperation PSCommand_Remove-MgComplianceEdiscoveryCaseOperation PSFunction_Remove-MgComplianceEdiscoveryCaseReviewSet PSCommand_Remove-MgComplianceEdiscoveryCaseReviewSet PSFunction_Remove-MgComplianceEdiscoveryCaseReviewSetQuery PSCommand_Remove-MgComplianceEdiscoveryCaseReviewSetQuery PSFunction_Remove-MgComplianceEdiscoveryCaseSetting PSCommand_Remove-MgComplianceEdiscoveryCaseSetting PSFunction_Remove-MgComplianceEdiscoveryCaseSourceCollection PSCommand_Remove-MgComplianceEdiscoveryCaseSourceCollection PSFunction_Remove-MgComplianceEdiscoveryCaseSourceCollectionAdditionalSource PSCommand_Remove-MgComplianceEdiscoveryCaseSourceCollectionAdditionalSource PSFunction_Remove-MgComplianceEdiscoveryCaseTag PSCommand_Remove-MgComplianceEdiscoveryCaseTag PSFunction_Reset-MgComplianceEdiscoveryCaseSettingToDefault PSCommand_Reset-MgComplianceEdiscoveryCaseSettingToDefault PSFunction_Update-MgCompliance PSCommand_Update-MgCompliance PSFunction_Update-MgComplianceEdiscovery PSCommand_Update-MgComplianceEdiscovery PSFunction_Update-MgComplianceEdiscoveryCase PSCommand_Update-MgComplianceEdiscoveryCase PSFunction_Update-MgComplianceEdiscoveryCaseCustodian PSCommand_Update-MgComplianceEdiscoveryCaseCustodian PSFunction_Update-MgComplianceEdiscoveryCaseCustodianIndex PSCommand_Update-MgComplianceEdiscoveryCaseCustodianIndex PSFunction_Update-MgComplianceEdiscoveryCaseCustodianSiteSource PSCommand_Update-MgComplianceEdiscoveryCaseCustodianSiteSource PSFunction_Update-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSource PSCommand_Update-MgComplianceEdiscoveryCaseCustodianUnifiedGroupSource PSFunction_Update-MgComplianceEdiscoveryCaseCustodianUserSource PSCommand_Update-MgComplianceEdiscoveryCaseCustodianUserSource PSFunction_Update-MgComplianceEdiscoveryCaseLegalHold PSCommand_Update-MgComplianceEdiscoveryCaseLegalHold PSFunction_Update-MgComplianceEdiscoveryCaseLegalHoldSiteSource PSCommand_Update-MgComplianceEdiscoveryCaseLegalHoldSiteSource PSFunction_Update-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSource PSCommand_Update-MgComplianceEdiscoveryCaseLegalHoldUnifiedGroupSource PSFunction_Update-MgComplianceEdiscoveryCaseLegalHoldUserSource PSCommand_Update-MgComplianceEdiscoveryCaseLegalHoldUserSource PSFunction_Update-MgComplianceEdiscoveryCaseNoncustodialDataSource PSCommand_Update-MgComplianceEdiscoveryCaseNoncustodialDataSource PSFunction_Update-MgComplianceEdiscoveryCaseNoncustodialDataSourceIndex PSCommand_Update-MgComplianceEdiscoveryCaseNoncustodialDataSourceIndex PSFunction_Update-MgComplianceEdiscoveryCaseOperation PSCommand_Update-MgComplianceEdiscoveryCaseOperation PSFunction_Update-MgComplianceEdiscoveryCaseReviewSet PSCommand_Update-MgComplianceEdiscoveryCaseReviewSet PSFunction_Update-MgComplianceEdiscoveryCaseReviewSetQuery PSCommand_Update-MgComplianceEdiscoveryCaseReviewSetQuery PSFunction_Update-MgComplianceEdiscoveryCaseSetting PSCommand_Update-MgComplianceEdiscoveryCaseSetting PSFunction_Update-MgComplianceEdiscoveryCaseSourceCollection PSCommand_Update-MgComplianceEdiscoveryCaseSourceCollection PSFunction_Update-MgComplianceEdiscoveryCaseSourceCollectionAdditionalSource PSCommand_Update-MgComplianceEdiscoveryCaseSourceCollectionAdditionalSource PSFunction_Update-MgComplianceEdiscoveryCaseTag PSCommand_Update-MgComplianceEdiscoveryCaseTag PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2022-09-30T20:28:22Z</S>
+          <S N="NormalizedVersion">1.12.2</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Microsoft.Graph.Compliance.nuspec|Microsoft.Graph.Compliance.format.ps1xml|Microsoft.Graph.Compliance.psd1|Microsoft.Graph.Compliance.psm1|bin\Microsoft.Graph.Compliance.private.dll|bin\Microsoft.Graph.Compliance.private.deps.json|internal\Microsoft.Graph.Compliance.internal.psm1|custom\Microsoft.Graph.Compliance.custom.psm1|exports\v1.0\ProxyCmdletDefinitions.ps1|exports\v1.0-beta\ProxyCmdletDefinitions.ps1|.signature.p7s</S>
+          <S N="GUID">7478368f-6e69-4d5a-a06d-07ae47a87ec4</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">4.7.2</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\Josh Work\OneDrive - TDSYNNEX\Documents\PowerShell\Modules\Microsoft.Graph.Compliance\1.12.2</S>
+    </MS>
+  </Obj>
+</Objs>

@@ -1,0 +1,664 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Microsoft.Graph.Security</S>
+      <Version N="Version">1.12.2</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Graph PowerShell Cmdlets</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">msgraph-sdk-powershell</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2022-09-29T18:05:21-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2022-09-30T15:31:23.4184709-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/devservicesagreement</URI>
+      <URI N="ProjectUri">https://github.com/microsoftgraph/msgraph-sdk-powershell</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/microsoftgraph/msgraph-sdk-powershell/master/documentation/images/graph_color256.png</URI>
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Microsoft</S>
+          <S>Office365</S>
+          <S>Graph</S>
+          <S>PowerShell</S>
+          <S>PSModule</S>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-MgSecurityCaseEdiscoveryCaseCustodianHold</S>
+                <S>Add-MgSecurityCaseEdiscoveryCaseNoncustodialDataSourceHold</S>
+                <S>Add-MgSecurityCaseEdiscoveryCaseReviewSetQueryTag</S>
+                <S>Add-MgSecurityCaseEdiscoveryCaseReviewSetToReviewSet</S>
+                <S>Clear-MgSecurityCaseEdiscoveryCaseSearchData</S>
+                <S>Close-MgSecurityCaseEdiscoveryCase</S>
+                <S>Export-MgSecurityCaseEdiscoveryCaseReviewSet</S>
+                <S>Export-MgSecurityCaseEdiscoveryCaseReviewSetQuery</S>
+                <S>Get-MgSecurityAction</S>
+                <S>Get-MgSecurityAlert</S>
+                <S>Get-MgSecurityAttackSimulation</S>
+                <S>Get-MgSecurityAttackSimulationAutomation</S>
+                <S>Get-MgSecurityAttackSimulationAutomationRun</S>
+                <S>Get-MgSecurityCase</S>
+                <S>Get-MgSecurityCaseEdiscoveryCase</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseCustodian</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseCustodianLastIndexOperation</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseCustodianSiteSource</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseCustodianSiteSourceSite</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSource</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSourceGroup</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseCustodianUserSource</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseLegalHold</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSource</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSourceSite</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseLegalHoldUserSource</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseNoncustodialDataSourceLastIndexOperation</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseOperation</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseReviewSet</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseReviewSetFile</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseReviewSetFileContent</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseReviewSetFileCustodian</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseReviewSetFileExtractedTextContent</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseReviewSetFileTag</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseReviewSetQuery</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseSearch</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseSearchAdditionalSource</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseSearchAddToReviewSetOperation</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseSearchCustodianSource</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseSearchLastEstimateStatisticsOperation</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseSearchNoncustodialSource</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseSetting</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseTag</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseTagChildTag</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseTagParent</S>
+                <S>Get-MgSecurityCloudAppSecurityProfile</S>
+                <S>Get-MgSecurityDomainSecurityProfile</S>
+                <S>Get-MgSecurityFileSecurityProfile</S>
+                <S>Get-MgSecurityHostSecurityProfile</S>
+                <S>Get-MgSecurityIncident</S>
+                <S>Get-MgSecurityIncidentAlert</S>
+                <S>Get-MgSecurityInformationProtection</S>
+                <S>Get-MgSecurityInformationProtectionLabelPolicySetting</S>
+                <S>Get-MgSecurityInformationProtectionSensitivityLabel</S>
+                <S>Get-MgSecurityInformationProtectionSensitivityLabelParent</S>
+                <S>Get-MgSecurityIPSecurityProfile</S>
+                <S>Get-MgSecurityLabel</S>
+                <S>Get-MgSecurityLabelRetentionEventType</S>
+                <S>Get-MgSecurityLabelRetentionLabel</S>
+                <S>Get-MgSecurityLabelRetentionLabelDispositionReviewStage</S>
+                <S>Get-MgSecurityProviderTenantSetting</S>
+                <S>Get-MgSecuritySecureScore</S>
+                <S>Get-MgSecuritySecureScoreControlProfile</S>
+                <S>Get-MgSecuritySubjectRightsRequest</S>
+                <S>Get-MgSecuritySubjectRightsRequestFinalAttachment</S>
+                <S>Get-MgSecuritySubjectRightsRequestFinalReport</S>
+                <S>Get-MgSecuritySubjectRightsRequestNote</S>
+                <S>Get-MgSecuritySubjectRightsRequestTeam</S>
+                <S>Get-MgSecurityThreatSubmission</S>
+                <S>Get-MgSecurityThreatSubmissionEmailThreat</S>
+                <S>Get-MgSecurityThreatSubmissionEmailThreatSubmissionPolicy</S>
+                <S>Get-MgSecurityThreatSubmissionFileThreat</S>
+                <S>Get-MgSecurityThreatSubmissionUrlThreat</S>
+                <S>Get-MgSecurityTiIndicator</S>
+                <S>Get-MgSecurityTrigger</S>
+                <S>Get-MgSecurityTriggerRetentionEvent</S>
+                <S>Get-MgSecurityTriggerRetentionEventType</S>
+                <S>Get-MgSecurityTriggerType</S>
+                <S>Get-MgSecurityTriggerTypeRetentionEventType</S>
+                <S>Get-MgSecurityUserSecurityProfile</S>
+                <S>Initialize-MgSecurityCaseEdiscoveryCaseCustodian</S>
+                <S>Invoke-MgAsSecurityCaseEdiscoveryCaseTagHierarchy</S>
+                <S>Invoke-MgEstimateSecurityCaseEdiscoveryCaseSearchStatistics</S>
+                <S>Invoke-MgExtractSecurityInformationProtectionSensitivityLabelContentLabel</S>
+                <S>Invoke-MgReopenSecurityCaseEdiscoveryCase</S>
+                <S>New-MgSecurityAction</S>
+                <S>New-MgSecurityAlert</S>
+                <S>New-MgSecurityAttackSimulation</S>
+                <S>New-MgSecurityAttackSimulationAutomation</S>
+                <S>New-MgSecurityAttackSimulationAutomationRun</S>
+                <S>New-MgSecurityCaseEdiscoveryCase</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseCustodian</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseCustodianSiteSource</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSource</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseCustodianUserSource</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseLegalHold</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSource</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseLegalHoldUserSource</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseOperation</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseReviewSet</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseReviewSetFile</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseReviewSetQuery</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseSearch</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseSearchAdditionalSource</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseTag</S>
+                <S>New-MgSecurityCloudAppSecurityProfile</S>
+                <S>New-MgSecurityDomainSecurityProfile</S>
+                <S>New-MgSecurityFileSecurityProfile</S>
+                <S>New-MgSecurityHostSecurityProfile</S>
+                <S>New-MgSecurityIncident</S>
+                <S>New-MgSecurityInformationProtectionSensitivityLabel</S>
+                <S>New-MgSecurityIPSecurityProfile</S>
+                <S>New-MgSecurityLabelRetentionLabel</S>
+                <S>New-MgSecurityLabelRetentionLabelDispositionReviewStage</S>
+                <S>New-MgSecurityProviderTenantSetting</S>
+                <S>New-MgSecuritySecureScore</S>
+                <S>New-MgSecuritySecureScoreControlProfile</S>
+                <S>New-MgSecuritySubjectRightsRequest</S>
+                <S>New-MgSecuritySubjectRightsRequestNote</S>
+                <S>New-MgSecurityThreatSubmissionEmailThreat</S>
+                <S>New-MgSecurityThreatSubmissionEmailThreatSubmissionPolicy</S>
+                <S>New-MgSecurityThreatSubmissionFileThreat</S>
+                <S>New-MgSecurityThreatSubmissionUrlThreat</S>
+                <S>New-MgSecurityTiIndicator</S>
+                <S>New-MgSecurityTriggerRetentionEvent</S>
+                <S>New-MgSecurityTriggerTypeRetentionEventType</S>
+                <S>New-MgSecurityUserSecurityProfile</S>
+                <S>Publish-MgSecurityCaseEdiscoveryCaseCustodian</S>
+                <S>Publish-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource</S>
+                <S>Remove-MgSecurityAction</S>
+                <S>Remove-MgSecurityAlert</S>
+                <S>Remove-MgSecurityAttackSimulation</S>
+                <S>Remove-MgSecurityAttackSimulationAutomation</S>
+                <S>Remove-MgSecurityAttackSimulationAutomationRun</S>
+                <S>Remove-MgSecurityCase</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCase</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseCustodian</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseCustodianHold</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseCustodianSiteSource</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSource</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseCustodianUserSource</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseLegalHold</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSource</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseLegalHoldUserSource</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseNoncustodialDataSourceHold</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseOperation</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseReviewSet</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseReviewSetFile</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseReviewSetQuery</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseSearch</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseSearchAdditionalSource</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseSetting</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseTag</S>
+                <S>Remove-MgSecurityCloudAppSecurityProfile</S>
+                <S>Remove-MgSecurityDomainSecurityProfile</S>
+                <S>Remove-MgSecurityFileSecurityProfile</S>
+                <S>Remove-MgSecurityHostSecurityProfile</S>
+                <S>Remove-MgSecurityIncident</S>
+                <S>Remove-MgSecurityInformationProtection</S>
+                <S>Remove-MgSecurityInformationProtectionLabelPolicySetting</S>
+                <S>Remove-MgSecurityInformationProtectionSensitivityLabel</S>
+                <S>Remove-MgSecurityInformationProtectionSensitivityLabelParent</S>
+                <S>Remove-MgSecurityIPSecurityProfile</S>
+                <S>Remove-MgSecurityLabel</S>
+                <S>Remove-MgSecurityLabelRetentionLabel</S>
+                <S>Remove-MgSecurityLabelRetentionLabelDispositionReviewStage</S>
+                <S>Remove-MgSecurityProviderTenantSetting</S>
+                <S>Remove-MgSecuritySecureScore</S>
+                <S>Remove-MgSecuritySecureScoreControlProfile</S>
+                <S>Remove-MgSecuritySubjectRightsRequest</S>
+                <S>Remove-MgSecuritySubjectRightsRequestNote</S>
+                <S>Remove-MgSecurityThreatSubmission</S>
+                <S>Remove-MgSecurityThreatSubmissionEmailThreat</S>
+                <S>Remove-MgSecurityThreatSubmissionEmailThreatSubmissionPolicy</S>
+                <S>Remove-MgSecurityThreatSubmissionFileThreat</S>
+                <S>Remove-MgSecurityThreatSubmissionUrlThreat</S>
+                <S>Remove-MgSecurityTiIndicator</S>
+                <S>Remove-MgSecurityTiIndicatorByExternalId</S>
+                <S>Remove-MgSecurityTiIndicatorMultiple</S>
+                <S>Remove-MgSecurityTrigger</S>
+                <S>Remove-MgSecurityTriggerRetentionEvent</S>
+                <S>Remove-MgSecurityTriggerType</S>
+                <S>Remove-MgSecurityTriggerTypeRetentionEventType</S>
+                <S>Remove-MgSecurityUserSecurityProfile</S>
+                <S>Reset-MgSecurityCaseEdiscoveryCaseSettingToDefault</S>
+                <S>Set-MgSecurityCaseEdiscoveryCaseReviewSetFileContent</S>
+                <S>Set-MgSecurityCaseEdiscoveryCaseReviewSetFileExtractedTextContent</S>
+                <S>Start-MgSecurityCaseEdiscoveryCaseReviewSetQuery</S>
+                <S>Start-MgSecurityHuntingQuery</S>
+                <S>Stop-MgSecurityAction</S>
+                <S>Submit-MgSecurityTiIndicator</S>
+                <S>Test-MgSecurityInformationProtectionSensitivityLabelApplication</S>
+                <S>Test-MgSecurityInformationProtectionSensitivityLabelClassificationResult</S>
+                <S>Test-MgSecurityInformationProtectionSensitivityLabelRemoval</S>
+                <S>Update-MgSecurityAction</S>
+                <S>Update-MgSecurityAlert</S>
+                <S>Update-MgSecurityAlertMultiple</S>
+                <S>Update-MgSecurityAttackSimulationAutomation</S>
+                <S>Update-MgSecurityAttackSimulationAutomationRun</S>
+                <S>Update-MgSecurityCase</S>
+                <S>Update-MgSecurityCaseEdiscoveryCase</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseCustodian</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseCustodianIndex</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseCustodianSiteSource</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSource</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseCustodianUserSource</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseLegalHold</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSource</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseLegalHoldUserSource</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseNoncustodialDataSourceIndex</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseOperation</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseReviewSet</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseReviewSetFile</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseReviewSetQuery</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseSearch</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseSearchAdditionalSource</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseSetting</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseTag</S>
+                <S>Update-MgSecurityCloudAppSecurityProfile</S>
+                <S>Update-MgSecurityDomainSecurityProfile</S>
+                <S>Update-MgSecurityFileSecurityProfile</S>
+                <S>Update-MgSecurityHostSecurityProfile</S>
+                <S>Update-MgSecurityIncident</S>
+                <S>Update-MgSecurityInformationProtection</S>
+                <S>Update-MgSecurityInformationProtectionLabelPolicySetting</S>
+                <S>Update-MgSecurityInformationProtectionSensitivityLabel</S>
+                <S>Update-MgSecurityInformationProtectionSensitivityLabelParent</S>
+                <S>Update-MgSecurityIPSecurityProfile</S>
+                <S>Update-MgSecurityLabel</S>
+                <S>Update-MgSecurityLabelRetentionLabel</S>
+                <S>Update-MgSecurityLabelRetentionLabelDispositionReviewStage</S>
+                <S>Update-MgSecurityProviderTenantSetting</S>
+                <S>Update-MgSecuritySecureScore</S>
+                <S>Update-MgSecuritySecureScoreControlProfile</S>
+                <S>Update-MgSecuritySubjectRightsRequest</S>
+                <S>Update-MgSecuritySubjectRightsRequestNote</S>
+                <S>Update-MgSecurityThreatSubmission</S>
+                <S>Update-MgSecurityThreatSubmissionEmailThreat</S>
+                <S>Update-MgSecurityThreatSubmissionEmailThreatSubmissionPolicy</S>
+                <S>Update-MgSecurityThreatSubmissionFileThreat</S>
+                <S>Update-MgSecurityThreatSubmissionUrlThreat</S>
+                <S>Update-MgSecurityTiIndicator</S>
+                <S>Update-MgSecurityTiIndicatorMultiple</S>
+                <S>Update-MgSecurityTrigger</S>
+                <S>Update-MgSecurityTriggerRetentionEvent</S>
+                <S>Update-MgSecurityTriggerType</S>
+                <S>Update-MgSecurityTriggerTypeRetentionEventType</S>
+                <S>Update-MgSecurityUserSecurityProfile</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Add-MgSecurityCaseEdiscoveryCaseCustodianHold</S>
+                <S>Add-MgSecurityCaseEdiscoveryCaseNoncustodialDataSourceHold</S>
+                <S>Add-MgSecurityCaseEdiscoveryCaseReviewSetQueryTag</S>
+                <S>Add-MgSecurityCaseEdiscoveryCaseReviewSetToReviewSet</S>
+                <S>Clear-MgSecurityCaseEdiscoveryCaseSearchData</S>
+                <S>Close-MgSecurityCaseEdiscoveryCase</S>
+                <S>Export-MgSecurityCaseEdiscoveryCaseReviewSet</S>
+                <S>Export-MgSecurityCaseEdiscoveryCaseReviewSetQuery</S>
+                <S>Get-MgSecurityAction</S>
+                <S>Get-MgSecurityAlert</S>
+                <S>Get-MgSecurityAttackSimulation</S>
+                <S>Get-MgSecurityAttackSimulationAutomation</S>
+                <S>Get-MgSecurityAttackSimulationAutomationRun</S>
+                <S>Get-MgSecurityCase</S>
+                <S>Get-MgSecurityCaseEdiscoveryCase</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseCustodian</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseCustodianLastIndexOperation</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseCustodianSiteSource</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseCustodianSiteSourceSite</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSource</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSourceGroup</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseCustodianUserSource</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseLegalHold</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSource</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSourceSite</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseLegalHoldUserSource</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseNoncustodialDataSourceLastIndexOperation</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseOperation</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseReviewSet</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseReviewSetFile</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseReviewSetFileContent</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseReviewSetFileCustodian</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseReviewSetFileExtractedTextContent</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseReviewSetFileTag</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseReviewSetQuery</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseSearch</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseSearchAdditionalSource</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseSearchAddToReviewSetOperation</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseSearchCustodianSource</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseSearchLastEstimateStatisticsOperation</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseSearchNoncustodialSource</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseSetting</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseTag</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseTagChildTag</S>
+                <S>Get-MgSecurityCaseEdiscoveryCaseTagParent</S>
+                <S>Get-MgSecurityCloudAppSecurityProfile</S>
+                <S>Get-MgSecurityDomainSecurityProfile</S>
+                <S>Get-MgSecurityFileSecurityProfile</S>
+                <S>Get-MgSecurityHostSecurityProfile</S>
+                <S>Get-MgSecurityIncident</S>
+                <S>Get-MgSecurityIncidentAlert</S>
+                <S>Get-MgSecurityInformationProtection</S>
+                <S>Get-MgSecurityInformationProtectionLabelPolicySetting</S>
+                <S>Get-MgSecurityInformationProtectionSensitivityLabel</S>
+                <S>Get-MgSecurityInformationProtectionSensitivityLabelParent</S>
+                <S>Get-MgSecurityIPSecurityProfile</S>
+                <S>Get-MgSecurityLabel</S>
+                <S>Get-MgSecurityLabelRetentionEventType</S>
+                <S>Get-MgSecurityLabelRetentionLabel</S>
+                <S>Get-MgSecurityLabelRetentionLabelDispositionReviewStage</S>
+                <S>Get-MgSecurityProviderTenantSetting</S>
+                <S>Get-MgSecuritySecureScore</S>
+                <S>Get-MgSecuritySecureScoreControlProfile</S>
+                <S>Get-MgSecuritySubjectRightsRequest</S>
+                <S>Get-MgSecuritySubjectRightsRequestFinalAttachment</S>
+                <S>Get-MgSecuritySubjectRightsRequestFinalReport</S>
+                <S>Get-MgSecuritySubjectRightsRequestNote</S>
+                <S>Get-MgSecuritySubjectRightsRequestTeam</S>
+                <S>Get-MgSecurityThreatSubmission</S>
+                <S>Get-MgSecurityThreatSubmissionEmailThreat</S>
+                <S>Get-MgSecurityThreatSubmissionEmailThreatSubmissionPolicy</S>
+                <S>Get-MgSecurityThreatSubmissionFileThreat</S>
+                <S>Get-MgSecurityThreatSubmissionUrlThreat</S>
+                <S>Get-MgSecurityTiIndicator</S>
+                <S>Get-MgSecurityTrigger</S>
+                <S>Get-MgSecurityTriggerRetentionEvent</S>
+                <S>Get-MgSecurityTriggerRetentionEventType</S>
+                <S>Get-MgSecurityTriggerType</S>
+                <S>Get-MgSecurityTriggerTypeRetentionEventType</S>
+                <S>Get-MgSecurityUserSecurityProfile</S>
+                <S>Initialize-MgSecurityCaseEdiscoveryCaseCustodian</S>
+                <S>Invoke-MgAsSecurityCaseEdiscoveryCaseTagHierarchy</S>
+                <S>Invoke-MgEstimateSecurityCaseEdiscoveryCaseSearchStatistics</S>
+                <S>Invoke-MgExtractSecurityInformationProtectionSensitivityLabelContentLabel</S>
+                <S>Invoke-MgReopenSecurityCaseEdiscoveryCase</S>
+                <S>New-MgSecurityAction</S>
+                <S>New-MgSecurityAlert</S>
+                <S>New-MgSecurityAttackSimulation</S>
+                <S>New-MgSecurityAttackSimulationAutomation</S>
+                <S>New-MgSecurityAttackSimulationAutomationRun</S>
+                <S>New-MgSecurityCaseEdiscoveryCase</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseCustodian</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseCustodianSiteSource</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSource</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseCustodianUserSource</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseLegalHold</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSource</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseLegalHoldUserSource</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseOperation</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseReviewSet</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseReviewSetFile</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseReviewSetQuery</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseSearch</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseSearchAdditionalSource</S>
+                <S>New-MgSecurityCaseEdiscoveryCaseTag</S>
+                <S>New-MgSecurityCloudAppSecurityProfile</S>
+                <S>New-MgSecurityDomainSecurityProfile</S>
+                <S>New-MgSecurityFileSecurityProfile</S>
+                <S>New-MgSecurityHostSecurityProfile</S>
+                <S>New-MgSecurityIncident</S>
+                <S>New-MgSecurityInformationProtectionSensitivityLabel</S>
+                <S>New-MgSecurityIPSecurityProfile</S>
+                <S>New-MgSecurityLabelRetentionLabel</S>
+                <S>New-MgSecurityLabelRetentionLabelDispositionReviewStage</S>
+                <S>New-MgSecurityProviderTenantSetting</S>
+                <S>New-MgSecuritySecureScore</S>
+                <S>New-MgSecuritySecureScoreControlProfile</S>
+                <S>New-MgSecuritySubjectRightsRequest</S>
+                <S>New-MgSecuritySubjectRightsRequestNote</S>
+                <S>New-MgSecurityThreatSubmissionEmailThreat</S>
+                <S>New-MgSecurityThreatSubmissionEmailThreatSubmissionPolicy</S>
+                <S>New-MgSecurityThreatSubmissionFileThreat</S>
+                <S>New-MgSecurityThreatSubmissionUrlThreat</S>
+                <S>New-MgSecurityTiIndicator</S>
+                <S>New-MgSecurityTriggerRetentionEvent</S>
+                <S>New-MgSecurityTriggerTypeRetentionEventType</S>
+                <S>New-MgSecurityUserSecurityProfile</S>
+                <S>Publish-MgSecurityCaseEdiscoveryCaseCustodian</S>
+                <S>Publish-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource</S>
+                <S>Remove-MgSecurityAction</S>
+                <S>Remove-MgSecurityAlert</S>
+                <S>Remove-MgSecurityAttackSimulation</S>
+                <S>Remove-MgSecurityAttackSimulationAutomation</S>
+                <S>Remove-MgSecurityAttackSimulationAutomationRun</S>
+                <S>Remove-MgSecurityCase</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCase</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseCustodian</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseCustodianHold</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseCustodianSiteSource</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSource</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseCustodianUserSource</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseLegalHold</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSource</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseLegalHoldUserSource</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseNoncustodialDataSourceHold</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseOperation</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseReviewSet</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseReviewSetFile</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseReviewSetQuery</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseSearch</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseSearchAdditionalSource</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseSetting</S>
+                <S>Remove-MgSecurityCaseEdiscoveryCaseTag</S>
+                <S>Remove-MgSecurityCloudAppSecurityProfile</S>
+                <S>Remove-MgSecurityDomainSecurityProfile</S>
+                <S>Remove-MgSecurityFileSecurityProfile</S>
+                <S>Remove-MgSecurityHostSecurityProfile</S>
+                <S>Remove-MgSecurityIncident</S>
+                <S>Remove-MgSecurityInformationProtection</S>
+                <S>Remove-MgSecurityInformationProtectionLabelPolicySetting</S>
+                <S>Remove-MgSecurityInformationProtectionSensitivityLabel</S>
+                <S>Remove-MgSecurityInformationProtectionSensitivityLabelParent</S>
+                <S>Remove-MgSecurityIPSecurityProfile</S>
+                <S>Remove-MgSecurityLabel</S>
+                <S>Remove-MgSecurityLabelRetentionLabel</S>
+                <S>Remove-MgSecurityLabelRetentionLabelDispositionReviewStage</S>
+                <S>Remove-MgSecurityProviderTenantSetting</S>
+                <S>Remove-MgSecuritySecureScore</S>
+                <S>Remove-MgSecuritySecureScoreControlProfile</S>
+                <S>Remove-MgSecuritySubjectRightsRequest</S>
+                <S>Remove-MgSecuritySubjectRightsRequestNote</S>
+                <S>Remove-MgSecurityThreatSubmission</S>
+                <S>Remove-MgSecurityThreatSubmissionEmailThreat</S>
+                <S>Remove-MgSecurityThreatSubmissionEmailThreatSubmissionPolicy</S>
+                <S>Remove-MgSecurityThreatSubmissionFileThreat</S>
+                <S>Remove-MgSecurityThreatSubmissionUrlThreat</S>
+                <S>Remove-MgSecurityTiIndicator</S>
+                <S>Remove-MgSecurityTiIndicatorByExternalId</S>
+                <S>Remove-MgSecurityTiIndicatorMultiple</S>
+                <S>Remove-MgSecurityTrigger</S>
+                <S>Remove-MgSecurityTriggerRetentionEvent</S>
+                <S>Remove-MgSecurityTriggerType</S>
+                <S>Remove-MgSecurityTriggerTypeRetentionEventType</S>
+                <S>Remove-MgSecurityUserSecurityProfile</S>
+                <S>Reset-MgSecurityCaseEdiscoveryCaseSettingToDefault</S>
+                <S>Set-MgSecurityCaseEdiscoveryCaseReviewSetFileContent</S>
+                <S>Set-MgSecurityCaseEdiscoveryCaseReviewSetFileExtractedTextContent</S>
+                <S>Start-MgSecurityCaseEdiscoveryCaseReviewSetQuery</S>
+                <S>Start-MgSecurityHuntingQuery</S>
+                <S>Stop-MgSecurityAction</S>
+                <S>Submit-MgSecurityTiIndicator</S>
+                <S>Test-MgSecurityInformationProtectionSensitivityLabelApplication</S>
+                <S>Test-MgSecurityInformationProtectionSensitivityLabelClassificationResult</S>
+                <S>Test-MgSecurityInformationProtectionSensitivityLabelRemoval</S>
+                <S>Update-MgSecurityAction</S>
+                <S>Update-MgSecurityAlert</S>
+                <S>Update-MgSecurityAlertMultiple</S>
+                <S>Update-MgSecurityAttackSimulationAutomation</S>
+                <S>Update-MgSecurityAttackSimulationAutomationRun</S>
+                <S>Update-MgSecurityCase</S>
+                <S>Update-MgSecurityCaseEdiscoveryCase</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseCustodian</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseCustodianIndex</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseCustodianSiteSource</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSource</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseCustodianUserSource</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseLegalHold</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSource</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseLegalHoldUserSource</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseNoncustodialDataSourceIndex</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseOperation</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseReviewSet</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseReviewSetFile</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseReviewSetQuery</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseSearch</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseSearchAdditionalSource</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseSetting</S>
+                <S>Update-MgSecurityCaseEdiscoveryCaseTag</S>
+                <S>Update-MgSecurityCloudAppSecurityProfile</S>
+                <S>Update-MgSecurityDomainSecurityProfile</S>
+                <S>Update-MgSecurityFileSecurityProfile</S>
+                <S>Update-MgSecurityHostSecurityProfile</S>
+                <S>Update-MgSecurityIncident</S>
+                <S>Update-MgSecurityInformationProtection</S>
+                <S>Update-MgSecurityInformationProtectionLabelPolicySetting</S>
+                <S>Update-MgSecurityInformationProtectionSensitivityLabel</S>
+                <S>Update-MgSecurityInformationProtectionSensitivityLabelParent</S>
+                <S>Update-MgSecurityIPSecurityProfile</S>
+                <S>Update-MgSecurityLabel</S>
+                <S>Update-MgSecurityLabelRetentionLabel</S>
+                <S>Update-MgSecurityLabelRetentionLabelDispositionReviewStage</S>
+                <S>Update-MgSecurityProviderTenantSetting</S>
+                <S>Update-MgSecuritySecureScore</S>
+                <S>Update-MgSecuritySecureScoreControlProfile</S>
+                <S>Update-MgSecuritySubjectRightsRequest</S>
+                <S>Update-MgSecuritySubjectRightsRequestNote</S>
+                <S>Update-MgSecurityThreatSubmission</S>
+                <S>Update-MgSecurityThreatSubmissionEmailThreat</S>
+                <S>Update-MgSecurityThreatSubmissionEmailThreatSubmissionPolicy</S>
+                <S>Update-MgSecurityThreatSubmissionFileThreat</S>
+                <S>Update-MgSecurityThreatSubmissionUrlThreat</S>
+                <S>Update-MgSecurityTiIndicator</S>
+                <S>Update-MgSecurityTiIndicatorMultiple</S>
+                <S>Update-MgSecurityTrigger</S>
+                <S>Update-MgSecurityTriggerRetentionEvent</S>
+                <S>Update-MgSecurityTriggerType</S>
+                <S>Update-MgSecurityTriggerTypeRetentionEventType</S>
+                <S>Update-MgSecurityUserSecurityProfile</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Microsoft.Graph.Authentication</S>
+              </En>
+              <En>
+                <S N="Key">RequiredVersion</S>
+                <S N="Value">1.12.2</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Microsoft.Graph.Authentication/[1.12.2]</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Graph PowerShell Cmdlets</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">3903</S>
+          <S N="downloadCount">462831</S>
+          <S N="packageSize">5631395</S>
+          <S N="published">9/29/2022 6:05:21 PM -05:00</S>
+          <S N="created">9/29/2022 6:05:21 PM -05:00</S>
+          <S N="lastUpdated">9/30/2022 8:28:22 PM -05:00</S>
+          <S N="tags">Microsoft Office365 Graph PowerShell PSModule PSIncludes_Cmdlet PSEdition_Core PSEdition_Desktop PSFunction_Add-MgSecurityCaseEdiscoveryCaseCustodianHold PSCommand_Add-MgSecurityCaseEdiscoveryCaseCustodianHold PSFunction_Add-MgSecurityCaseEdiscoveryCaseNoncustodialDataSourceHold PSCommand_Add-MgSecurityCaseEdiscoveryCaseNoncustodialDataSourceHold PSFunction_Add-MgSecurityCaseEdiscoveryCaseReviewSetQueryTag PSCommand_Add-MgSecurityCaseEdiscoveryCaseReviewSetQueryTag PSFunction_Add-MgSecurityCaseEdiscoveryCaseReviewSetToReviewSet PSCommand_Add-MgSecurityCaseEdiscoveryCaseReviewSetToReviewSet PSFunction_Clear-MgSecurityCaseEdiscoveryCaseSearchData PSCommand_Clear-MgSecurityCaseEdiscoveryCaseSearchData PSFunction_Close-MgSecurityCaseEdiscoveryCase PSCommand_Close-MgSecurityCaseEdiscoveryCase PSFunction_Export-MgSecurityCaseEdiscoveryCaseReviewSet PSCommand_Export-MgSecurityCaseEdiscoveryCaseReviewSet PSFunction_Export-MgSecurityCaseEdiscoveryCaseReviewSetQuery PSCommand_Export-MgSecurityCaseEdiscoveryCaseReviewSetQuery PSFunction_Get-MgSecurityAction PSCommand_Get-MgSecurityAction PSFunction_Get-MgSecurityAlert PSCommand_Get-MgSecurityAlert PSFunction_Get-MgSecurityAttackSimulation PSCommand_Get-MgSecurityAttackSimulation PSFunction_Get-MgSecurityAttackSimulationAutomation PSCommand_Get-MgSecurityAttackSimulationAutomation PSFunction_Get-MgSecurityAttackSimulationAutomationRun PSCommand_Get-MgSecurityAttackSimulationAutomationRun PSFunction_Get-MgSecurityCase PSCommand_Get-MgSecurityCase PSFunction_Get-MgSecurityCaseEdiscoveryCase PSCommand_Get-MgSecurityCaseEdiscoveryCase PSFunction_Get-MgSecurityCaseEdiscoveryCaseCustodian PSCommand_Get-MgSecurityCaseEdiscoveryCaseCustodian PSFunction_Get-MgSecurityCaseEdiscoveryCaseCustodianLastIndexOperation PSCommand_Get-MgSecurityCaseEdiscoveryCaseCustodianLastIndexOperation PSFunction_Get-MgSecurityCaseEdiscoveryCaseCustodianSiteSource PSCommand_Get-MgSecurityCaseEdiscoveryCaseCustodianSiteSource PSFunction_Get-MgSecurityCaseEdiscoveryCaseCustodianSiteSourceSite PSCommand_Get-MgSecurityCaseEdiscoveryCaseCustodianSiteSourceSite PSFunction_Get-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSource PSCommand_Get-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSource PSFunction_Get-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSourceGroup PSCommand_Get-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSourceGroup PSFunction_Get-MgSecurityCaseEdiscoveryCaseCustodianUserSource PSCommand_Get-MgSecurityCaseEdiscoveryCaseCustodianUserSource PSFunction_Get-MgSecurityCaseEdiscoveryCaseLegalHold PSCommand_Get-MgSecurityCaseEdiscoveryCaseLegalHold PSFunction_Get-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSource PSCommand_Get-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSource PSFunction_Get-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSourceSite PSCommand_Get-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSourceSite PSFunction_Get-MgSecurityCaseEdiscoveryCaseLegalHoldUserSource PSCommand_Get-MgSecurityCaseEdiscoveryCaseLegalHoldUserSource PSFunction_Get-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource PSCommand_Get-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource PSFunction_Get-MgSecurityCaseEdiscoveryCaseNoncustodialDataSourceLastIndexOperation PSCommand_Get-MgSecurityCaseEdiscoveryCaseNoncustodialDataSourceLastIndexOperation PSFunction_Get-MgSecurityCaseEdiscoveryCaseOperation PSCommand_Get-MgSecurityCaseEdiscoveryCaseOperation PSFunction_Get-MgSecurityCaseEdiscoveryCaseReviewSet PSCommand_Get-MgSecurityCaseEdiscoveryCaseReviewSet PSFunction_Get-MgSecurityCaseEdiscoveryCaseReviewSetFile PSCommand_Get-MgSecurityCaseEdiscoveryCaseReviewSetFile PSFunction_Get-MgSecurityCaseEdiscoveryCaseReviewSetFileContent PSCommand_Get-MgSecurityCaseEdiscoveryCaseReviewSetFileContent PSFunction_Get-MgSecurityCaseEdiscoveryCaseReviewSetFileCustodian PSCommand_Get-MgSecurityCaseEdiscoveryCaseReviewSetFileCustodian PSFunction_Get-MgSecurityCaseEdiscoveryCaseReviewSetFileExtractedTextContent PSCommand_Get-MgSecurityCaseEdiscoveryCaseReviewSetFileExtractedTextContent PSFunction_Get-MgSecurityCaseEdiscoveryCaseReviewSetFileTag PSCommand_Get-MgSecurityCaseEdiscoveryCaseReviewSetFileTag PSFunction_Get-MgSecurityCaseEdiscoveryCaseReviewSetQuery PSCommand_Get-MgSecurityCaseEdiscoveryCaseReviewSetQuery PSFunction_Get-MgSecurityCaseEdiscoveryCaseSearch PSCommand_Get-MgSecurityCaseEdiscoveryCaseSearch PSFunction_Get-MgSecurityCaseEdiscoveryCaseSearchAdditionalSource PSCommand_Get-MgSecurityCaseEdiscoveryCaseSearchAdditionalSource PSFunction_Get-MgSecurityCaseEdiscoveryCaseSearchAddToReviewSetOperation PSCommand_Get-MgSecurityCaseEdiscoveryCaseSearchAddToReviewSetOperation PSFunction_Get-MgSecurityCaseEdiscoveryCaseSearchCustodianSource PSCommand_Get-MgSecurityCaseEdiscoveryCaseSearchCustodianSource PSFunction_Get-MgSecurityCaseEdiscoveryCaseSearchLastEstimateStatisticsOperation PSCommand_Get-MgSecurityCaseEdiscoveryCaseSearchLastEstimateStatisticsOperation PSFunction_Get-MgSecurityCaseEdiscoveryCaseSearchNoncustodialSource PSCommand_Get-MgSecurityCaseEdiscoveryCaseSearchNoncustodialSource PSFunction_Get-MgSecurityCaseEdiscoveryCaseSetting PSCommand_Get-MgSecurityCaseEdiscoveryCaseSetting PSFunction_Get-MgSecurityCaseEdiscoveryCaseTag PSCommand_Get-MgSecurityCaseEdiscoveryCaseTag PSFunction_Get-MgSecurityCaseEdiscoveryCaseTagChildTag PSCommand_Get-MgSecurityCaseEdiscoveryCaseTagChildTag PSFunction_Get-MgSecurityCaseEdiscoveryCaseTagParent PSCommand_Get-MgSecurityCaseEdiscoveryCaseTagParent PSFunction_Get-MgSecurityCloudAppSecurityProfile PSCommand_Get-MgSecurityCloudAppSecurityProfile PSFunction_Get-MgSecurityDomainSecurityProfile PSCommand_Get-MgSecurityDomainSecurityProfile PSFunction_Get-MgSecurityFileSecurityProfile PSCommand_Get-MgSecurityFileSecurityProfile PSFunction_Get-MgSecurityHostSecurityProfile PSCommand_Get-MgSecurityHostSecurityProfile PSFunction_Get-MgSecurityIncident PSCommand_Get-MgSecurityIncident PSFunction_Get-MgSecurityIncidentAlert PSCommand_Get-MgSecurityIncidentAlert PSFunction_Get-MgSecurityInformationProtection PSCommand_Get-MgSecurityInformationProtection PSFunction_Get-MgSecurityInformationProtectionLabelPolicySetting PSCommand_Get-MgSecurityInformationProtectionLabelPolicySetting PSFunction_Get-MgSecurityInformationProtectionSensitivityLabel PSCommand_Get-MgSecurityInformationProtectionSensitivityLabel PSFunction_Get-MgSecurityInformationProtectionSensitivityLabelParent PSCommand_Get-MgSecurityInformationProtectionSensitivityLabelParent PSFunction_Get-MgSecurityIPSecurityProfile PSCommand_Get-MgSecurityIPSecurityProfile PSFunction_Get-MgSecurityLabel PSCommand_Get-MgSecurityLabel PSFunction_Get-MgSecurityLabelRetentionEventType PSCommand_Get-MgSecurityLabelRetentionEventType PSFunction_Get-MgSecurityLabelRetentionLabel PSCommand_Get-MgSecurityLabelRetentionLabel PSFunction_Get-MgSecurityLabelRetentionLabelDispositionReviewStage PSCommand_Get-MgSecurityLabelRetentionLabelDispositionReviewStage PSFunction_Get-MgSecurityProviderTenantSetting PSCommand_Get-MgSecurityProviderTenantSetting PSFunction_Get-MgSecuritySecureScore PSCommand_Get-MgSecuritySecureScore PSFunction_Get-MgSecuritySecureScoreControlProfile PSCommand_Get-MgSecuritySecureScoreControlProfile PSFunction_Get-MgSecuritySubjectRightsRequest PSCommand_Get-MgSecuritySubjectRightsRequest PSFunction_Get-MgSecuritySubjectRightsRequestFinalAttachment PSCommand_Get-MgSecuritySubjectRightsRequestFinalAttachment PSFunction_Get-MgSecuritySubjectRightsRequestFinalReport PSCommand_Get-MgSecuritySubjectRightsRequestFinalReport PSFunction_Get-MgSecuritySubjectRightsRequestNote PSCommand_Get-MgSecuritySubjectRightsRequestNote PSFunction_Get-MgSecuritySubjectRightsRequestTeam PSCommand_Get-MgSecuritySubjectRightsRequestTeam PSFunction_Get-MgSecurityThreatSubmission PSCommand_Get-MgSecurityThreatSubmission PSFunction_Get-MgSecurityThreatSubmissionEmailThreat PSCommand_Get-MgSecurityThreatSubmissionEmailThreat PSFunction_Get-MgSecurityThreatSubmissionEmailThreatSubmissionPolicy PSCommand_Get-MgSecurityThreatSubmissionEmailThreatSubmissionPolicy PSFunction_Get-MgSecurityThreatSubmissionFileThreat PSCommand_Get-MgSecurityThreatSubmissionFileThreat PSFunction_Get-MgSecurityThreatSubmissionUrlThreat PSCommand_Get-MgSecurityThreatSubmissionUrlThreat PSFunction_Get-MgSecurityTiIndicator PSCommand_Get-MgSecurityTiIndicator PSFunction_Get-MgSecurityTrigger PSCommand_Get-MgSecurityTrigger PSFunction_Get-MgSecurityTriggerRetentionEvent PSCommand_Get-MgSecurityTriggerRetentionEvent PSFunction_Get-MgSecurityTriggerRetentionEventType PSCommand_Get-MgSecurityTriggerRetentionEventType PSFunction_Get-MgSecurityTriggerType PSCommand_Get-MgSecurityTriggerType PSFunction_Get-MgSecurityTriggerTypeRetentionEventType PSCommand_Get-MgSecurityTriggerTypeRetentionEventType PSFunction_Get-MgSecurityUserSecurityProfile PSCommand_Get-MgSecurityUserSecurityProfile PSFunction_Initialize-MgSecurityCaseEdiscoveryCaseCustodian PSCommand_Initialize-MgSecurityCaseEdiscoveryCaseCustodian PSFunction_Invoke-MgAsSecurityCaseEdiscoveryCaseTagHierarchy PSCommand_Invoke-MgAsSecurityCaseEdiscoveryCaseTagHierarchy PSFunction_Invoke-MgEstimateSecurityCaseEdiscoveryCaseSearchStatistics PSCommand_Invoke-MgEstimateSecurityCaseEdiscoveryCaseSearchStatistics PSFunction_Invoke-MgExtractSecurityInformationProtectionSensitivityLabelContentLabel PSCommand_Invoke-MgExtractSecurityInformationProtectionSensitivityLabelContentLabel PSFunction_Invoke-MgReopenSecurityCaseEdiscoveryCase PSCommand_Invoke-MgReopenSecurityCaseEdiscoveryCase PSFunction_New-MgSecurityAction PSCommand_New-MgSecurityAction PSFunction_New-MgSecurityAlert PSCommand_New-MgSecurityAlert PSFunction_New-MgSecurityAttackSimulation PSCommand_New-MgSecurityAttackSimulation PSFunction_New-MgSecurityAttackSimulationAutomation PSCommand_New-MgSecurityAttackSimulationAutomation PSFunction_New-MgSecurityAttackSimulationAutomationRun PSCommand_New-MgSecurityAttackSimulationAutomationRun PSFunction_New-MgSecurityCaseEdiscoveryCase PSCommand_New-MgSecurityCaseEdiscoveryCase PSFunction_New-MgSecurityCaseEdiscoveryCaseCustodian PSCommand_New-MgSecurityCaseEdiscoveryCaseCustodian PSFunction_New-MgSecurityCaseEdiscoveryCaseCustodianSiteSource PSCommand_New-MgSecurityCaseEdiscoveryCaseCustodianSiteSource PSFunction_New-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSource PSCommand_New-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSource PSFunction_New-MgSecurityCaseEdiscoveryCaseCustodianUserSource PSCommand_New-MgSecurityCaseEdiscoveryCaseCustodianUserSource PSFunction_New-MgSecurityCaseEdiscoveryCaseLegalHold PSCommand_New-MgSecurityCaseEdiscoveryCaseLegalHold PSFunction_New-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSource PSCommand_New-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSource PSFunction_New-MgSecurityCaseEdiscoveryCaseLegalHoldUserSource PSCommand_New-MgSecurityCaseEdiscoveryCaseLegalHoldUserSource PSFunction_New-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource PSCommand_New-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource PSFunction_New-MgSecurityCaseEdiscoveryCaseOperation PSCommand_New-MgSecurityCaseEdiscoveryCaseOperation PSFunction_New-MgSecurityCaseEdiscoveryCaseReviewSet PSCommand_New-MgSecurityCaseEdiscoveryCaseReviewSet PSFunction_New-MgSecurityCaseEdiscoveryCaseReviewSetFile PSCommand_New-MgSecurityCaseEdiscoveryCaseReviewSetFile PSFunction_New-MgSecurityCaseEdiscoveryCaseReviewSetQuery PSCommand_New-MgSecurityCaseEdiscoveryCaseReviewSetQuery PSFunction_New-MgSecurityCaseEdiscoveryCaseSearch PSCommand_New-MgSecurityCaseEdiscoveryCaseSearch PSFunction_New-MgSecurityCaseEdiscoveryCaseSearchAdditionalSource PSCommand_New-MgSecurityCaseEdiscoveryCaseSearchAdditionalSource PSFunction_New-MgSecurityCaseEdiscoveryCaseTag PSCommand_New-MgSecurityCaseEdiscoveryCaseTag PSFunction_New-MgSecurityCloudAppSecurityProfile PSCommand_New-MgSecurityCloudAppSecurityProfile PSFunction_New-MgSecurityDomainSecurityProfile PSCommand_New-MgSecurityDomainSecurityProfile PSFunction_New-MgSecurityFileSecurityProfile PSCommand_New-MgSecurityFileSecurityProfile PSFunction_New-MgSecurityHostSecurityProfile PSCommand_New-MgSecurityHostSecurityProfile PSFunction_New-MgSecurityIncident PSCommand_New-MgSecurityIncident PSFunction_New-MgSecurityInformationProtectionSensitivityLabel PSCommand_New-MgSecurityInformationProtectionSensitivityLabel PSFunction_New-MgSecurityIPSecurityProfile PSCommand_New-MgSecurityIPSecurityProfile PSFunction_New-MgSecurityLabelRetentionLabel PSCommand_New-MgSecurityLabelRetentionLabel PSFunction_New-MgSecurityLabelRetentionLabelDispositionReviewStage PSCommand_New-MgSecurityLabelRetentionLabelDispositionReviewStage PSFunction_New-MgSecurityProviderTenantSetting PSCommand_New-MgSecurityProviderTenantSetting PSFunction_New-MgSecuritySecureScore PSCommand_New-MgSecuritySecureScore PSFunction_New-MgSecuritySecureScoreControlProfile PSCommand_New-MgSecuritySecureScoreControlProfile PSFunction_New-MgSecuritySubjectRightsRequest PSCommand_New-MgSecuritySubjectRightsRequest PSFunction_New-MgSecuritySubjectRightsRequestNote PSCommand_New-MgSecuritySubjectRightsRequestNote PSFunction_New-MgSecurityThreatSubmissionEmailThreat PSCommand_New-MgSecurityThreatSubmissionEmailThreat PSFunction_New-MgSecurityThreatSubmissionEmailThreatSubmissionPolicy PSCommand_New-MgSecurityThreatSubmissionEmailThreatSubmissionPolicy PSFunction_New-MgSecurityThreatSubmissionFileThreat PSCommand_New-MgSecurityThreatSubmissionFileThreat PSFunction_New-MgSecurityThreatSubmissionUrlThreat PSCommand_New-MgSecurityThreatSubmissionUrlThreat PSFunction_New-MgSecurityTiIndicator PSCommand_New-MgSecurityTiIndicator PSFunction_New-MgSecurityTriggerRetentionEvent PSCommand_New-MgSecurityTriggerRetentionEvent PSFunction_New-MgSecurityTriggerTypeRetentionEventType PSCommand_New-MgSecurityTriggerTypeRetentionEventType PSFunction_New-MgSecurityUserSecurityProfile PSCommand_New-MgSecurityUserSecurityProfile PSFunction_Publish-MgSecurityCaseEdiscoveryCaseCustodian PSCommand_Publish-MgSecurityCaseEdiscoveryCaseCustodian PSFunction_Publish-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource PSCommand_Publish-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource PSFunction_Remove-MgSecurityAction PSCommand_Remove-MgSecurityAction PSFunction_Remove-MgSecurityAlert PSCommand_Remove-MgSecurityAlert PSFunction_Remove-MgSecurityAttackSimulation PSCommand_Remove-MgSecurityAttackSimulation PSFunction_Remove-MgSecurityAttackSimulationAutomation PSCommand_Remove-MgSecurityAttackSimulationAutomation PSFunction_Remove-MgSecurityAttackSimulationAutomationRun PSCommand_Remove-MgSecurityAttackSimulationAutomationRun PSFunction_Remove-MgSecurityCase PSCommand_Remove-MgSecurityCase PSFunction_Remove-MgSecurityCaseEdiscoveryCase PSCommand_Remove-MgSecurityCaseEdiscoveryCase PSFunction_Remove-MgSecurityCaseEdiscoveryCaseCustodian PSCommand_Remove-MgSecurityCaseEdiscoveryCaseCustodian PSFunction_Remove-MgSecurityCaseEdiscoveryCaseCustodianHold PSCommand_Remove-MgSecurityCaseEdiscoveryCaseCustodianHold PSFunction_Remove-MgSecurityCaseEdiscoveryCaseCustodianSiteSource PSCommand_Remove-MgSecurityCaseEdiscoveryCaseCustodianSiteSource PSFunction_Remove-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSource PSCommand_Remove-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSource PSFunction_Remove-MgSecurityCaseEdiscoveryCaseCustodianUserSource PSCommand_Remove-MgSecurityCaseEdiscoveryCaseCustodianUserSource PSFunction_Remove-MgSecurityCaseEdiscoveryCaseLegalHold PSCommand_Remove-MgSecurityCaseEdiscoveryCaseLegalHold PSFunction_Remove-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSource PSCommand_Remove-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSource PSFunction_Remove-MgSecurityCaseEdiscoveryCaseLegalHoldUserSource PSCommand_Remove-MgSecurityCaseEdiscoveryCaseLegalHoldUserSource PSFunction_Remove-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource PSCommand_Remove-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource PSFunction_Remove-MgSecurityCaseEdiscoveryCaseNoncustodialDataSourceHold PSCommand_Remove-MgSecurityCaseEdiscoveryCaseNoncustodialDataSourceHold PSFunction_Remove-MgSecurityCaseEdiscoveryCaseOperation PSCommand_Remove-MgSecurityCaseEdiscoveryCaseOperation PSFunction_Remove-MgSecurityCaseEdiscoveryCaseReviewSet PSCommand_Remove-MgSecurityCaseEdiscoveryCaseReviewSet PSFunction_Remove-MgSecurityCaseEdiscoveryCaseReviewSetFile PSCommand_Remove-MgSecurityCaseEdiscoveryCaseReviewSetFile PSFunction_Remove-MgSecurityCaseEdiscoveryCaseReviewSetQuery PSCommand_Remove-MgSecurityCaseEdiscoveryCaseReviewSetQuery PSFunction_Remove-MgSecurityCaseEdiscoveryCaseSearch PSCommand_Remove-MgSecurityCaseEdiscoveryCaseSearch PSFunction_Remove-MgSecurityCaseEdiscoveryCaseSearchAdditionalSource PSCommand_Remove-MgSecurityCaseEdiscoveryCaseSearchAdditionalSource PSFunction_Remove-MgSecurityCaseEdiscoveryCaseSetting PSCommand_Remove-MgSecurityCaseEdiscoveryCaseSetting PSFunction_Remove-MgSecurityCaseEdiscoveryCaseTag PSCommand_Remove-MgSecurityCaseEdiscoveryCaseTag PSFunction_Remove-MgSecurityCloudAppSecurityProfile PSCommand_Remove-MgSecurityCloudAppSecurityProfile PSFunction_Remove-MgSecurityDomainSecurityProfile PSCommand_Remove-MgSecurityDomainSecurityProfile PSFunction_Remove-MgSecurityFileSecurityProfile PSCommand_Remove-MgSecurityFileSecurityProfile PSFunction_Remove-MgSecurityHostSecurityProfile PSCommand_Remove-MgSecurityHostSecurityProfile PSFunction_Remove-MgSecurityIncident PSCommand_Remove-MgSecurityIncident PSFunction_Remove-MgSecurityInformationProtection PSCommand_Remove-MgSecurityInformationProtection PSFunction_Remove-MgSecurityInformationProtectionLabelPolicySetting PSCommand_Remove-MgSecurityInformationProtectionLabelPolicySetting PSFunction_Remove-MgSecurityInformationProtectionSensitivityLabel PSCommand_Remove-MgSecurityInformationProtectionSensitivityLabel PSFunction_Remove-MgSecurityInformationProtectionSensitivityLabelParent PSCommand_Remove-MgSecurityInformationProtectionSensitivityLabelParent PSFunction_Remove-MgSecurityIPSecurityProfile PSCommand_Remove-MgSecurityIPSecurityProfile PSFunction_Remove-MgSecurityLabel PSCommand_Remove-MgSecurityLabel PSFunction_Remove-MgSecurityLabelRetentionLabel PSCommand_Remove-MgSecurityLabelRetentionLabel PSFunction_Remove-MgSecurityLabelRetentionLabelDispositionReviewStage PSCommand_Remove-MgSecurityLabelRetentionLabelDispositionReviewStage PSFunction_Remove-MgSecurityProviderTenantSetting PSCommand_Remove-MgSecurityProviderTenantSetting PSFunction_Remove-MgSecuritySecureScore PSCommand_Remove-MgSecuritySecureScore PSFunction_Remove-MgSecuritySecureScoreControlProfile PSCommand_Remove-MgSecuritySecureScoreControlProfile PSFunction_Remove-MgSecuritySubjectRightsRequest PSCommand_Remove-MgSecuritySubjectRightsRequest PSFunction_Remove-MgSecuritySubjectRightsRequestNote PSCommand_Remove-MgSecuritySubjectRightsRequestNote PSFunction_Remove-MgSecurityThreatSubmission PSCommand_Remove-MgSecurityThreatSubmission PSFunction_Remove-MgSecurityThreatSubmissionEmailThreat PSCommand_Remove-MgSecurityThreatSubmissionEmailThreat PSFunction_Remove-MgSecurityThreatSubmissionEmailThreatSubmissionPolicy PSCommand_Remove-MgSecurityThreatSubmissionEmailThreatSubmissionPolicy PSFunction_Remove-MgSecurityThreatSubmissionFileThreat PSCommand_Remove-MgSecurityThreatSubmissionFileThreat PSFunction_Remove-MgSecurityThreatSubmissionUrlThreat PSCommand_Remove-MgSecurityThreatSubmissionUrlThreat PSFunction_Remove-MgSecurityTiIndicator PSCommand_Remove-MgSecurityTiIndicator PSFunction_Remove-MgSecurityTiIndicatorByExternalId PSCommand_Remove-MgSecurityTiIndicatorByExternalId PSFunction_Remove-MgSecurityTiIndicatorMultiple PSCommand_Remove-MgSecurityTiIndicatorMultiple PSFunction_Remove-MgSecurityTrigger PSCommand_Remove-MgSecurityTrigger PSFunction_Remove-MgSecurityTriggerRetentionEvent PSCommand_Remove-MgSecurityTriggerRetentionEvent PSFunction_Remove-MgSecurityTriggerType PSCommand_Remove-MgSecurityTriggerType PSFunction_Remove-MgSecurityTriggerTypeRetentionEventType PSCommand_Remove-MgSecurityTriggerTypeRetentionEventType PSFunction_Remove-MgSecurityUserSecurityProfile PSCommand_Remove-MgSecurityUserSecurityProfile PSFunction_Reset-MgSecurityCaseEdiscoveryCaseSettingToDefault PSCommand_Reset-MgSecurityCaseEdiscoveryCaseSettingToDefault PSFunction_Set-MgSecurityCaseEdiscoveryCaseReviewSetFileContent PSCommand_Set-MgSecurityCaseEdiscoveryCaseReviewSetFileContent PSFunction_Set-MgSecurityCaseEdiscoveryCaseReviewSetFileExtractedTextContent PSCommand_Set-MgSecurityCaseEdiscoveryCaseReviewSetFileExtractedTextContent PSFunction_Start-MgSecurityCaseEdiscoveryCaseReviewSetQuery PSCommand_Start-MgSecurityCaseEdiscoveryCaseReviewSetQuery PSFunction_Start-MgSecurityHuntingQuery PSCommand_Start-MgSecurityHuntingQuery PSFunction_Stop-MgSecurityAction PSCommand_Stop-MgSecurityAction PSFunction_Submit-MgSecurityTiIndicator PSCommand_Submit-MgSecurityTiIndicator PSFunction_Test-MgSecurityInformationProtectionSensitivityLabelApplication PSCommand_Test-MgSecurityInformationProtectionSensitivityLabelApplication PSFunction_Test-MgSecurityInformationProtectionSensitivityLabelClassificationResult PSCommand_Test-MgSecurityInformationProtectionSensitivityLabelClassificationResult PSFunction_Test-MgSecurityInformationProtectionSensitivityLabelRemoval PSCommand_Test-MgSecurityInformationProtectionSensitivityLabelRemoval PSFunction_Update-MgSecurityAction PSCommand_Update-MgSecurityAction PSFunction_Update-MgSecurityAlert PSCommand_Update-MgSecurityAlert PSFunction_Update-MgSecurityAlertMultiple PSCommand_Update-MgSecurityAlertMultiple PSFunction_Update-MgSecurityAttackSimulationAutomation PSCommand_Update-MgSecurityAttackSimulationAutomation PSFunction_Update-MgSecurityAttackSimulationAutomationRun PSCommand_Update-MgSecurityAttackSimulationAutomationRun PSFunction_Update-MgSecurityCase PSCommand_Update-MgSecurityCase PSFunction_Update-MgSecurityCaseEdiscoveryCase PSCommand_Update-MgSecurityCaseEdiscoveryCase PSFunction_Update-MgSecurityCaseEdiscoveryCaseCustodian PSCommand_Update-MgSecurityCaseEdiscoveryCaseCustodian PSFunction_Update-MgSecurityCaseEdiscoveryCaseCustodianIndex PSCommand_Update-MgSecurityCaseEdiscoveryCaseCustodianIndex PSFunction_Update-MgSecurityCaseEdiscoveryCaseCustodianSiteSource PSCommand_Update-MgSecurityCaseEdiscoveryCaseCustodianSiteSource PSFunction_Update-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSource PSCommand_Update-MgSecurityCaseEdiscoveryCaseCustodianUnifiedGroupSource PSFunction_Update-MgSecurityCaseEdiscoveryCaseCustodianUserSource PSCommand_Update-MgSecurityCaseEdiscoveryCaseCustodianUserSource PSFunction_Update-MgSecurityCaseEdiscoveryCaseLegalHold PSCommand_Update-MgSecurityCaseEdiscoveryCaseLegalHold PSFunction_Update-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSource PSCommand_Update-MgSecurityCaseEdiscoveryCaseLegalHoldSiteSource PSFunction_Update-MgSecurityCaseEdiscoveryCaseLegalHoldUserSource PSCommand_Update-MgSecurityCaseEdiscoveryCaseLegalHoldUserSource PSFunction_Update-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource PSCommand_Update-MgSecurityCaseEdiscoveryCaseNoncustodialDataSource PSFunction_Update-MgSecurityCaseEdiscoveryCaseNoncustodialDataSourceIndex PSCommand_Update-MgSecurityCaseEdiscoveryCaseNoncustodialDataSourceIndex PSFunction_Update-MgSecurityCaseEdiscoveryCaseOperation PSCommand_Update-MgSecurityCaseEdiscoveryCaseOperation PSFunction_Update-MgSecurityCaseEdiscoveryCaseReviewSet PSCommand_Update-MgSecurityCaseEdiscoveryCaseReviewSet PSFunction_Update-MgSecurityCaseEdiscoveryCaseReviewSetFile PSCommand_Update-MgSecurityCaseEdiscoveryCaseReviewSetFile PSFunction_Update-MgSecurityCaseEdiscoveryCaseReviewSetQuery PSCommand_Update-MgSecurityCaseEdiscoveryCaseReviewSetQuery PSFunction_Update-MgSecurityCaseEdiscoveryCaseSearch PSCommand_Update-MgSecurityCaseEdiscoveryCaseSearch PSFunction_Update-MgSecurityCaseEdiscoveryCaseSearchAdditionalSource PSCommand_Update-MgSecurityCaseEdiscoveryCaseSearchAdditionalSource PSFunction_Update-MgSecurityCaseEdiscoveryCaseSetting PSCommand_Update-MgSecurityCaseEdiscoveryCaseSetting PSFunction_Update-MgSecurityCaseEdiscoveryCaseTag PSCommand_Update-MgSecurityCaseEdiscoveryCaseTag PSFunction_Update-MgSecurityCloudAppSecurityProfile PSCommand_Update-MgSecurityCloudAppSecurityProfile PSFunction_Update-MgSecurityDomainSecurityProfile PSCommand_Update-MgSecurityDomainSecurityProfile PSFunction_Update-MgSecurityFileSecurityProfile PSCommand_Update-MgSecurityFileSecurityProfile PSFunction_Update-MgSecurityHostSecurityProfile PSCommand_Update-MgSecurityHostSecurityProfile PSFunction_Update-MgSecurityIncident PSCommand_Update-MgSecurityIncident PSFunction_Update-MgSecurityInformationProtection PSCommand_Update-MgSecurityInformationProtection PSFunction_Update-MgSecurityInformationProtectionLabelPolicySetting PSCommand_Update-MgSecurityInformationProtectionLabelPolicySetting PSFunction_Update-MgSecurityInformationProtectionSensitivityLabel PSCommand_Update-MgSecurityInformationProtectionSensitivityLabel PSFunction_Update-MgSecurityInformationProtectionSensitivityLabelParent PSCommand_Update-MgSecurityInformationProtectionSensitivityLabelParent PSFunction_Update-MgSecurityIPSecurityProfile PSCommand_Update-MgSecurityIPSecurityProfile PSFunction_Update-MgSecurityLabel PSCommand_Update-MgSecurityLabel PSFunction_Update-MgSecurityLabelRetentionLabel PSCommand_Update-MgSecurityLabelRetentionLabel PSFunction_Update-MgSecurityLabelRetentionLabelDispositionReviewStage PSCommand_Update-MgSecurityLabelRetentionLabelDispositionReviewStage PSFunction_Update-MgSecurityProviderTenantSetting PSCommand_Update-MgSecurityProviderTenantSetting PSFunction_Update-MgSecuritySecureScore PSCommand_Update-MgSecuritySecureScore PSFunction_Update-MgSecuritySecureScoreControlProfile PSCommand_Update-MgSecuritySecureScoreControlProfile PSFunction_Update-MgSecuritySubjectRightsRequest PSCommand_Update-MgSecuritySubjectRightsRequest PSFunction_Update-MgSecuritySubjectRightsRequestNote PSCommand_Update-MgSecuritySubjectRightsRequestNote PSFunction_Update-MgSecurityThreatSubmission PSCommand_Update-MgSecurityThreatSubmission PSFunction_Update-MgSecurityThreatSubmissionEmailThreat PSCommand_Update-MgSecurityThreatSubmissionEmailThreat PSFunction_Update-MgSecurityThreatSubmissionEmailThreatSubmissionPolicy PSCommand_Update-MgSecurityThreatSubmissionEmailThreatSubmissionPolicy PSFunction_Update-MgSecurityThreatSubmissionFileThreat PSCommand_Update-MgSecurityThreatSubmissionFileThreat PSFunction_Update-MgSecurityThreatSubmissionUrlThreat PSCommand_Update-MgSecurityThreatSubmissionUrlThreat PSFunction_Update-MgSecurityTiIndicator PSCommand_Update-MgSecurityTiIndicator PSFunction_Update-MgSecurityTiIndicatorMultiple PSCommand_Update-MgSecurityTiIndicatorMultiple PSFunction_Update-MgSecurityTrigger PSCommand_Update-MgSecurityTrigger PSFunction_Update-MgSecurityTriggerRetentionEvent PSCommand_Update-MgSecurityTriggerRetentionEvent PSFunction_Update-MgSecurityTriggerType PSCommand_Update-MgSecurityTriggerType PSFunction_Update-MgSecurityTriggerTypeRetentionEventType PSCommand_Update-MgSecurityTriggerTypeRetentionEventType PSFunction_Update-MgSecurityUserSecurityProfile PSCommand_Update-MgSecurityUserSecurityProfile PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2022-09-30T20:28:22Z</S>
+          <S N="NormalizedVersion">1.12.2</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Microsoft.Graph.Security.nuspec|Microsoft.Graph.Security.format.ps1xml|Microsoft.Graph.Security.psd1|Microsoft.Graph.Security.psm1|bin\Microsoft.Graph.Security.private.dll|bin\Microsoft.Graph.Security.private.deps.json|internal\Microsoft.Graph.Security.internal.psm1|custom\Microsoft.Graph.Security.custom.psm1|exports\v1.0\ProxyCmdletDefinitions.ps1|exports\v1.0-beta\ProxyCmdletDefinitions.ps1|.signature.p7s</S>
+          <S N="GUID">06b0769e-2c63-4d60-9fb4-9ca0ec87e0d7</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">4.7.2</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\Josh Work\OneDrive - TDSYNNEX\Documents\PowerShell\Modules\Microsoft.Graph.Security\1.12.2</S>
+    </MS>
+  </Obj>
+</Objs>

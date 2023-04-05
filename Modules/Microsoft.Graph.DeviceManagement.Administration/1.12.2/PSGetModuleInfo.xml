@@ -1,0 +1,688 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Microsoft.Graph.DeviceManagement.Administration</S>
+      <Version N="Version">1.12.2</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Graph PowerShell Cmdlets</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">msgraph-sdk-powershell</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2022-09-29T18:04:13-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2022-09-30T15:31:19.8270951-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/devservicesagreement</URI>
+      <URI N="ProjectUri">https://github.com/microsoftgraph/msgraph-sdk-powershell</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/microsoftgraph/msgraph-sdk-powershell/master/documentation/images/graph_color256.png</URI>
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Microsoft</S>
+          <S>Office365</S>
+          <S>Graph</S>
+          <S>PowerShell</S>
+          <S>PSModule</S>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-MgDeviceManagementApplePushNotificationCertificate</S>
+                <S>Get-MgDeviceManagementAuditEvent</S>
+                <S>Get-MgDeviceManagementCartToClassAssociation</S>
+                <S>Get-MgDeviceManagementComanagementEligibleDevice</S>
+                <S>Get-MgDeviceManagementComplianceManagementPartner</S>
+                <S>Get-MgDeviceManagementDeviceConfigurationManagedDeviceCertificateState</S>
+                <S>Get-MgDeviceManagementDeviceConfigurationRestrictedAppViolation</S>
+                <S>Get-MgDeviceManagementDomainJoinConnector</S>
+                <S>Get-MgDeviceManagementExchangeConnector</S>
+                <S>Get-MgDeviceManagementExchangeOnPremisPolicy</S>
+                <S>Get-MgDeviceManagementExchangeOnPremisPolicyConditionalAccessSetting</S>
+                <S>Get-MgDeviceManagementGroupPolicyCategory</S>
+                <S>Get-MgDeviceManagementGroupPolicyCategoryChild</S>
+                <S>Get-MgDeviceManagementGroupPolicyCategoryDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyCategoryDefinitionFile</S>
+                <S>Get-MgDeviceManagementGroupPolicyCategoryParent</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionCategory</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionFile</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionFileDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionCategory</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionFile</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentation</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentationDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionCategory</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionFile</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentation</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentationDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPresentation</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPresentationDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionCategory</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionFile</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionCategory</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionFile</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentation</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentationDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentation</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentationDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyMigrationReport</S>
+                <S>Get-MgDeviceManagementGroupPolicyMigrationReportGroupPolicySettingMapping</S>
+                <S>Get-MgDeviceManagementGroupPolicyMigrationReportUnsupportedGroupPolicyExtension</S>
+                <S>Get-MgDeviceManagementGroupPolicyObjectFile</S>
+                <S>Get-MgDeviceManagementGroupPolicyUploadedDefinitionFile</S>
+                <S>Get-MgDeviceManagementGroupPolicyUploadedDefinitionFileGroupPolicyOperation</S>
+                <S>Get-MgDeviceManagementIntuneBrandingProfile</S>
+                <S>Get-MgDeviceManagementIntuneBrandingProfileAssignment</S>
+                <S>Get-MgDeviceManagementIoUpdateStatuses</S>
+                <S>Get-MgDeviceManagementMobileThreatDefenseConnector</S>
+                <S>Get-MgDeviceManagementNdeConnector</S>
+                <S>Get-MgDeviceManagementPartner</S>
+                <S>Get-MgDeviceManagementRemoteAssistancePartner</S>
+                <S>Get-MgDeviceManagementResourceOperation</S>
+                <S>Get-MgDeviceManagementRoleAssignment</S>
+                <S>Get-MgDeviceManagementRoleAssignmentRoleScopeTag</S>
+                <S>Get-MgDeviceManagementRoleDefinition</S>
+                <S>Get-MgDeviceManagementRoleDefinitionRoleAssignment</S>
+                <S>Get-MgDeviceManagementRoleDefinitionRoleAssignmentRoleDefinition</S>
+                <S>Get-MgDeviceManagementRoleScopeTag</S>
+                <S>Get-MgDeviceManagementRoleScopeTagAssignment</S>
+                <S>Get-MgDeviceManagementTelecomExpenseManagementPartner</S>
+                <S>Get-MgDeviceManagementTermAndCondition</S>
+                <S>Get-MgDeviceManagementTermAndConditionAcceptanceStatuses</S>
+                <S>Get-MgDeviceManagementTermAndConditionAcceptanceStatusesTermAndCondition</S>
+                <S>Get-MgDeviceManagementTermAndConditionAssignment</S>
+                <S>Get-MgDeviceManagementTermAndConditionGroupAssignment</S>
+                <S>Get-MgDeviceManagementTermAndConditionGroupAssignmentTermAndCondition</S>
+                <S>Get-MgDeviceManagementUserPfxCertificate</S>
+                <S>Get-MgDeviceManagementVirtualEndpoint</S>
+                <S>Get-MgDeviceManagementVirtualEndpointAuditEvent</S>
+                <S>Get-MgDeviceManagementVirtualEndpointCloudPC</S>
+                <S>Get-MgDeviceManagementVirtualEndpointDeviceImage</S>
+                <S>Get-MgDeviceManagementVirtualEndpointExternalPartnerSetting</S>
+                <S>Get-MgDeviceManagementVirtualEndpointGalleryImage</S>
+                <S>Get-MgDeviceManagementVirtualEndpointOnPremisesConnection</S>
+                <S>Get-MgDeviceManagementVirtualEndpointOrganizationSetting</S>
+                <S>Get-MgDeviceManagementVirtualEndpointProvisioningPolicy</S>
+                <S>Get-MgDeviceManagementVirtualEndpointProvisioningPolicyAssignment</S>
+                <S>Get-MgDeviceManagementVirtualEndpointReport</S>
+                <S>Get-MgDeviceManagementVirtualEndpointReportExportJob</S>
+                <S>Get-MgDeviceManagementVirtualEndpointServicePlan</S>
+                <S>Get-MgDeviceManagementVirtualEndpointSnapshot</S>
+                <S>Get-MgDeviceManagementVirtualEndpointSupportedRegion</S>
+                <S>Get-MgDeviceManagementVirtualEndpointUserSetting</S>
+                <S>Get-MgDeviceManagementVirtualEndpointUserSettingAssignment</S>
+                <S>New-MgDeviceManagementAuditEvent</S>
+                <S>New-MgDeviceManagementCartToClassAssociation</S>
+                <S>New-MgDeviceManagementComanagementEligibleDevice</S>
+                <S>New-MgDeviceManagementComplianceManagementPartner</S>
+                <S>New-MgDeviceManagementDeviceConfigurationManagedDeviceCertificateState</S>
+                <S>New-MgDeviceManagementDeviceConfigurationRestrictedAppViolation</S>
+                <S>New-MgDeviceManagementDomainJoinConnector</S>
+                <S>New-MgDeviceManagementExchangeConnector</S>
+                <S>New-MgDeviceManagementExchangeOnPremisPolicy</S>
+                <S>New-MgDeviceManagementGroupPolicyCategory</S>
+                <S>New-MgDeviceManagementGroupPolicyDefinition</S>
+                <S>New-MgDeviceManagementGroupPolicyDefinitionFile</S>
+                <S>New-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentation</S>
+                <S>New-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentation</S>
+                <S>New-MgDeviceManagementGroupPolicyDefinitionPresentation</S>
+                <S>New-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentation</S>
+                <S>New-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentation</S>
+                <S>New-MgDeviceManagementGroupPolicyMigrationReportGroupPolicySettingMapping</S>
+                <S>New-MgDeviceManagementGroupPolicyMigrationReportUnsupportedGroupPolicyExtension</S>
+                <S>New-MgDeviceManagementGroupPolicyObjectFile</S>
+                <S>New-MgDeviceManagementGroupPolicyUploadedDefinitionFile</S>
+                <S>New-MgDeviceManagementGroupPolicyUploadedDefinitionFileGroupPolicyOperation</S>
+                <S>New-MgDeviceManagementIntuneBrandingProfile</S>
+                <S>New-MgDeviceManagementIntuneBrandingProfileAssignment</S>
+                <S>New-MgDeviceManagementIoUpdateStatuses</S>
+                <S>New-MgDeviceManagementMobileThreatDefenseConnector</S>
+                <S>New-MgDeviceManagementNdeConnector</S>
+                <S>New-MgDeviceManagementPartner</S>
+                <S>New-MgDeviceManagementRemoteAssistancePartner</S>
+                <S>New-MgDeviceManagementResourceOperation</S>
+                <S>New-MgDeviceManagementRoleAssignment</S>
+                <S>New-MgDeviceManagementRoleDefinition</S>
+                <S>New-MgDeviceManagementRoleDefinitionRoleAssignment</S>
+                <S>New-MgDeviceManagementRoleScopeTag</S>
+                <S>New-MgDeviceManagementRoleScopeTagAssignment</S>
+                <S>New-MgDeviceManagementTelecomExpenseManagementPartner</S>
+                <S>New-MgDeviceManagementTermAndCondition</S>
+                <S>New-MgDeviceManagementTermAndConditionAcceptanceStatuses</S>
+                <S>New-MgDeviceManagementTermAndConditionAssignment</S>
+                <S>New-MgDeviceManagementTermAndConditionGroupAssignment</S>
+                <S>New-MgDeviceManagementUserPfxCertificate</S>
+                <S>New-MgDeviceManagementVirtualEndpointDeviceImage</S>
+                <S>New-MgDeviceManagementVirtualEndpointExternalPartnerSetting</S>
+                <S>New-MgDeviceManagementVirtualEndpointGalleryImage</S>
+                <S>New-MgDeviceManagementVirtualEndpointOnPremisesConnection</S>
+                <S>New-MgDeviceManagementVirtualEndpointProvisioningPolicy</S>
+                <S>New-MgDeviceManagementVirtualEndpointProvisioningPolicyAssignment</S>
+                <S>New-MgDeviceManagementVirtualEndpointReportExportJob</S>
+                <S>New-MgDeviceManagementVirtualEndpointServicePlan</S>
+                <S>New-MgDeviceManagementVirtualEndpointSnapshot</S>
+                <S>New-MgDeviceManagementVirtualEndpointSupportedRegion</S>
+                <S>New-MgDeviceManagementVirtualEndpointUserSetting</S>
+                <S>New-MgDeviceManagementVirtualEndpointUserSettingAssignment</S>
+                <S>Remove-MgDeviceManagementApplePushNotificationCertificate</S>
+                <S>Remove-MgDeviceManagementAuditEvent</S>
+                <S>Remove-MgDeviceManagementCartToClassAssociation</S>
+                <S>Remove-MgDeviceManagementComanagementEligibleDevice</S>
+                <S>Remove-MgDeviceManagementComplianceManagementPartner</S>
+                <S>Remove-MgDeviceManagementDeviceConfigurationManagedDeviceCertificateState</S>
+                <S>Remove-MgDeviceManagementDeviceConfigurationRestrictedAppViolation</S>
+                <S>Remove-MgDeviceManagementDomainJoinConnector</S>
+                <S>Remove-MgDeviceManagementExchangeConnector</S>
+                <S>Remove-MgDeviceManagementExchangeOnPremisPolicy</S>
+                <S>Remove-MgDeviceManagementExchangeOnPremisPolicyConditionalAccessSetting</S>
+                <S>Remove-MgDeviceManagementGroupPolicyCategory</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinition</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionFile</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinition</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentation</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinition</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentation</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionPresentation</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinition</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinition</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentation</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentation</S>
+                <S>Remove-MgDeviceManagementGroupPolicyMigrationReport</S>
+                <S>Remove-MgDeviceManagementGroupPolicyMigrationReportGroupPolicySettingMapping</S>
+                <S>Remove-MgDeviceManagementGroupPolicyMigrationReportUnsupportedGroupPolicyExtension</S>
+                <S>Remove-MgDeviceManagementGroupPolicyObjectFile</S>
+                <S>Remove-MgDeviceManagementGroupPolicyUploadedDefinitionFileGroupPolicyOperation</S>
+                <S>Remove-MgDeviceManagementIntuneBrandingProfile</S>
+                <S>Remove-MgDeviceManagementIntuneBrandingProfileAssignment</S>
+                <S>Remove-MgDeviceManagementIoUpdateStatuses</S>
+                <S>Remove-MgDeviceManagementMobileThreatDefenseConnector</S>
+                <S>Remove-MgDeviceManagementNdeConnector</S>
+                <S>Remove-MgDeviceManagementPartner</S>
+                <S>Remove-MgDeviceManagementRemoteAssistancePartner</S>
+                <S>Remove-MgDeviceManagementResourceOperation</S>
+                <S>Remove-MgDeviceManagementRoleAssignment</S>
+                <S>Remove-MgDeviceManagementRoleDefinition</S>
+                <S>Remove-MgDeviceManagementRoleDefinitionRoleAssignment</S>
+                <S>Remove-MgDeviceManagementRoleScopeTag</S>
+                <S>Remove-MgDeviceManagementRoleScopeTagAssignment</S>
+                <S>Remove-MgDeviceManagementTelecomExpenseManagementPartner</S>
+                <S>Remove-MgDeviceManagementTermAndCondition</S>
+                <S>Remove-MgDeviceManagementTermAndConditionAcceptanceStatuses</S>
+                <S>Remove-MgDeviceManagementTermAndConditionAssignment</S>
+                <S>Remove-MgDeviceManagementTermAndConditionGroupAssignment</S>
+                <S>Remove-MgDeviceManagementUserPfxCertificate</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointDeviceImage</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointExternalPartnerSetting</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointGalleryImage</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointOnPremisesConnection</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointOrganizationSetting</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointProvisioningPolicy</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointProvisioningPolicyAssignment</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointReport</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointReportExportJob</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointServicePlan</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointSnapshot</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointSupportedRegion</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointUserSetting</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointUserSettingAssignment</S>
+                <S>Update-MgDeviceManagementApplePushNotificationCertificate</S>
+                <S>Update-MgDeviceManagementAuditEvent</S>
+                <S>Update-MgDeviceManagementCartToClassAssociation</S>
+                <S>Update-MgDeviceManagementComanagementEligibleDevice</S>
+                <S>Update-MgDeviceManagementComplianceManagementPartner</S>
+                <S>Update-MgDeviceManagementDeviceConfigurationManagedDeviceCertificateState</S>
+                <S>Update-MgDeviceManagementDeviceConfigurationRestrictedAppViolation</S>
+                <S>Update-MgDeviceManagementDomainJoinConnector</S>
+                <S>Update-MgDeviceManagementExchangeConnector</S>
+                <S>Update-MgDeviceManagementExchangeOnPremisPolicy</S>
+                <S>Update-MgDeviceManagementExchangeOnPremisPolicyConditionalAccessSetting</S>
+                <S>Update-MgDeviceManagementGroupPolicyCategory</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinition</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionFile</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinition</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentation</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinition</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentation</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionPresentation</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinition</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinition</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentation</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentation</S>
+                <S>Update-MgDeviceManagementGroupPolicyMigrationReport</S>
+                <S>Update-MgDeviceManagementGroupPolicyMigrationReportGroupPolicySettingMapping</S>
+                <S>Update-MgDeviceManagementGroupPolicyMigrationReportUnsupportedGroupPolicyExtension</S>
+                <S>Update-MgDeviceManagementGroupPolicyObjectFile</S>
+                <S>Update-MgDeviceManagementGroupPolicyUploadedDefinitionFile</S>
+                <S>Update-MgDeviceManagementGroupPolicyUploadedDefinitionFileGroupPolicyOperation</S>
+                <S>Update-MgDeviceManagementIntuneBrandingProfile</S>
+                <S>Update-MgDeviceManagementIntuneBrandingProfileAssignment</S>
+                <S>Update-MgDeviceManagementIoUpdateStatuses</S>
+                <S>Update-MgDeviceManagementMobileThreatDefenseConnector</S>
+                <S>Update-MgDeviceManagementNdeConnector</S>
+                <S>Update-MgDeviceManagementPartner</S>
+                <S>Update-MgDeviceManagementRemoteAssistancePartner</S>
+                <S>Update-MgDeviceManagementResourceOperation</S>
+                <S>Update-MgDeviceManagementRoleAssignment</S>
+                <S>Update-MgDeviceManagementRoleDefinition</S>
+                <S>Update-MgDeviceManagementRoleDefinitionRoleAssignment</S>
+                <S>Update-MgDeviceManagementRoleScopeTag</S>
+                <S>Update-MgDeviceManagementRoleScopeTagAssignment</S>
+                <S>Update-MgDeviceManagementTelecomExpenseManagementPartner</S>
+                <S>Update-MgDeviceManagementTermAndCondition</S>
+                <S>Update-MgDeviceManagementTermAndConditionAcceptanceStatuses</S>
+                <S>Update-MgDeviceManagementTermAndConditionAssignment</S>
+                <S>Update-MgDeviceManagementTermAndConditionGroupAssignment</S>
+                <S>Update-MgDeviceManagementUserPfxCertificate</S>
+                <S>Update-MgDeviceManagementVirtualEndpointDeviceImage</S>
+                <S>Update-MgDeviceManagementVirtualEndpointExternalPartnerSetting</S>
+                <S>Update-MgDeviceManagementVirtualEndpointGalleryImage</S>
+                <S>Update-MgDeviceManagementVirtualEndpointOnPremisesConnection</S>
+                <S>Update-MgDeviceManagementVirtualEndpointOrganizationSetting</S>
+                <S>Update-MgDeviceManagementVirtualEndpointProvisioningPolicy</S>
+                <S>Update-MgDeviceManagementVirtualEndpointProvisioningPolicyAssignment</S>
+                <S>Update-MgDeviceManagementVirtualEndpointReport</S>
+                <S>Update-MgDeviceManagementVirtualEndpointReportExportJob</S>
+                <S>Update-MgDeviceManagementVirtualEndpointServicePlan</S>
+                <S>Update-MgDeviceManagementVirtualEndpointSnapshot</S>
+                <S>Update-MgDeviceManagementVirtualEndpointSupportedRegion</S>
+                <S>Update-MgDeviceManagementVirtualEndpointUserSetting</S>
+                <S>Update-MgDeviceManagementVirtualEndpointUserSettingAssignment</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-MgDeviceManagementApplePushNotificationCertificate</S>
+                <S>Get-MgDeviceManagementAuditEvent</S>
+                <S>Get-MgDeviceManagementCartToClassAssociation</S>
+                <S>Get-MgDeviceManagementComanagementEligibleDevice</S>
+                <S>Get-MgDeviceManagementComplianceManagementPartner</S>
+                <S>Get-MgDeviceManagementDeviceConfigurationManagedDeviceCertificateState</S>
+                <S>Get-MgDeviceManagementDeviceConfigurationRestrictedAppViolation</S>
+                <S>Get-MgDeviceManagementDomainJoinConnector</S>
+                <S>Get-MgDeviceManagementExchangeConnector</S>
+                <S>Get-MgDeviceManagementExchangeOnPremisPolicy</S>
+                <S>Get-MgDeviceManagementExchangeOnPremisPolicyConditionalAccessSetting</S>
+                <S>Get-MgDeviceManagementGroupPolicyCategory</S>
+                <S>Get-MgDeviceManagementGroupPolicyCategoryChild</S>
+                <S>Get-MgDeviceManagementGroupPolicyCategoryDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyCategoryDefinitionFile</S>
+                <S>Get-MgDeviceManagementGroupPolicyCategoryParent</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionCategory</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionFile</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionFileDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionCategory</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionFile</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentation</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentationDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionCategory</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionFile</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentation</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentationDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPresentation</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPresentationDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionCategory</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionFile</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionCategory</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionFile</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentation</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentationDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentation</S>
+                <S>Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentationDefinition</S>
+                <S>Get-MgDeviceManagementGroupPolicyMigrationReport</S>
+                <S>Get-MgDeviceManagementGroupPolicyMigrationReportGroupPolicySettingMapping</S>
+                <S>Get-MgDeviceManagementGroupPolicyMigrationReportUnsupportedGroupPolicyExtension</S>
+                <S>Get-MgDeviceManagementGroupPolicyObjectFile</S>
+                <S>Get-MgDeviceManagementGroupPolicyUploadedDefinitionFile</S>
+                <S>Get-MgDeviceManagementGroupPolicyUploadedDefinitionFileGroupPolicyOperation</S>
+                <S>Get-MgDeviceManagementIntuneBrandingProfile</S>
+                <S>Get-MgDeviceManagementIntuneBrandingProfileAssignment</S>
+                <S>Get-MgDeviceManagementIoUpdateStatuses</S>
+                <S>Get-MgDeviceManagementMobileThreatDefenseConnector</S>
+                <S>Get-MgDeviceManagementNdeConnector</S>
+                <S>Get-MgDeviceManagementPartner</S>
+                <S>Get-MgDeviceManagementRemoteAssistancePartner</S>
+                <S>Get-MgDeviceManagementResourceOperation</S>
+                <S>Get-MgDeviceManagementRoleAssignment</S>
+                <S>Get-MgDeviceManagementRoleAssignmentRoleScopeTag</S>
+                <S>Get-MgDeviceManagementRoleDefinition</S>
+                <S>Get-MgDeviceManagementRoleDefinitionRoleAssignment</S>
+                <S>Get-MgDeviceManagementRoleDefinitionRoleAssignmentRoleDefinition</S>
+                <S>Get-MgDeviceManagementRoleScopeTag</S>
+                <S>Get-MgDeviceManagementRoleScopeTagAssignment</S>
+                <S>Get-MgDeviceManagementTelecomExpenseManagementPartner</S>
+                <S>Get-MgDeviceManagementTermAndCondition</S>
+                <S>Get-MgDeviceManagementTermAndConditionAcceptanceStatuses</S>
+                <S>Get-MgDeviceManagementTermAndConditionAcceptanceStatusesTermAndCondition</S>
+                <S>Get-MgDeviceManagementTermAndConditionAssignment</S>
+                <S>Get-MgDeviceManagementTermAndConditionGroupAssignment</S>
+                <S>Get-MgDeviceManagementTermAndConditionGroupAssignmentTermAndCondition</S>
+                <S>Get-MgDeviceManagementUserPfxCertificate</S>
+                <S>Get-MgDeviceManagementVirtualEndpoint</S>
+                <S>Get-MgDeviceManagementVirtualEndpointAuditEvent</S>
+                <S>Get-MgDeviceManagementVirtualEndpointCloudPC</S>
+                <S>Get-MgDeviceManagementVirtualEndpointDeviceImage</S>
+                <S>Get-MgDeviceManagementVirtualEndpointExternalPartnerSetting</S>
+                <S>Get-MgDeviceManagementVirtualEndpointGalleryImage</S>
+                <S>Get-MgDeviceManagementVirtualEndpointOnPremisesConnection</S>
+                <S>Get-MgDeviceManagementVirtualEndpointOrganizationSetting</S>
+                <S>Get-MgDeviceManagementVirtualEndpointProvisioningPolicy</S>
+                <S>Get-MgDeviceManagementVirtualEndpointProvisioningPolicyAssignment</S>
+                <S>Get-MgDeviceManagementVirtualEndpointReport</S>
+                <S>Get-MgDeviceManagementVirtualEndpointReportExportJob</S>
+                <S>Get-MgDeviceManagementVirtualEndpointServicePlan</S>
+                <S>Get-MgDeviceManagementVirtualEndpointSnapshot</S>
+                <S>Get-MgDeviceManagementVirtualEndpointSupportedRegion</S>
+                <S>Get-MgDeviceManagementVirtualEndpointUserSetting</S>
+                <S>Get-MgDeviceManagementVirtualEndpointUserSettingAssignment</S>
+                <S>New-MgDeviceManagementAuditEvent</S>
+                <S>New-MgDeviceManagementCartToClassAssociation</S>
+                <S>New-MgDeviceManagementComanagementEligibleDevice</S>
+                <S>New-MgDeviceManagementComplianceManagementPartner</S>
+                <S>New-MgDeviceManagementDeviceConfigurationManagedDeviceCertificateState</S>
+                <S>New-MgDeviceManagementDeviceConfigurationRestrictedAppViolation</S>
+                <S>New-MgDeviceManagementDomainJoinConnector</S>
+                <S>New-MgDeviceManagementExchangeConnector</S>
+                <S>New-MgDeviceManagementExchangeOnPremisPolicy</S>
+                <S>New-MgDeviceManagementGroupPolicyCategory</S>
+                <S>New-MgDeviceManagementGroupPolicyDefinition</S>
+                <S>New-MgDeviceManagementGroupPolicyDefinitionFile</S>
+                <S>New-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentation</S>
+                <S>New-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentation</S>
+                <S>New-MgDeviceManagementGroupPolicyDefinitionPresentation</S>
+                <S>New-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentation</S>
+                <S>New-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentation</S>
+                <S>New-MgDeviceManagementGroupPolicyMigrationReportGroupPolicySettingMapping</S>
+                <S>New-MgDeviceManagementGroupPolicyMigrationReportUnsupportedGroupPolicyExtension</S>
+                <S>New-MgDeviceManagementGroupPolicyObjectFile</S>
+                <S>New-MgDeviceManagementGroupPolicyUploadedDefinitionFile</S>
+                <S>New-MgDeviceManagementGroupPolicyUploadedDefinitionFileGroupPolicyOperation</S>
+                <S>New-MgDeviceManagementIntuneBrandingProfile</S>
+                <S>New-MgDeviceManagementIntuneBrandingProfileAssignment</S>
+                <S>New-MgDeviceManagementIoUpdateStatuses</S>
+                <S>New-MgDeviceManagementMobileThreatDefenseConnector</S>
+                <S>New-MgDeviceManagementNdeConnector</S>
+                <S>New-MgDeviceManagementPartner</S>
+                <S>New-MgDeviceManagementRemoteAssistancePartner</S>
+                <S>New-MgDeviceManagementResourceOperation</S>
+                <S>New-MgDeviceManagementRoleAssignment</S>
+                <S>New-MgDeviceManagementRoleDefinition</S>
+                <S>New-MgDeviceManagementRoleDefinitionRoleAssignment</S>
+                <S>New-MgDeviceManagementRoleScopeTag</S>
+                <S>New-MgDeviceManagementRoleScopeTagAssignment</S>
+                <S>New-MgDeviceManagementTelecomExpenseManagementPartner</S>
+                <S>New-MgDeviceManagementTermAndCondition</S>
+                <S>New-MgDeviceManagementTermAndConditionAcceptanceStatuses</S>
+                <S>New-MgDeviceManagementTermAndConditionAssignment</S>
+                <S>New-MgDeviceManagementTermAndConditionGroupAssignment</S>
+                <S>New-MgDeviceManagementUserPfxCertificate</S>
+                <S>New-MgDeviceManagementVirtualEndpointDeviceImage</S>
+                <S>New-MgDeviceManagementVirtualEndpointExternalPartnerSetting</S>
+                <S>New-MgDeviceManagementVirtualEndpointGalleryImage</S>
+                <S>New-MgDeviceManagementVirtualEndpointOnPremisesConnection</S>
+                <S>New-MgDeviceManagementVirtualEndpointProvisioningPolicy</S>
+                <S>New-MgDeviceManagementVirtualEndpointProvisioningPolicyAssignment</S>
+                <S>New-MgDeviceManagementVirtualEndpointReportExportJob</S>
+                <S>New-MgDeviceManagementVirtualEndpointServicePlan</S>
+                <S>New-MgDeviceManagementVirtualEndpointSnapshot</S>
+                <S>New-MgDeviceManagementVirtualEndpointSupportedRegion</S>
+                <S>New-MgDeviceManagementVirtualEndpointUserSetting</S>
+                <S>New-MgDeviceManagementVirtualEndpointUserSettingAssignment</S>
+                <S>Remove-MgDeviceManagementApplePushNotificationCertificate</S>
+                <S>Remove-MgDeviceManagementAuditEvent</S>
+                <S>Remove-MgDeviceManagementCartToClassAssociation</S>
+                <S>Remove-MgDeviceManagementComanagementEligibleDevice</S>
+                <S>Remove-MgDeviceManagementComplianceManagementPartner</S>
+                <S>Remove-MgDeviceManagementDeviceConfigurationManagedDeviceCertificateState</S>
+                <S>Remove-MgDeviceManagementDeviceConfigurationRestrictedAppViolation</S>
+                <S>Remove-MgDeviceManagementDomainJoinConnector</S>
+                <S>Remove-MgDeviceManagementExchangeConnector</S>
+                <S>Remove-MgDeviceManagementExchangeOnPremisPolicy</S>
+                <S>Remove-MgDeviceManagementExchangeOnPremisPolicyConditionalAccessSetting</S>
+                <S>Remove-MgDeviceManagementGroupPolicyCategory</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinition</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionFile</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinition</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentation</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinition</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentation</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionPresentation</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinition</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinition</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentation</S>
+                <S>Remove-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentation</S>
+                <S>Remove-MgDeviceManagementGroupPolicyMigrationReport</S>
+                <S>Remove-MgDeviceManagementGroupPolicyMigrationReportGroupPolicySettingMapping</S>
+                <S>Remove-MgDeviceManagementGroupPolicyMigrationReportUnsupportedGroupPolicyExtension</S>
+                <S>Remove-MgDeviceManagementGroupPolicyObjectFile</S>
+                <S>Remove-MgDeviceManagementGroupPolicyUploadedDefinitionFileGroupPolicyOperation</S>
+                <S>Remove-MgDeviceManagementIntuneBrandingProfile</S>
+                <S>Remove-MgDeviceManagementIntuneBrandingProfileAssignment</S>
+                <S>Remove-MgDeviceManagementIoUpdateStatuses</S>
+                <S>Remove-MgDeviceManagementMobileThreatDefenseConnector</S>
+                <S>Remove-MgDeviceManagementNdeConnector</S>
+                <S>Remove-MgDeviceManagementPartner</S>
+                <S>Remove-MgDeviceManagementRemoteAssistancePartner</S>
+                <S>Remove-MgDeviceManagementResourceOperation</S>
+                <S>Remove-MgDeviceManagementRoleAssignment</S>
+                <S>Remove-MgDeviceManagementRoleDefinition</S>
+                <S>Remove-MgDeviceManagementRoleDefinitionRoleAssignment</S>
+                <S>Remove-MgDeviceManagementRoleScopeTag</S>
+                <S>Remove-MgDeviceManagementRoleScopeTagAssignment</S>
+                <S>Remove-MgDeviceManagementTelecomExpenseManagementPartner</S>
+                <S>Remove-MgDeviceManagementTermAndCondition</S>
+                <S>Remove-MgDeviceManagementTermAndConditionAcceptanceStatuses</S>
+                <S>Remove-MgDeviceManagementTermAndConditionAssignment</S>
+                <S>Remove-MgDeviceManagementTermAndConditionGroupAssignment</S>
+                <S>Remove-MgDeviceManagementUserPfxCertificate</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointDeviceImage</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointExternalPartnerSetting</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointGalleryImage</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointOnPremisesConnection</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointOrganizationSetting</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointProvisioningPolicy</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointProvisioningPolicyAssignment</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointReport</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointReportExportJob</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointServicePlan</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointSnapshot</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointSupportedRegion</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointUserSetting</S>
+                <S>Remove-MgDeviceManagementVirtualEndpointUserSettingAssignment</S>
+                <S>Update-MgDeviceManagementApplePushNotificationCertificate</S>
+                <S>Update-MgDeviceManagementAuditEvent</S>
+                <S>Update-MgDeviceManagementCartToClassAssociation</S>
+                <S>Update-MgDeviceManagementComanagementEligibleDevice</S>
+                <S>Update-MgDeviceManagementComplianceManagementPartner</S>
+                <S>Update-MgDeviceManagementDeviceConfigurationManagedDeviceCertificateState</S>
+                <S>Update-MgDeviceManagementDeviceConfigurationRestrictedAppViolation</S>
+                <S>Update-MgDeviceManagementDomainJoinConnector</S>
+                <S>Update-MgDeviceManagementExchangeConnector</S>
+                <S>Update-MgDeviceManagementExchangeOnPremisPolicy</S>
+                <S>Update-MgDeviceManagementExchangeOnPremisPolicyConditionalAccessSetting</S>
+                <S>Update-MgDeviceManagementGroupPolicyCategory</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinition</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionFile</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinition</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentation</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinition</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentation</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionPresentation</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinition</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinition</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentation</S>
+                <S>Update-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentation</S>
+                <S>Update-MgDeviceManagementGroupPolicyMigrationReport</S>
+                <S>Update-MgDeviceManagementGroupPolicyMigrationReportGroupPolicySettingMapping</S>
+                <S>Update-MgDeviceManagementGroupPolicyMigrationReportUnsupportedGroupPolicyExtension</S>
+                <S>Update-MgDeviceManagementGroupPolicyObjectFile</S>
+                <S>Update-MgDeviceManagementGroupPolicyUploadedDefinitionFile</S>
+                <S>Update-MgDeviceManagementGroupPolicyUploadedDefinitionFileGroupPolicyOperation</S>
+                <S>Update-MgDeviceManagementIntuneBrandingProfile</S>
+                <S>Update-MgDeviceManagementIntuneBrandingProfileAssignment</S>
+                <S>Update-MgDeviceManagementIoUpdateStatuses</S>
+                <S>Update-MgDeviceManagementMobileThreatDefenseConnector</S>
+                <S>Update-MgDeviceManagementNdeConnector</S>
+                <S>Update-MgDeviceManagementPartner</S>
+                <S>Update-MgDeviceManagementRemoteAssistancePartner</S>
+                <S>Update-MgDeviceManagementResourceOperation</S>
+                <S>Update-MgDeviceManagementRoleAssignment</S>
+                <S>Update-MgDeviceManagementRoleDefinition</S>
+                <S>Update-MgDeviceManagementRoleDefinitionRoleAssignment</S>
+                <S>Update-MgDeviceManagementRoleScopeTag</S>
+                <S>Update-MgDeviceManagementRoleScopeTagAssignment</S>
+                <S>Update-MgDeviceManagementTelecomExpenseManagementPartner</S>
+                <S>Update-MgDeviceManagementTermAndCondition</S>
+                <S>Update-MgDeviceManagementTermAndConditionAcceptanceStatuses</S>
+                <S>Update-MgDeviceManagementTermAndConditionAssignment</S>
+                <S>Update-MgDeviceManagementTermAndConditionGroupAssignment</S>
+                <S>Update-MgDeviceManagementUserPfxCertificate</S>
+                <S>Update-MgDeviceManagementVirtualEndpointDeviceImage</S>
+                <S>Update-MgDeviceManagementVirtualEndpointExternalPartnerSetting</S>
+                <S>Update-MgDeviceManagementVirtualEndpointGalleryImage</S>
+                <S>Update-MgDeviceManagementVirtualEndpointOnPremisesConnection</S>
+                <S>Update-MgDeviceManagementVirtualEndpointOrganizationSetting</S>
+                <S>Update-MgDeviceManagementVirtualEndpointProvisioningPolicy</S>
+                <S>Update-MgDeviceManagementVirtualEndpointProvisioningPolicyAssignment</S>
+                <S>Update-MgDeviceManagementVirtualEndpointReport</S>
+                <S>Update-MgDeviceManagementVirtualEndpointReportExportJob</S>
+                <S>Update-MgDeviceManagementVirtualEndpointServicePlan</S>
+                <S>Update-MgDeviceManagementVirtualEndpointSnapshot</S>
+                <S>Update-MgDeviceManagementVirtualEndpointSupportedRegion</S>
+                <S>Update-MgDeviceManagementVirtualEndpointUserSetting</S>
+                <S>Update-MgDeviceManagementVirtualEndpointUserSettingAssignment</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Microsoft.Graph.Authentication</S>
+              </En>
+              <En>
+                <S N="Key">RequiredVersion</S>
+                <S N="Value">1.12.2</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Microsoft.Graph.Authentication/[1.12.2]</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Graph PowerShell Cmdlets</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">3907</S>
+          <S N="downloadCount">553433</S>
+          <S N="packageSize">2974113</S>
+          <S N="published">9/29/2022 6:04:13 PM -05:00</S>
+          <S N="created">9/29/2022 6:04:13 PM -05:00</S>
+          <S N="lastUpdated">9/30/2022 8:28:22 PM -05:00</S>
+          <S N="tags">Microsoft Office365 Graph PowerShell PSModule PSIncludes_Cmdlet PSEdition_Core PSEdition_Desktop PSFunction_Get-MgDeviceManagementApplePushNotificationCertificate PSCommand_Get-MgDeviceManagementApplePushNotificationCertificate PSFunction_Get-MgDeviceManagementAuditEvent PSCommand_Get-MgDeviceManagementAuditEvent PSFunction_Get-MgDeviceManagementCartToClassAssociation PSCommand_Get-MgDeviceManagementCartToClassAssociation PSFunction_Get-MgDeviceManagementComanagementEligibleDevice PSCommand_Get-MgDeviceManagementComanagementEligibleDevice PSFunction_Get-MgDeviceManagementComplianceManagementPartner PSCommand_Get-MgDeviceManagementComplianceManagementPartner PSFunction_Get-MgDeviceManagementDeviceConfigurationManagedDeviceCertificateState PSCommand_Get-MgDeviceManagementDeviceConfigurationManagedDeviceCertificateState PSFunction_Get-MgDeviceManagementDeviceConfigurationRestrictedAppViolation PSCommand_Get-MgDeviceManagementDeviceConfigurationRestrictedAppViolation PSFunction_Get-MgDeviceManagementDomainJoinConnector PSCommand_Get-MgDeviceManagementDomainJoinConnector PSFunction_Get-MgDeviceManagementExchangeConnector PSCommand_Get-MgDeviceManagementExchangeConnector PSFunction_Get-MgDeviceManagementExchangeOnPremisPolicy PSCommand_Get-MgDeviceManagementExchangeOnPremisPolicy PSFunction_Get-MgDeviceManagementExchangeOnPremisPolicyConditionalAccessSetting PSCommand_Get-MgDeviceManagementExchangeOnPremisPolicyConditionalAccessSetting PSFunction_Get-MgDeviceManagementGroupPolicyCategory PSCommand_Get-MgDeviceManagementGroupPolicyCategory PSFunction_Get-MgDeviceManagementGroupPolicyCategoryChild PSCommand_Get-MgDeviceManagementGroupPolicyCategoryChild PSFunction_Get-MgDeviceManagementGroupPolicyCategoryDefinition PSCommand_Get-MgDeviceManagementGroupPolicyCategoryDefinition PSFunction_Get-MgDeviceManagementGroupPolicyCategoryDefinitionFile PSCommand_Get-MgDeviceManagementGroupPolicyCategoryDefinitionFile PSFunction_Get-MgDeviceManagementGroupPolicyCategoryParent PSCommand_Get-MgDeviceManagementGroupPolicyCategoryParent PSFunction_Get-MgDeviceManagementGroupPolicyDefinition PSCommand_Get-MgDeviceManagementGroupPolicyDefinition PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionCategory PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionCategory PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionFile PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionFile PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionFileDefinition PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionFileDefinition PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinition PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinition PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionCategory PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionCategory PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionFile PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionFile PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentation PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentation PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentationDefinition PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentationDefinition PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinition PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinition PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionCategory PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionCategory PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionFile PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionFile PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentation PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentation PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentationDefinition PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentationDefinition PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionPresentation PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionPresentation PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionPresentationDefinition PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionPresentationDefinition PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinition PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinition PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionCategory PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionCategory PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionFile PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionFile PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinition PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinition PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionCategory PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionCategory PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionFile PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionFile PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentation PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentation PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentationDefinition PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentationDefinition PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentation PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentation PSFunction_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentationDefinition PSCommand_Get-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentationDefinition PSFunction_Get-MgDeviceManagementGroupPolicyMigrationReport PSCommand_Get-MgDeviceManagementGroupPolicyMigrationReport PSFunction_Get-MgDeviceManagementGroupPolicyMigrationReportGroupPolicySettingMapping PSCommand_Get-MgDeviceManagementGroupPolicyMigrationReportGroupPolicySettingMapping PSFunction_Get-MgDeviceManagementGroupPolicyMigrationReportUnsupportedGroupPolicyExtension PSCommand_Get-MgDeviceManagementGroupPolicyMigrationReportUnsupportedGroupPolicyExtension PSFunction_Get-MgDeviceManagementGroupPolicyObjectFile PSCommand_Get-MgDeviceManagementGroupPolicyObjectFile PSFunction_Get-MgDeviceManagementGroupPolicyUploadedDefinitionFile PSCommand_Get-MgDeviceManagementGroupPolicyUploadedDefinitionFile PSFunction_Get-MgDeviceManagementGroupPolicyUploadedDefinitionFileGroupPolicyOperation PSCommand_Get-MgDeviceManagementGroupPolicyUploadedDefinitionFileGroupPolicyOperation PSFunction_Get-MgDeviceManagementIntuneBrandingProfile PSCommand_Get-MgDeviceManagementIntuneBrandingProfile PSFunction_Get-MgDeviceManagementIntuneBrandingProfileAssignment PSCommand_Get-MgDeviceManagementIntuneBrandingProfileAssignment PSFunction_Get-MgDeviceManagementIoUpdateStatuses PSCommand_Get-MgDeviceManagementIoUpdateStatuses PSFunction_Get-MgDeviceManagementMobileThreatDefenseConnector PSCommand_Get-MgDeviceManagementMobileThreatDefenseConnector PSFunction_Get-MgDeviceManagementNdeConnector PSCommand_Get-MgDeviceManagementNdeConnector PSFunction_Get-MgDeviceManagementPartner PSCommand_Get-MgDeviceManagementPartner PSFunction_Get-MgDeviceManagementRemoteAssistancePartner PSCommand_Get-MgDeviceManagementRemoteAssistancePartner PSFunction_Get-MgDeviceManagementResourceOperation PSCommand_Get-MgDeviceManagementResourceOperation PSFunction_Get-MgDeviceManagementRoleAssignment PSCommand_Get-MgDeviceManagementRoleAssignment PSFunction_Get-MgDeviceManagementRoleAssignmentRoleScopeTag PSCommand_Get-MgDeviceManagementRoleAssignmentRoleScopeTag PSFunction_Get-MgDeviceManagementRoleDefinition PSCommand_Get-MgDeviceManagementRoleDefinition PSFunction_Get-MgDeviceManagementRoleDefinitionRoleAssignment PSCommand_Get-MgDeviceManagementRoleDefinitionRoleAssignment PSFunction_Get-MgDeviceManagementRoleDefinitionRoleAssignmentRoleDefinition PSCommand_Get-MgDeviceManagementRoleDefinitionRoleAssignmentRoleDefinition PSFunction_Get-MgDeviceManagementRoleScopeTag PSCommand_Get-MgDeviceManagementRoleScopeTag PSFunction_Get-MgDeviceManagementRoleScopeTagAssignment PSCommand_Get-MgDeviceManagementRoleScopeTagAssignment PSFunction_Get-MgDeviceManagementTelecomExpenseManagementPartner PSCommand_Get-MgDeviceManagementTelecomExpenseManagementPartner PSFunction_Get-MgDeviceManagementTermAndCondition PSCommand_Get-MgDeviceManagementTermAndCondition PSFunction_Get-MgDeviceManagementTermAndConditionAcceptanceStatuses PSCommand_Get-MgDeviceManagementTermAndConditionAcceptanceStatuses PSFunction_Get-MgDeviceManagementTermAndConditionAcceptanceStatusesTermAndCondition PSCommand_Get-MgDeviceManagementTermAndConditionAcceptanceStatusesTermAndCondition PSFunction_Get-MgDeviceManagementTermAndConditionAssignment PSCommand_Get-MgDeviceManagementTermAndConditionAssignment PSFunction_Get-MgDeviceManagementTermAndConditionGroupAssignment PSCommand_Get-MgDeviceManagementTermAndConditionGroupAssignment PSFunction_Get-MgDeviceManagementTermAndConditionGroupAssignmentTermAndCondition PSCommand_Get-MgDeviceManagementTermAndConditionGroupAssignmentTermAndCondition PSFunction_Get-MgDeviceManagementUserPfxCertificate PSCommand_Get-MgDeviceManagementUserPfxCertificate PSFunction_Get-MgDeviceManagementVirtualEndpoint PSCommand_Get-MgDeviceManagementVirtualEndpoint PSFunction_Get-MgDeviceManagementVirtualEndpointAuditEvent PSCommand_Get-MgDeviceManagementVirtualEndpointAuditEvent PSFunction_Get-MgDeviceManagementVirtualEndpointCloudPC PSCommand_Get-MgDeviceManagementVirtualEndpointCloudPC PSFunction_Get-MgDeviceManagementVirtualEndpointDeviceImage PSCommand_Get-MgDeviceManagementVirtualEndpointDeviceImage PSFunction_Get-MgDeviceManagementVirtualEndpointExternalPartnerSetting PSCommand_Get-MgDeviceManagementVirtualEndpointExternalPartnerSetting PSFunction_Get-MgDeviceManagementVirtualEndpointGalleryImage PSCommand_Get-MgDeviceManagementVirtualEndpointGalleryImage PSFunction_Get-MgDeviceManagementVirtualEndpointOnPremisesConnection PSCommand_Get-MgDeviceManagementVirtualEndpointOnPremisesConnection PSFunction_Get-MgDeviceManagementVirtualEndpointOrganizationSetting PSCommand_Get-MgDeviceManagementVirtualEndpointOrganizationSetting PSFunction_Get-MgDeviceManagementVirtualEndpointProvisioningPolicy PSCommand_Get-MgDeviceManagementVirtualEndpointProvisioningPolicy PSFunction_Get-MgDeviceManagementVirtualEndpointProvisioningPolicyAssignment PSCommand_Get-MgDeviceManagementVirtualEndpointProvisioningPolicyAssignment PSFunction_Get-MgDeviceManagementVirtualEndpointReport PSCommand_Get-MgDeviceManagementVirtualEndpointReport PSFunction_Get-MgDeviceManagementVirtualEndpointReportExportJob PSCommand_Get-MgDeviceManagementVirtualEndpointReportExportJob PSFunction_Get-MgDeviceManagementVirtualEndpointServicePlan PSCommand_Get-MgDeviceManagementVirtualEndpointServicePlan PSFunction_Get-MgDeviceManagementVirtualEndpointSnapshot PSCommand_Get-MgDeviceManagementVirtualEndpointSnapshot PSFunction_Get-MgDeviceManagementVirtualEndpointSupportedRegion PSCommand_Get-MgDeviceManagementVirtualEndpointSupportedRegion PSFunction_Get-MgDeviceManagementVirtualEndpointUserSetting PSCommand_Get-MgDeviceManagementVirtualEndpointUserSetting PSFunction_Get-MgDeviceManagementVirtualEndpointUserSettingAssignment PSCommand_Get-MgDeviceManagementVirtualEndpointUserSettingAssignment PSFunction_New-MgDeviceManagementAuditEvent PSCommand_New-MgDeviceManagementAuditEvent PSFunction_New-MgDeviceManagementCartToClassAssociation PSCommand_New-MgDeviceManagementCartToClassAssociation PSFunction_New-MgDeviceManagementComanagementEligibleDevice PSCommand_New-MgDeviceManagementComanagementEligibleDevice PSFunction_New-MgDeviceManagementComplianceManagementPartner PSCommand_New-MgDeviceManagementComplianceManagementPartner PSFunction_New-MgDeviceManagementDeviceConfigurationManagedDeviceCertificateState PSCommand_New-MgDeviceManagementDeviceConfigurationManagedDeviceCertificateState PSFunction_New-MgDeviceManagementDeviceConfigurationRestrictedAppViolation PSCommand_New-MgDeviceManagementDeviceConfigurationRestrictedAppViolation PSFunction_New-MgDeviceManagementDomainJoinConnector PSCommand_New-MgDeviceManagementDomainJoinConnector PSFunction_New-MgDeviceManagementExchangeConnector PSCommand_New-MgDeviceManagementExchangeConnector PSFunction_New-MgDeviceManagementExchangeOnPremisPolicy PSCommand_New-MgDeviceManagementExchangeOnPremisPolicy PSFunction_New-MgDeviceManagementGroupPolicyCategory PSCommand_New-MgDeviceManagementGroupPolicyCategory PSFunction_New-MgDeviceManagementGroupPolicyDefinition PSCommand_New-MgDeviceManagementGroupPolicyDefinition PSFunction_New-MgDeviceManagementGroupPolicyDefinitionFile PSCommand_New-MgDeviceManagementGroupPolicyDefinitionFile PSFunction_New-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentation PSCommand_New-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentation PSFunction_New-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentation PSCommand_New-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentation PSFunction_New-MgDeviceManagementGroupPolicyDefinitionPresentation PSCommand_New-MgDeviceManagementGroupPolicyDefinitionPresentation PSFunction_New-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentation PSCommand_New-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentation PSFunction_New-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentation PSCommand_New-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentation PSFunction_New-MgDeviceManagementGroupPolicyMigrationReportGroupPolicySettingMapping PSCommand_New-MgDeviceManagementGroupPolicyMigrationReportGroupPolicySettingMapping PSFunction_New-MgDeviceManagementGroupPolicyMigrationReportUnsupportedGroupPolicyExtension PSCommand_New-MgDeviceManagementGroupPolicyMigrationReportUnsupportedGroupPolicyExtension PSFunction_New-MgDeviceManagementGroupPolicyObjectFile PSCommand_New-MgDeviceManagementGroupPolicyObjectFile PSFunction_New-MgDeviceManagementGroupPolicyUploadedDefinitionFile PSCommand_New-MgDeviceManagementGroupPolicyUploadedDefinitionFile PSFunction_New-MgDeviceManagementGroupPolicyUploadedDefinitionFileGroupPolicyOperation PSCommand_New-MgDeviceManagementGroupPolicyUploadedDefinitionFileGroupPolicyOperation PSFunction_New-MgDeviceManagementIntuneBrandingProfile PSCommand_New-MgDeviceManagementIntuneBrandingProfile PSFunction_New-MgDeviceManagementIntuneBrandingProfileAssignment PSCommand_New-MgDeviceManagementIntuneBrandingProfileAssignment PSFunction_New-MgDeviceManagementIoUpdateStatuses PSCommand_New-MgDeviceManagementIoUpdateStatuses PSFunction_New-MgDeviceManagementMobileThreatDefenseConnector PSCommand_New-MgDeviceManagementMobileThreatDefenseConnector PSFunction_New-MgDeviceManagementNdeConnector PSCommand_New-MgDeviceManagementNdeConnector PSFunction_New-MgDeviceManagementPartner PSCommand_New-MgDeviceManagementPartner PSFunction_New-MgDeviceManagementRemoteAssistancePartner PSCommand_New-MgDeviceManagementRemoteAssistancePartner PSFunction_New-MgDeviceManagementResourceOperation PSCommand_New-MgDeviceManagementResourceOperation PSFunction_New-MgDeviceManagementRoleAssignment PSCommand_New-MgDeviceManagementRoleAssignment PSFunction_New-MgDeviceManagementRoleDefinition PSCommand_New-MgDeviceManagementRoleDefinition PSFunction_New-MgDeviceManagementRoleDefinitionRoleAssignment PSCommand_New-MgDeviceManagementRoleDefinitionRoleAssignment PSFunction_New-MgDeviceManagementRoleScopeTag PSCommand_New-MgDeviceManagementRoleScopeTag PSFunction_New-MgDeviceManagementRoleScopeTagAssignment PSCommand_New-MgDeviceManagementRoleScopeTagAssignment PSFunction_New-MgDeviceManagementTelecomExpenseManagementPartner PSCommand_New-MgDeviceManagementTelecomExpenseManagementPartner PSFunction_New-MgDeviceManagementTermAndCondition PSCommand_New-MgDeviceManagementTermAndCondition PSFunction_New-MgDeviceManagementTermAndConditionAcceptanceStatuses PSCommand_New-MgDeviceManagementTermAndConditionAcceptanceStatuses PSFunction_New-MgDeviceManagementTermAndConditionAssignment PSCommand_New-MgDeviceManagementTermAndConditionAssignment PSFunction_New-MgDeviceManagementTermAndConditionGroupAssignment PSCommand_New-MgDeviceManagementTermAndConditionGroupAssignment PSFunction_New-MgDeviceManagementUserPfxCertificate PSCommand_New-MgDeviceManagementUserPfxCertificate PSFunction_New-MgDeviceManagementVirtualEndpointDeviceImage PSCommand_New-MgDeviceManagementVirtualEndpointDeviceImage PSFunction_New-MgDeviceManagementVirtualEndpointExternalPartnerSetting PSCommand_New-MgDeviceManagementVirtualEndpointExternalPartnerSetting PSFunction_New-MgDeviceManagementVirtualEndpointGalleryImage PSCommand_New-MgDeviceManagementVirtualEndpointGalleryImage PSFunction_New-MgDeviceManagementVirtualEndpointOnPremisesConnection PSCommand_New-MgDeviceManagementVirtualEndpointOnPremisesConnection PSFunction_New-MgDeviceManagementVirtualEndpointProvisioningPolicy PSCommand_New-MgDeviceManagementVirtualEndpointProvisioningPolicy PSFunction_New-MgDeviceManagementVirtualEndpointProvisioningPolicyAssignment PSCommand_New-MgDeviceManagementVirtualEndpointProvisioningPolicyAssignment PSFunction_New-MgDeviceManagementVirtualEndpointReportExportJob PSCommand_New-MgDeviceManagementVirtualEndpointReportExportJob PSFunction_New-MgDeviceManagementVirtualEndpointServicePlan PSCommand_New-MgDeviceManagementVirtualEndpointServicePlan PSFunction_New-MgDeviceManagementVirtualEndpointSnapshot PSCommand_New-MgDeviceManagementVirtualEndpointSnapshot PSFunction_New-MgDeviceManagementVirtualEndpointSupportedRegion PSCommand_New-MgDeviceManagementVirtualEndpointSupportedRegion PSFunction_New-MgDeviceManagementVirtualEndpointUserSetting PSCommand_New-MgDeviceManagementVirtualEndpointUserSetting PSFunction_New-MgDeviceManagementVirtualEndpointUserSettingAssignment PSCommand_New-MgDeviceManagementVirtualEndpointUserSettingAssignment PSFunction_Remove-MgDeviceManagementApplePushNotificationCertificate PSCommand_Remove-MgDeviceManagementApplePushNotificationCertificate PSFunction_Remove-MgDeviceManagementAuditEvent PSCommand_Remove-MgDeviceManagementAuditEvent PSFunction_Remove-MgDeviceManagementCartToClassAssociation PSCommand_Remove-MgDeviceManagementCartToClassAssociation PSFunction_Remove-MgDeviceManagementComanagementEligibleDevice PSCommand_Remove-MgDeviceManagementComanagementEligibleDevice PSFunction_Remove-MgDeviceManagementComplianceManagementPartner PSCommand_Remove-MgDeviceManagementComplianceManagementPartner PSFunction_Remove-MgDeviceManagementDeviceConfigurationManagedDeviceCertificateState PSCommand_Remove-MgDeviceManagementDeviceConfigurationManagedDeviceCertificateState PSFunction_Remove-MgDeviceManagementDeviceConfigurationRestrictedAppViolation PSCommand_Remove-MgDeviceManagementDeviceConfigurationRestrictedAppViolation PSFunction_Remove-MgDeviceManagementDomainJoinConnector PSCommand_Remove-MgDeviceManagementDomainJoinConnector PSFunction_Remove-MgDeviceManagementExchangeConnector PSCommand_Remove-MgDeviceManagementExchangeConnector PSFunction_Remove-MgDeviceManagementExchangeOnPremisPolicy PSCommand_Remove-MgDeviceManagementExchangeOnPremisPolicy PSFunction_Remove-MgDeviceManagementExchangeOnPremisPolicyConditionalAccessSetting PSCommand_Remove-MgDeviceManagementExchangeOnPremisPolicyConditionalAccessSetting PSFunction_Remove-MgDeviceManagementGroupPolicyCategory PSCommand_Remove-MgDeviceManagementGroupPolicyCategory PSFunction_Remove-MgDeviceManagementGroupPolicyDefinition PSCommand_Remove-MgDeviceManagementGroupPolicyDefinition PSFunction_Remove-MgDeviceManagementGroupPolicyDefinitionFile PSCommand_Remove-MgDeviceManagementGroupPolicyDefinitionFile PSFunction_Remove-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinition PSCommand_Remove-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinition PSFunction_Remove-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentation PSCommand_Remove-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentation PSFunction_Remove-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinition PSCommand_Remove-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinition PSFunction_Remove-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentation PSCommand_Remove-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentation PSFunction_Remove-MgDeviceManagementGroupPolicyDefinitionPresentation PSCommand_Remove-MgDeviceManagementGroupPolicyDefinitionPresentation PSFunction_Remove-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinition PSCommand_Remove-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinition PSFunction_Remove-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinition PSCommand_Remove-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinition PSFunction_Remove-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentation PSCommand_Remove-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentation PSFunction_Remove-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentation PSCommand_Remove-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentation PSFunction_Remove-MgDeviceManagementGroupPolicyMigrationReport PSCommand_Remove-MgDeviceManagementGroupPolicyMigrationReport PSFunction_Remove-MgDeviceManagementGroupPolicyMigrationReportGroupPolicySettingMapping PSCommand_Remove-MgDeviceManagementGroupPolicyMigrationReportGroupPolicySettingMapping PSFunction_Remove-MgDeviceManagementGroupPolicyMigrationReportUnsupportedGroupPolicyExtension PSCommand_Remove-MgDeviceManagementGroupPolicyMigrationReportUnsupportedGroupPolicyExtension PSFunction_Remove-MgDeviceManagementGroupPolicyObjectFile PSCommand_Remove-MgDeviceManagementGroupPolicyObjectFile PSFunction_Remove-MgDeviceManagementGroupPolicyUploadedDefinitionFileGroupPolicyOperation PSCommand_Remove-MgDeviceManagementGroupPolicyUploadedDefinitionFileGroupPolicyOperation PSFunction_Remove-MgDeviceManagementIntuneBrandingProfile PSCommand_Remove-MgDeviceManagementIntuneBrandingProfile PSFunction_Remove-MgDeviceManagementIntuneBrandingProfileAssignment PSCommand_Remove-MgDeviceManagementIntuneBrandingProfileAssignment PSFunction_Remove-MgDeviceManagementIoUpdateStatuses PSCommand_Remove-MgDeviceManagementIoUpdateStatuses PSFunction_Remove-MgDeviceManagementMobileThreatDefenseConnector PSCommand_Remove-MgDeviceManagementMobileThreatDefenseConnector PSFunction_Remove-MgDeviceManagementNdeConnector PSCommand_Remove-MgDeviceManagementNdeConnector PSFunction_Remove-MgDeviceManagementPartner PSCommand_Remove-MgDeviceManagementPartner PSFunction_Remove-MgDeviceManagementRemoteAssistancePartner PSCommand_Remove-MgDeviceManagementRemoteAssistancePartner PSFunction_Remove-MgDeviceManagementResourceOperation PSCommand_Remove-MgDeviceManagementResourceOperation PSFunction_Remove-MgDeviceManagementRoleAssignment PSCommand_Remove-MgDeviceManagementRoleAssignment PSFunction_Remove-MgDeviceManagementRoleDefinition PSCommand_Remove-MgDeviceManagementRoleDefinition PSFunction_Remove-MgDeviceManagementRoleDefinitionRoleAssignment PSCommand_Remove-MgDeviceManagementRoleDefinitionRoleAssignment PSFunction_Remove-MgDeviceManagementRoleScopeTag PSCommand_Remove-MgDeviceManagementRoleScopeTag PSFunction_Remove-MgDeviceManagementRoleScopeTagAssignment PSCommand_Remove-MgDeviceManagementRoleScopeTagAssignment PSFunction_Remove-MgDeviceManagementTelecomExpenseManagementPartner PSCommand_Remove-MgDeviceManagementTelecomExpenseManagementPartner PSFunction_Remove-MgDeviceManagementTermAndCondition PSCommand_Remove-MgDeviceManagementTermAndCondition PSFunction_Remove-MgDeviceManagementTermAndConditionAcceptanceStatuses PSCommand_Remove-MgDeviceManagementTermAndConditionAcceptanceStatuses PSFunction_Remove-MgDeviceManagementTermAndConditionAssignment PSCommand_Remove-MgDeviceManagementTermAndConditionAssignment PSFunction_Remove-MgDeviceManagementTermAndConditionGroupAssignment PSCommand_Remove-MgDeviceManagementTermAndConditionGroupAssignment PSFunction_Remove-MgDeviceManagementUserPfxCertificate PSCommand_Remove-MgDeviceManagementUserPfxCertificate PSFunction_Remove-MgDeviceManagementVirtualEndpointDeviceImage PSCommand_Remove-MgDeviceManagementVirtualEndpointDeviceImage PSFunction_Remove-MgDeviceManagementVirtualEndpointExternalPartnerSetting PSCommand_Remove-MgDeviceManagementVirtualEndpointExternalPartnerSetting PSFunction_Remove-MgDeviceManagementVirtualEndpointGalleryImage PSCommand_Remove-MgDeviceManagementVirtualEndpointGalleryImage PSFunction_Remove-MgDeviceManagementVirtualEndpointOnPremisesConnection PSCommand_Remove-MgDeviceManagementVirtualEndpointOnPremisesConnection PSFunction_Remove-MgDeviceManagementVirtualEndpointOrganizationSetting PSCommand_Remove-MgDeviceManagementVirtualEndpointOrganizationSetting PSFunction_Remove-MgDeviceManagementVirtualEndpointProvisioningPolicy PSCommand_Remove-MgDeviceManagementVirtualEndpointProvisioningPolicy PSFunction_Remove-MgDeviceManagementVirtualEndpointProvisioningPolicyAssignment PSCommand_Remove-MgDeviceManagementVirtualEndpointProvisioningPolicyAssignment PSFunction_Remove-MgDeviceManagementVirtualEndpointReport PSCommand_Remove-MgDeviceManagementVirtualEndpointReport PSFunction_Remove-MgDeviceManagementVirtualEndpointReportExportJob PSCommand_Remove-MgDeviceManagementVirtualEndpointReportExportJob PSFunction_Remove-MgDeviceManagementVirtualEndpointServicePlan PSCommand_Remove-MgDeviceManagementVirtualEndpointServicePlan PSFunction_Remove-MgDeviceManagementVirtualEndpointSnapshot PSCommand_Remove-MgDeviceManagementVirtualEndpointSnapshot PSFunction_Remove-MgDeviceManagementVirtualEndpointSupportedRegion PSCommand_Remove-MgDeviceManagementVirtualEndpointSupportedRegion PSFunction_Remove-MgDeviceManagementVirtualEndpointUserSetting PSCommand_Remove-MgDeviceManagementVirtualEndpointUserSetting PSFunction_Remove-MgDeviceManagementVirtualEndpointUserSettingAssignment PSCommand_Remove-MgDeviceManagementVirtualEndpointUserSettingAssignment PSFunction_Update-MgDeviceManagementApplePushNotificationCertificate PSCommand_Update-MgDeviceManagementApplePushNotificationCertificate PSFunction_Update-MgDeviceManagementAuditEvent PSCommand_Update-MgDeviceManagementAuditEvent PSFunction_Update-MgDeviceManagementCartToClassAssociation PSCommand_Update-MgDeviceManagementCartToClassAssociation PSFunction_Update-MgDeviceManagementComanagementEligibleDevice PSCommand_Update-MgDeviceManagementComanagementEligibleDevice PSFunction_Update-MgDeviceManagementComplianceManagementPartner PSCommand_Update-MgDeviceManagementComplianceManagementPartner PSFunction_Update-MgDeviceManagementDeviceConfigurationManagedDeviceCertificateState PSCommand_Update-MgDeviceManagementDeviceConfigurationManagedDeviceCertificateState PSFunction_Update-MgDeviceManagementDeviceConfigurationRestrictedAppViolation PSCommand_Update-MgDeviceManagementDeviceConfigurationRestrictedAppViolation PSFunction_Update-MgDeviceManagementDomainJoinConnector PSCommand_Update-MgDeviceManagementDomainJoinConnector PSFunction_Update-MgDeviceManagementExchangeConnector PSCommand_Update-MgDeviceManagementExchangeConnector PSFunction_Update-MgDeviceManagementExchangeOnPremisPolicy PSCommand_Update-MgDeviceManagementExchangeOnPremisPolicy PSFunction_Update-MgDeviceManagementExchangeOnPremisPolicyConditionalAccessSetting PSCommand_Update-MgDeviceManagementExchangeOnPremisPolicyConditionalAccessSetting PSFunction_Update-MgDeviceManagementGroupPolicyCategory PSCommand_Update-MgDeviceManagementGroupPolicyCategory PSFunction_Update-MgDeviceManagementGroupPolicyDefinition PSCommand_Update-MgDeviceManagementGroupPolicyDefinition PSFunction_Update-MgDeviceManagementGroupPolicyDefinitionFile PSCommand_Update-MgDeviceManagementGroupPolicyDefinitionFile PSFunction_Update-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinition PSCommand_Update-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinition PSFunction_Update-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentation PSCommand_Update-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPresentation PSFunction_Update-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinition PSCommand_Update-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinition PSFunction_Update-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentation PSCommand_Update-MgDeviceManagementGroupPolicyDefinitionNextVersionDefinitionPreviouVersionDefinitionPresentation PSFunction_Update-MgDeviceManagementGroupPolicyDefinitionPresentation PSCommand_Update-MgDeviceManagementGroupPolicyDefinitionPresentation PSFunction_Update-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinition PSCommand_Update-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinition PSFunction_Update-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinition PSCommand_Update-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinition PSFunction_Update-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentation PSCommand_Update-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionNextVersionDefinitionPresentation PSFunction_Update-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentation PSCommand_Update-MgDeviceManagementGroupPolicyDefinitionPreviouVersionDefinitionPresentation PSFunction_Update-MgDeviceManagementGroupPolicyMigrationReport PSCommand_Update-MgDeviceManagementGroupPolicyMigrationReport PSFunction_Update-MgDeviceManagementGroupPolicyMigrationReportGroupPolicySettingMapping PSCommand_Update-MgDeviceManagementGroupPolicyMigrationReportGroupPolicySettingMapping PSFunction_Update-MgDeviceManagementGroupPolicyMigrationReportUnsupportedGroupPolicyExtension PSCommand_Update-MgDeviceManagementGroupPolicyMigrationReportUnsupportedGroupPolicyExtension PSFunction_Update-MgDeviceManagementGroupPolicyObjectFile PSCommand_Update-MgDeviceManagementGroupPolicyObjectFile PSFunction_Update-MgDeviceManagementGroupPolicyUploadedDefinitionFile PSCommand_Update-MgDeviceManagementGroupPolicyUploadedDefinitionFile PSFunction_Update-MgDeviceManagementGroupPolicyUploadedDefinitionFileGroupPolicyOperation PSCommand_Update-MgDeviceManagementGroupPolicyUploadedDefinitionFileGroupPolicyOperation PSFunction_Update-MgDeviceManagementIntuneBrandingProfile PSCommand_Update-MgDeviceManagementIntuneBrandingProfile PSFunction_Update-MgDeviceManagementIntuneBrandingProfileAssignment PSCommand_Update-MgDeviceManagementIntuneBrandingProfileAssignment PSFunction_Update-MgDeviceManagementIoUpdateStatuses PSCommand_Update-MgDeviceManagementIoUpdateStatuses PSFunction_Update-MgDeviceManagementMobileThreatDefenseConnector PSCommand_Update-MgDeviceManagementMobileThreatDefenseConnector PSFunction_Update-MgDeviceManagementNdeConnector PSCommand_Update-MgDeviceManagementNdeConnector PSFunction_Update-MgDeviceManagementPartner PSCommand_Update-MgDeviceManagementPartner PSFunction_Update-MgDeviceManagementRemoteAssistancePartner PSCommand_Update-MgDeviceManagementRemoteAssistancePartner PSFunction_Update-MgDeviceManagementResourceOperation PSCommand_Update-MgDeviceManagementResourceOperation PSFunction_Update-MgDeviceManagementRoleAssignment PSCommand_Update-MgDeviceManagementRoleAssignment PSFunction_Update-MgDeviceManagementRoleDefinition PSCommand_Update-MgDeviceManagementRoleDefinition PSFunction_Update-MgDeviceManagementRoleDefinitionRoleAssignment PSCommand_Update-MgDeviceManagementRoleDefinitionRoleAssignment PSFunction_Update-MgDeviceManagementRoleScopeTag PSCommand_Update-MgDeviceManagementRoleScopeTag PSFunction_Update-MgDeviceManagementRoleScopeTagAssignment PSCommand_Update-MgDeviceManagementRoleScopeTagAssignment PSFunction_Update-MgDeviceManagementTelecomExpenseManagementPartner PSCommand_Update-MgDeviceManagementTelecomExpenseManagementPartner PSFunction_Update-MgDeviceManagementTermAndCondition PSCommand_Update-MgDeviceManagementTermAndCondition PSFunction_Update-MgDeviceManagementTermAndConditionAcceptanceStatuses PSCommand_Update-MgDeviceManagementTermAndConditionAcceptanceStatuses PSFunction_Update-MgDeviceManagementTermAndConditionAssignment PSCommand_Update-MgDeviceManagementTermAndConditionAssignment PSFunction_Update-MgDeviceManagementTermAndConditionGroupAssignment PSCommand_Update-MgDeviceManagementTermAndConditionGroupAssignment PSFunction_Update-MgDeviceManagementUserPfxCertificate PSCommand_Update-MgDeviceManagementUserPfxCertificate PSFunction_Update-MgDeviceManagementVirtualEndpointDeviceImage PSCommand_Update-MgDeviceManagementVirtualEndpointDeviceImage PSFunction_Update-MgDeviceManagementVirtualEndpointExternalPartnerSetting PSCommand_Update-MgDeviceManagementVirtualEndpointExternalPartnerSetting PSFunction_Update-MgDeviceManagementVirtualEndpointGalleryImage PSCommand_Update-MgDeviceManagementVirtualEndpointGalleryImage PSFunction_Update-MgDeviceManagementVirtualEndpointOnPremisesConnection PSCommand_Update-MgDeviceManagementVirtualEndpointOnPremisesConnection PSFunction_Update-MgDeviceManagementVirtualEndpointOrganizationSetting PSCommand_Update-MgDeviceManagementVirtualEndpointOrganizationSetting PSFunction_Update-MgDeviceManagementVirtualEndpointProvisioningPolicy PSCommand_Update-MgDeviceManagementVirtualEndpointProvisioningPolicy PSFunction_Update-MgDeviceManagementVirtualEndpointProvisioningPolicyAssignment PSCommand_Update-MgDeviceManagementVirtualEndpointProvisioningPolicyAssignment PSFunction_Update-MgDeviceManagementVirtualEndpointReport PSCommand_Update-MgDeviceManagementVirtualEndpointReport PSFunction_Update-MgDeviceManagementVirtualEndpointReportExportJob PSCommand_Update-MgDeviceManagementVirtualEndpointReportExportJob PSFunction_Update-MgDeviceManagementVirtualEndpointServicePlan PSCommand_Update-MgDeviceManagementVirtualEndpointServicePlan PSFunction_Update-MgDeviceManagementVirtualEndpointSnapshot PSCommand_Update-MgDeviceManagementVirtualEndpointSnapshot PSFunction_Update-MgDeviceManagementVirtualEndpointSupportedRegion PSCommand_Update-MgDeviceManagementVirtualEndpointSupportedRegion PSFunction_Update-MgDeviceManagementVirtualEndpointUserSetting PSCommand_Update-MgDeviceManagementVirtualEndpointUserSetting PSFunction_Update-MgDeviceManagementVirtualEndpointUserSettingAssignment PSCommand_Update-MgDeviceManagementVirtualEndpointUserSettingAssignment PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2022-09-30T20:28:22Z</S>
+          <S N="NormalizedVersion">1.12.2</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Microsoft.Graph.DeviceManagement.Administration.nuspec|Microsoft.Graph.DeviceManagement.Administration.format.ps1xml|Microsoft.Graph.DeviceManagement.Administration.psd1|Microsoft.Graph.DeviceManagement.Administration.psm1|bin\Microsoft.Graph.DeviceManagement.Administration.private.dll|bin\Microsoft.Graph.DeviceManagement.Administration.private.deps.json|internal\Microsoft.Graph.DeviceManagement.Administration.internal.psm1|custom\Microsoft.Graph.DeviceManagement.Administration.custom.psm1|exports\v1.0\ProxyCmdletDefinitions.ps1|exports\v1.0-beta\ProxyCmdletDefinitions.ps1|.signature.p7s</S>
+          <S N="GUID">32b02ba6-c992-4ded-a37e-71bbf8274995</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">4.7.2</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\Josh Work\OneDrive - TDSYNNEX\Documents\PowerShell\Modules\Microsoft.Graph.DeviceManagement.Administration\1.12.2</S>
+    </MS>
+  </Obj>
+</Objs>

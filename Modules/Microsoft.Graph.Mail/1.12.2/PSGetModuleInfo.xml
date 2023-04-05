@@ -1,0 +1,410 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Microsoft.Graph.Mail</S>
+      <Version N="Version">1.12.2</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Graph PowerShell Cmdlets</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">msgraph-sdk-powershell</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2022-09-29T18:04:53-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2022-09-30T15:31:39.5594921-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://aka.ms/devservicesagreement</URI>
+      <URI N="ProjectUri">https://github.com/microsoftgraph/msgraph-sdk-powershell</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/microsoftgraph/msgraph-sdk-powershell/master/documentation/images/graph_color256.png</URI>
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Microsoft</S>
+          <S>Office365</S>
+          <S>Graph</S>
+          <S>PowerShell</S>
+          <S>PSModule</S>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-MgUserInferenceClassification</S>
+                <S>Get-MgUserInferenceClassificationOverride</S>
+                <S>Get-MgUserMailFolder</S>
+                <S>Get-MgUserMailFolderChildFolder</S>
+                <S>Get-MgUserMailFolderChildFolderMessage</S>
+                <S>Get-MgUserMailFolderChildFolderMessageAttachment</S>
+                <S>Get-MgUserMailFolderChildFolderMessageContent</S>
+                <S>Get-MgUserMailFolderChildFolderMessageExtension</S>
+                <S>Get-MgUserMailFolderChildFolderMessageMention</S>
+                <S>Get-MgUserMailFolderChildFolderMessageMultiValueExtendedProperty</S>
+                <S>Get-MgUserMailFolderChildFolderMessageRule</S>
+                <S>Get-MgUserMailFolderChildFolderMessageSingleValueExtendedProperty</S>
+                <S>Get-MgUserMailFolderChildFolderMultiValueExtendedProperty</S>
+                <S>Get-MgUserMailFolderChildFolderSingleValueExtendedProperty</S>
+                <S>Get-MgUserMailFolderChildFolderUserConfiguration</S>
+                <S>Get-MgUserMailFolderMessage</S>
+                <S>Get-MgUserMailFolderMessageAttachment</S>
+                <S>Get-MgUserMailFolderMessageContent</S>
+                <S>Get-MgUserMailFolderMessageExtension</S>
+                <S>Get-MgUserMailFolderMessageMention</S>
+                <S>Get-MgUserMailFolderMessageMultiValueExtendedProperty</S>
+                <S>Get-MgUserMailFolderMessageRule</S>
+                <S>Get-MgUserMailFolderMessageSingleValueExtendedProperty</S>
+                <S>Get-MgUserMailFolderMultiValueExtendedProperty</S>
+                <S>Get-MgUserMailFolderSingleValueExtendedProperty</S>
+                <S>Get-MgUserMailFolderUserConfiguration</S>
+                <S>Get-MgUserMessage</S>
+                <S>Get-MgUserMessageAttachment</S>
+                <S>Get-MgUserMessageContent</S>
+                <S>Get-MgUserMessageExtension</S>
+                <S>Get-MgUserMessageMention</S>
+                <S>Get-MgUserMessageMultiValueExtendedProperty</S>
+                <S>Get-MgUserMessageSingleValueExtendedProperty</S>
+                <S>New-MgUserInferenceClassificationOverride</S>
+                <S>New-MgUserMailFolder</S>
+                <S>New-MgUserMailFolderChildFolder</S>
+                <S>New-MgUserMailFolderChildFolderMessage</S>
+                <S>New-MgUserMailFolderChildFolderMessageAttachment</S>
+                <S>New-MgUserMailFolderChildFolderMessageExtension</S>
+                <S>New-MgUserMailFolderChildFolderMessageMention</S>
+                <S>New-MgUserMailFolderChildFolderMessageMultiValueExtendedProperty</S>
+                <S>New-MgUserMailFolderChildFolderMessageRule</S>
+                <S>New-MgUserMailFolderChildFolderMessageSingleValueExtendedProperty</S>
+                <S>New-MgUserMailFolderChildFolderMultiValueExtendedProperty</S>
+                <S>New-MgUserMailFolderChildFolderSingleValueExtendedProperty</S>
+                <S>New-MgUserMailFolderChildFolderUserConfiguration</S>
+                <S>New-MgUserMailFolderMessage</S>
+                <S>New-MgUserMailFolderMessageAttachment</S>
+                <S>New-MgUserMailFolderMessageExtension</S>
+                <S>New-MgUserMailFolderMessageMention</S>
+                <S>New-MgUserMailFolderMessageMultiValueExtendedProperty</S>
+                <S>New-MgUserMailFolderMessageRule</S>
+                <S>New-MgUserMailFolderMessageSingleValueExtendedProperty</S>
+                <S>New-MgUserMailFolderMultiValueExtendedProperty</S>
+                <S>New-MgUserMailFolderSingleValueExtendedProperty</S>
+                <S>New-MgUserMailFolderUserConfiguration</S>
+                <S>New-MgUserMessage</S>
+                <S>New-MgUserMessageAttachment</S>
+                <S>New-MgUserMessageExtension</S>
+                <S>New-MgUserMessageMention</S>
+                <S>New-MgUserMessageMultiValueExtendedProperty</S>
+                <S>New-MgUserMessageSingleValueExtendedProperty</S>
+                <S>Remove-MgUserInferenceClassification</S>
+                <S>Remove-MgUserInferenceClassificationOverride</S>
+                <S>Remove-MgUserMailFolder</S>
+                <S>Remove-MgUserMailFolderChildFolder</S>
+                <S>Remove-MgUserMailFolderChildFolderMessage</S>
+                <S>Remove-MgUserMailFolderChildFolderMessageAttachment</S>
+                <S>Remove-MgUserMailFolderChildFolderMessageExtension</S>
+                <S>Remove-MgUserMailFolderChildFolderMessageMention</S>
+                <S>Remove-MgUserMailFolderChildFolderMessageMultiValueExtendedProperty</S>
+                <S>Remove-MgUserMailFolderChildFolderMessageRule</S>
+                <S>Remove-MgUserMailFolderChildFolderMessageSingleValueExtendedProperty</S>
+                <S>Remove-MgUserMailFolderChildFolderMultiValueExtendedProperty</S>
+                <S>Remove-MgUserMailFolderChildFolderSingleValueExtendedProperty</S>
+                <S>Remove-MgUserMailFolderChildFolderUserConfiguration</S>
+                <S>Remove-MgUserMailFolderMessage</S>
+                <S>Remove-MgUserMailFolderMessageAttachment</S>
+                <S>Remove-MgUserMailFolderMessageExtension</S>
+                <S>Remove-MgUserMailFolderMessageMention</S>
+                <S>Remove-MgUserMailFolderMessageMultiValueExtendedProperty</S>
+                <S>Remove-MgUserMailFolderMessageRule</S>
+                <S>Remove-MgUserMailFolderMessageSingleValueExtendedProperty</S>
+                <S>Remove-MgUserMailFolderMultiValueExtendedProperty</S>
+                <S>Remove-MgUserMailFolderSingleValueExtendedProperty</S>
+                <S>Remove-MgUserMailFolderUserConfiguration</S>
+                <S>Remove-MgUserMessage</S>
+                <S>Remove-MgUserMessageAttachment</S>
+                <S>Remove-MgUserMessageExtension</S>
+                <S>Remove-MgUserMessageMention</S>
+                <S>Remove-MgUserMessageMultiValueExtendedProperty</S>
+                <S>Remove-MgUserMessageSingleValueExtendedProperty</S>
+                <S>Set-MgUserMailFolderChildFolderMessageContent</S>
+                <S>Set-MgUserMailFolderMessageContent</S>
+                <S>Set-MgUserMessageContent</S>
+                <S>Update-MgUserInferenceClassification</S>
+                <S>Update-MgUserInferenceClassificationOverride</S>
+                <S>Update-MgUserMailFolder</S>
+                <S>Update-MgUserMailFolderChildFolder</S>
+                <S>Update-MgUserMailFolderChildFolderMessage</S>
+                <S>Update-MgUserMailFolderChildFolderMessageAttachment</S>
+                <S>Update-MgUserMailFolderChildFolderMessageExtension</S>
+                <S>Update-MgUserMailFolderChildFolderMessageMention</S>
+                <S>Update-MgUserMailFolderChildFolderMessageMultiValueExtendedProperty</S>
+                <S>Update-MgUserMailFolderChildFolderMessageRule</S>
+                <S>Update-MgUserMailFolderChildFolderMessageSingleValueExtendedProperty</S>
+                <S>Update-MgUserMailFolderChildFolderMultiValueExtendedProperty</S>
+                <S>Update-MgUserMailFolderChildFolderSingleValueExtendedProperty</S>
+                <S>Update-MgUserMailFolderChildFolderUserConfiguration</S>
+                <S>Update-MgUserMailFolderMessage</S>
+                <S>Update-MgUserMailFolderMessageAttachment</S>
+                <S>Update-MgUserMailFolderMessageExtension</S>
+                <S>Update-MgUserMailFolderMessageMention</S>
+                <S>Update-MgUserMailFolderMessageMultiValueExtendedProperty</S>
+                <S>Update-MgUserMailFolderMessageRule</S>
+                <S>Update-MgUserMailFolderMessageSingleValueExtendedProperty</S>
+                <S>Update-MgUserMailFolderMultiValueExtendedProperty</S>
+                <S>Update-MgUserMailFolderSingleValueExtendedProperty</S>
+                <S>Update-MgUserMailFolderUserConfiguration</S>
+                <S>Update-MgUserMessage</S>
+                <S>Update-MgUserMessageAttachment</S>
+                <S>Update-MgUserMessageExtension</S>
+                <S>Update-MgUserMessageMention</S>
+                <S>Update-MgUserMessageMultiValueExtendedProperty</S>
+                <S>Update-MgUserMessageSingleValueExtendedProperty</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Get-MgUserInferenceClassification</S>
+                <S>Get-MgUserInferenceClassificationOverride</S>
+                <S>Get-MgUserMailFolder</S>
+                <S>Get-MgUserMailFolderChildFolder</S>
+                <S>Get-MgUserMailFolderChildFolderMessage</S>
+                <S>Get-MgUserMailFolderChildFolderMessageAttachment</S>
+                <S>Get-MgUserMailFolderChildFolderMessageContent</S>
+                <S>Get-MgUserMailFolderChildFolderMessageExtension</S>
+                <S>Get-MgUserMailFolderChildFolderMessageMention</S>
+                <S>Get-MgUserMailFolderChildFolderMessageMultiValueExtendedProperty</S>
+                <S>Get-MgUserMailFolderChildFolderMessageRule</S>
+                <S>Get-MgUserMailFolderChildFolderMessageSingleValueExtendedProperty</S>
+                <S>Get-MgUserMailFolderChildFolderMultiValueExtendedProperty</S>
+                <S>Get-MgUserMailFolderChildFolderSingleValueExtendedProperty</S>
+                <S>Get-MgUserMailFolderChildFolderUserConfiguration</S>
+                <S>Get-MgUserMailFolderMessage</S>
+                <S>Get-MgUserMailFolderMessageAttachment</S>
+                <S>Get-MgUserMailFolderMessageContent</S>
+                <S>Get-MgUserMailFolderMessageExtension</S>
+                <S>Get-MgUserMailFolderMessageMention</S>
+                <S>Get-MgUserMailFolderMessageMultiValueExtendedProperty</S>
+                <S>Get-MgUserMailFolderMessageRule</S>
+                <S>Get-MgUserMailFolderMessageSingleValueExtendedProperty</S>
+                <S>Get-MgUserMailFolderMultiValueExtendedProperty</S>
+                <S>Get-MgUserMailFolderSingleValueExtendedProperty</S>
+                <S>Get-MgUserMailFolderUserConfiguration</S>
+                <S>Get-MgUserMessage</S>
+                <S>Get-MgUserMessageAttachment</S>
+                <S>Get-MgUserMessageContent</S>
+                <S>Get-MgUserMessageExtension</S>
+                <S>Get-MgUserMessageMention</S>
+                <S>Get-MgUserMessageMultiValueExtendedProperty</S>
+                <S>Get-MgUserMessageSingleValueExtendedProperty</S>
+                <S>New-MgUserInferenceClassificationOverride</S>
+                <S>New-MgUserMailFolder</S>
+                <S>New-MgUserMailFolderChildFolder</S>
+                <S>New-MgUserMailFolderChildFolderMessage</S>
+                <S>New-MgUserMailFolderChildFolderMessageAttachment</S>
+                <S>New-MgUserMailFolderChildFolderMessageExtension</S>
+                <S>New-MgUserMailFolderChildFolderMessageMention</S>
+                <S>New-MgUserMailFolderChildFolderMessageMultiValueExtendedProperty</S>
+                <S>New-MgUserMailFolderChildFolderMessageRule</S>
+                <S>New-MgUserMailFolderChildFolderMessageSingleValueExtendedProperty</S>
+                <S>New-MgUserMailFolderChildFolderMultiValueExtendedProperty</S>
+                <S>New-MgUserMailFolderChildFolderSingleValueExtendedProperty</S>
+                <S>New-MgUserMailFolderChildFolderUserConfiguration</S>
+                <S>New-MgUserMailFolderMessage</S>
+                <S>New-MgUserMailFolderMessageAttachment</S>
+                <S>New-MgUserMailFolderMessageExtension</S>
+                <S>New-MgUserMailFolderMessageMention</S>
+                <S>New-MgUserMailFolderMessageMultiValueExtendedProperty</S>
+                <S>New-MgUserMailFolderMessageRule</S>
+                <S>New-MgUserMailFolderMessageSingleValueExtendedProperty</S>
+                <S>New-MgUserMailFolderMultiValueExtendedProperty</S>
+                <S>New-MgUserMailFolderSingleValueExtendedProperty</S>
+                <S>New-MgUserMailFolderUserConfiguration</S>
+                <S>New-MgUserMessage</S>
+                <S>New-MgUserMessageAttachment</S>
+                <S>New-MgUserMessageExtension</S>
+                <S>New-MgUserMessageMention</S>
+                <S>New-MgUserMessageMultiValueExtendedProperty</S>
+                <S>New-MgUserMessageSingleValueExtendedProperty</S>
+                <S>Remove-MgUserInferenceClassification</S>
+                <S>Remove-MgUserInferenceClassificationOverride</S>
+                <S>Remove-MgUserMailFolder</S>
+                <S>Remove-MgUserMailFolderChildFolder</S>
+                <S>Remove-MgUserMailFolderChildFolderMessage</S>
+                <S>Remove-MgUserMailFolderChildFolderMessageAttachment</S>
+                <S>Remove-MgUserMailFolderChildFolderMessageExtension</S>
+                <S>Remove-MgUserMailFolderChildFolderMessageMention</S>
+                <S>Remove-MgUserMailFolderChildFolderMessageMultiValueExtendedProperty</S>
+                <S>Remove-MgUserMailFolderChildFolderMessageRule</S>
+                <S>Remove-MgUserMailFolderChildFolderMessageSingleValueExtendedProperty</S>
+                <S>Remove-MgUserMailFolderChildFolderMultiValueExtendedProperty</S>
+                <S>Remove-MgUserMailFolderChildFolderSingleValueExtendedProperty</S>
+                <S>Remove-MgUserMailFolderChildFolderUserConfiguration</S>
+                <S>Remove-MgUserMailFolderMessage</S>
+                <S>Remove-MgUserMailFolderMessageAttachment</S>
+                <S>Remove-MgUserMailFolderMessageExtension</S>
+                <S>Remove-MgUserMailFolderMessageMention</S>
+                <S>Remove-MgUserMailFolderMessageMultiValueExtendedProperty</S>
+                <S>Remove-MgUserMailFolderMessageRule</S>
+                <S>Remove-MgUserMailFolderMessageSingleValueExtendedProperty</S>
+                <S>Remove-MgUserMailFolderMultiValueExtendedProperty</S>
+                <S>Remove-MgUserMailFolderSingleValueExtendedProperty</S>
+                <S>Remove-MgUserMailFolderUserConfiguration</S>
+                <S>Remove-MgUserMessage</S>
+                <S>Remove-MgUserMessageAttachment</S>
+                <S>Remove-MgUserMessageExtension</S>
+                <S>Remove-MgUserMessageMention</S>
+                <S>Remove-MgUserMessageMultiValueExtendedProperty</S>
+                <S>Remove-MgUserMessageSingleValueExtendedProperty</S>
+                <S>Set-MgUserMailFolderChildFolderMessageContent</S>
+                <S>Set-MgUserMailFolderMessageContent</S>
+                <S>Set-MgUserMessageContent</S>
+                <S>Update-MgUserInferenceClassification</S>
+                <S>Update-MgUserInferenceClassificationOverride</S>
+                <S>Update-MgUserMailFolder</S>
+                <S>Update-MgUserMailFolderChildFolder</S>
+                <S>Update-MgUserMailFolderChildFolderMessage</S>
+                <S>Update-MgUserMailFolderChildFolderMessageAttachment</S>
+                <S>Update-MgUserMailFolderChildFolderMessageExtension</S>
+                <S>Update-MgUserMailFolderChildFolderMessageMention</S>
+                <S>Update-MgUserMailFolderChildFolderMessageMultiValueExtendedProperty</S>
+                <S>Update-MgUserMailFolderChildFolderMessageRule</S>
+                <S>Update-MgUserMailFolderChildFolderMessageSingleValueExtendedProperty</S>
+                <S>Update-MgUserMailFolderChildFolderMultiValueExtendedProperty</S>
+                <S>Update-MgUserMailFolderChildFolderSingleValueExtendedProperty</S>
+                <S>Update-MgUserMailFolderChildFolderUserConfiguration</S>
+                <S>Update-MgUserMailFolderMessage</S>
+                <S>Update-MgUserMailFolderMessageAttachment</S>
+                <S>Update-MgUserMailFolderMessageExtension</S>
+                <S>Update-MgUserMailFolderMessageMention</S>
+                <S>Update-MgUserMailFolderMessageMultiValueExtendedProperty</S>
+                <S>Update-MgUserMailFolderMessageRule</S>
+                <S>Update-MgUserMailFolderMessageSingleValueExtendedProperty</S>
+                <S>Update-MgUserMailFolderMultiValueExtendedProperty</S>
+                <S>Update-MgUserMailFolderSingleValueExtendedProperty</S>
+                <S>Update-MgUserMailFolderUserConfiguration</S>
+                <S>Update-MgUserMessage</S>
+                <S>Update-MgUserMessageAttachment</S>
+                <S>Update-MgUserMessageExtension</S>
+                <S>Update-MgUserMessageMention</S>
+                <S>Update-MgUserMessageMultiValueExtendedProperty</S>
+                <S>Update-MgUserMessageSingleValueExtendedProperty</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="6" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST>
+          <Obj RefId="9">
+            <TN RefId="4">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Microsoft.Graph.Authentication</S>
+              </En>
+              <En>
+                <S N="Key">RequiredVersion</S>
+                <S N="Value">1.12.2</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Microsoft.Graph.Authentication/[1.12.2]</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="10">
+        <TN RefId="5">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Graph PowerShell Cmdlets</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">See https://aka.ms/GraphPowerShell-Release.</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">3879</S>
+          <S N="downloadCount">458338</S>
+          <S N="packageSize">2106828</S>
+          <S N="published">9/29/2022 6:04:53 PM -05:00</S>
+          <S N="created">9/29/2022 6:04:53 PM -05:00</S>
+          <S N="lastUpdated">9/30/2022 8:28:22 PM -05:00</S>
+          <S N="tags">Microsoft Office365 Graph PowerShell PSModule PSIncludes_Cmdlet PSEdition_Core PSEdition_Desktop PSFunction_Get-MgUserInferenceClassification PSCommand_Get-MgUserInferenceClassification PSFunction_Get-MgUserInferenceClassificationOverride PSCommand_Get-MgUserInferenceClassificationOverride PSFunction_Get-MgUserMailFolder PSCommand_Get-MgUserMailFolder PSFunction_Get-MgUserMailFolderChildFolder PSCommand_Get-MgUserMailFolderChildFolder PSFunction_Get-MgUserMailFolderChildFolderMessage PSCommand_Get-MgUserMailFolderChildFolderMessage PSFunction_Get-MgUserMailFolderChildFolderMessageAttachment PSCommand_Get-MgUserMailFolderChildFolderMessageAttachment PSFunction_Get-MgUserMailFolderChildFolderMessageContent PSCommand_Get-MgUserMailFolderChildFolderMessageContent PSFunction_Get-MgUserMailFolderChildFolderMessageExtension PSCommand_Get-MgUserMailFolderChildFolderMessageExtension PSFunction_Get-MgUserMailFolderChildFolderMessageMention PSCommand_Get-MgUserMailFolderChildFolderMessageMention PSFunction_Get-MgUserMailFolderChildFolderMessageMultiValueExtendedProperty PSCommand_Get-MgUserMailFolderChildFolderMessageMultiValueExtendedProperty PSFunction_Get-MgUserMailFolderChildFolderMessageRule PSCommand_Get-MgUserMailFolderChildFolderMessageRule PSFunction_Get-MgUserMailFolderChildFolderMessageSingleValueExtendedProperty PSCommand_Get-MgUserMailFolderChildFolderMessageSingleValueExtendedProperty PSFunction_Get-MgUserMailFolderChildFolderMultiValueExtendedProperty PSCommand_Get-MgUserMailFolderChildFolderMultiValueExtendedProperty PSFunction_Get-MgUserMailFolderChildFolderSingleValueExtendedProperty PSCommand_Get-MgUserMailFolderChildFolderSingleValueExtendedProperty PSFunction_Get-MgUserMailFolderChildFolderUserConfiguration PSCommand_Get-MgUserMailFolderChildFolderUserConfiguration PSFunction_Get-MgUserMailFolderMessage PSCommand_Get-MgUserMailFolderMessage PSFunction_Get-MgUserMailFolderMessageAttachment PSCommand_Get-MgUserMailFolderMessageAttachment PSFunction_Get-MgUserMailFolderMessageContent PSCommand_Get-MgUserMailFolderMessageContent PSFunction_Get-MgUserMailFolderMessageExtension PSCommand_Get-MgUserMailFolderMessageExtension PSFunction_Get-MgUserMailFolderMessageMention PSCommand_Get-MgUserMailFolderMessageMention PSFunction_Get-MgUserMailFolderMessageMultiValueExtendedProperty PSCommand_Get-MgUserMailFolderMessageMultiValueExtendedProperty PSFunction_Get-MgUserMailFolderMessageRule PSCommand_Get-MgUserMailFolderMessageRule PSFunction_Get-MgUserMailFolderMessageSingleValueExtendedProperty PSCommand_Get-MgUserMailFolderMessageSingleValueExtendedProperty PSFunction_Get-MgUserMailFolderMultiValueExtendedProperty PSCommand_Get-MgUserMailFolderMultiValueExtendedProperty PSFunction_Get-MgUserMailFolderSingleValueExtendedProperty PSCommand_Get-MgUserMailFolderSingleValueExtendedProperty PSFunction_Get-MgUserMailFolderUserConfiguration PSCommand_Get-MgUserMailFolderUserConfiguration PSFunction_Get-MgUserMessage PSCommand_Get-MgUserMessage PSFunction_Get-MgUserMessageAttachment PSCommand_Get-MgUserMessageAttachment PSFunction_Get-MgUserMessageContent PSCommand_Get-MgUserMessageContent PSFunction_Get-MgUserMessageExtension PSCommand_Get-MgUserMessageExtension PSFunction_Get-MgUserMessageMention PSCommand_Get-MgUserMessageMention PSFunction_Get-MgUserMessageMultiValueExtendedProperty PSCommand_Get-MgUserMessageMultiValueExtendedProperty PSFunction_Get-MgUserMessageSingleValueExtendedProperty PSCommand_Get-MgUserMessageSingleValueExtendedProperty PSFunction_New-MgUserInferenceClassificationOverride PSCommand_New-MgUserInferenceClassificationOverride PSFunction_New-MgUserMailFolder PSCommand_New-MgUserMailFolder PSFunction_New-MgUserMailFolderChildFolder PSCommand_New-MgUserMailFolderChildFolder PSFunction_New-MgUserMailFolderChildFolderMessage PSCommand_New-MgUserMailFolderChildFolderMessage PSFunction_New-MgUserMailFolderChildFolderMessageAttachment PSCommand_New-MgUserMailFolderChildFolderMessageAttachment PSFunction_New-MgUserMailFolderChildFolderMessageExtension PSCommand_New-MgUserMailFolderChildFolderMessageExtension PSFunction_New-MgUserMailFolderChildFolderMessageMention PSCommand_New-MgUserMailFolderChildFolderMessageMention PSFunction_New-MgUserMailFolderChildFolderMessageMultiValueExtendedProperty PSCommand_New-MgUserMailFolderChildFolderMessageMultiValueExtendedProperty PSFunction_New-MgUserMailFolderChildFolderMessageRule PSCommand_New-MgUserMailFolderChildFolderMessageRule PSFunction_New-MgUserMailFolderChildFolderMessageSingleValueExtendedProperty PSCommand_New-MgUserMailFolderChildFolderMessageSingleValueExtendedProperty PSFunction_New-MgUserMailFolderChildFolderMultiValueExtendedProperty PSCommand_New-MgUserMailFolderChildFolderMultiValueExtendedProperty PSFunction_New-MgUserMailFolderChildFolderSingleValueExtendedProperty PSCommand_New-MgUserMailFolderChildFolderSingleValueExtendedProperty PSFunction_New-MgUserMailFolderChildFolderUserConfiguration PSCommand_New-MgUserMailFolderChildFolderUserConfiguration PSFunction_New-MgUserMailFolderMessage PSCommand_New-MgUserMailFolderMessage PSFunction_New-MgUserMailFolderMessageAttachment PSCommand_New-MgUserMailFolderMessageAttachment PSFunction_New-MgUserMailFolderMessageExtension PSCommand_New-MgUserMailFolderMessageExtension PSFunction_New-MgUserMailFolderMessageMention PSCommand_New-MgUserMailFolderMessageMention PSFunction_New-MgUserMailFolderMessageMultiValueExtendedProperty PSCommand_New-MgUserMailFolderMessageMultiValueExtendedProperty PSFunction_New-MgUserMailFolderMessageRule PSCommand_New-MgUserMailFolderMessageRule PSFunction_New-MgUserMailFolderMessageSingleValueExtendedProperty PSCommand_New-MgUserMailFolderMessageSingleValueExtendedProperty PSFunction_New-MgUserMailFolderMultiValueExtendedProperty PSCommand_New-MgUserMailFolderMultiValueExtendedProperty PSFunction_New-MgUserMailFolderSingleValueExtendedProperty PSCommand_New-MgUserMailFolderSingleValueExtendedProperty PSFunction_New-MgUserMailFolderUserConfiguration PSCommand_New-MgUserMailFolderUserConfiguration PSFunction_New-MgUserMessage PSCommand_New-MgUserMessage PSFunction_New-MgUserMessageAttachment PSCommand_New-MgUserMessageAttachment PSFunction_New-MgUserMessageExtension PSCommand_New-MgUserMessageExtension PSFunction_New-MgUserMessageMention PSCommand_New-MgUserMessageMention PSFunction_New-MgUserMessageMultiValueExtendedProperty PSCommand_New-MgUserMessageMultiValueExtendedProperty PSFunction_New-MgUserMessageSingleValueExtendedProperty PSCommand_New-MgUserMessageSingleValueExtendedProperty PSFunction_Remove-MgUserInferenceClassification PSCommand_Remove-MgUserInferenceClassification PSFunction_Remove-MgUserInferenceClassificationOverride PSCommand_Remove-MgUserInferenceClassificationOverride PSFunction_Remove-MgUserMailFolder PSCommand_Remove-MgUserMailFolder PSFunction_Remove-MgUserMailFolderChildFolder PSCommand_Remove-MgUserMailFolderChildFolder PSFunction_Remove-MgUserMailFolderChildFolderMessage PSCommand_Remove-MgUserMailFolderChildFolderMessage PSFunction_Remove-MgUserMailFolderChildFolderMessageAttachment PSCommand_Remove-MgUserMailFolderChildFolderMessageAttachment PSFunction_Remove-MgUserMailFolderChildFolderMessageExtension PSCommand_Remove-MgUserMailFolderChildFolderMessageExtension PSFunction_Remove-MgUserMailFolderChildFolderMessageMention PSCommand_Remove-MgUserMailFolderChildFolderMessageMention PSFunction_Remove-MgUserMailFolderChildFolderMessageMultiValueExtendedProperty PSCommand_Remove-MgUserMailFolderChildFolderMessageMultiValueExtendedProperty PSFunction_Remove-MgUserMailFolderChildFolderMessageRule PSCommand_Remove-MgUserMailFolderChildFolderMessageRule PSFunction_Remove-MgUserMailFolderChildFolderMessageSingleValueExtendedProperty PSCommand_Remove-MgUserMailFolderChildFolderMessageSingleValueExtendedProperty PSFunction_Remove-MgUserMailFolderChildFolderMultiValueExtendedProperty PSCommand_Remove-MgUserMailFolderChildFolderMultiValueExtendedProperty PSFunction_Remove-MgUserMailFolderChildFolderSingleValueExtendedProperty PSCommand_Remove-MgUserMailFolderChildFolderSingleValueExtendedProperty PSFunction_Remove-MgUserMailFolderChildFolderUserConfiguration PSCommand_Remove-MgUserMailFolderChildFolderUserConfiguration PSFunction_Remove-MgUserMailFolderMessage PSCommand_Remove-MgUserMailFolderMessage PSFunction_Remove-MgUserMailFolderMessageAttachment PSCommand_Remove-MgUserMailFolderMessageAttachment PSFunction_Remove-MgUserMailFolderMessageExtension PSCommand_Remove-MgUserMailFolderMessageExtension PSFunction_Remove-MgUserMailFolderMessageMention PSCommand_Remove-MgUserMailFolderMessageMention PSFunction_Remove-MgUserMailFolderMessageMultiValueExtendedProperty PSCommand_Remove-MgUserMailFolderMessageMultiValueExtendedProperty PSFunction_Remove-MgUserMailFolderMessageRule PSCommand_Remove-MgUserMailFolderMessageRule PSFunction_Remove-MgUserMailFolderMessageSingleValueExtendedProperty PSCommand_Remove-MgUserMailFolderMessageSingleValueExtendedProperty PSFunction_Remove-MgUserMailFolderMultiValueExtendedProperty PSCommand_Remove-MgUserMailFolderMultiValueExtendedProperty PSFunction_Remove-MgUserMailFolderSingleValueExtendedProperty PSCommand_Remove-MgUserMailFolderSingleValueExtendedProperty PSFunction_Remove-MgUserMailFolderUserConfiguration PSCommand_Remove-MgUserMailFolderUserConfiguration PSFunction_Remove-MgUserMessage PSCommand_Remove-MgUserMessage PSFunction_Remove-MgUserMessageAttachment PSCommand_Remove-MgUserMessageAttachment PSFunction_Remove-MgUserMessageExtension PSCommand_Remove-MgUserMessageExtension PSFunction_Remove-MgUserMessageMention PSCommand_Remove-MgUserMessageMention PSFunction_Remove-MgUserMessageMultiValueExtendedProperty PSCommand_Remove-MgUserMessageMultiValueExtendedProperty PSFunction_Remove-MgUserMessageSingleValueExtendedProperty PSCommand_Remove-MgUserMessageSingleValueExtendedProperty PSFunction_Set-MgUserMailFolderChildFolderMessageContent PSCommand_Set-MgUserMailFolderChildFolderMessageContent PSFunction_Set-MgUserMailFolderMessageContent PSCommand_Set-MgUserMailFolderMessageContent PSFunction_Set-MgUserMessageContent PSCommand_Set-MgUserMessageContent PSFunction_Update-MgUserInferenceClassification PSCommand_Update-MgUserInferenceClassification PSFunction_Update-MgUserInferenceClassificationOverride PSCommand_Update-MgUserInferenceClassificationOverride PSFunction_Update-MgUserMailFolder PSCommand_Update-MgUserMailFolder PSFunction_Update-MgUserMailFolderChildFolder PSCommand_Update-MgUserMailFolderChildFolder PSFunction_Update-MgUserMailFolderChildFolderMessage PSCommand_Update-MgUserMailFolderChildFolderMessage PSFunction_Update-MgUserMailFolderChildFolderMessageAttachment PSCommand_Update-MgUserMailFolderChildFolderMessageAttachment PSFunction_Update-MgUserMailFolderChildFolderMessageExtension PSCommand_Update-MgUserMailFolderChildFolderMessageExtension PSFunction_Update-MgUserMailFolderChildFolderMessageMention PSCommand_Update-MgUserMailFolderChildFolderMessageMention PSFunction_Update-MgUserMailFolderChildFolderMessageMultiValueExtendedProperty PSCommand_Update-MgUserMailFolderChildFolderMessageMultiValueExtendedProperty PSFunction_Update-MgUserMailFolderChildFolderMessageRule PSCommand_Update-MgUserMailFolderChildFolderMessageRule PSFunction_Update-MgUserMailFolderChildFolderMessageSingleValueExtendedProperty PSCommand_Update-MgUserMailFolderChildFolderMessageSingleValueExtendedProperty PSFunction_Update-MgUserMailFolderChildFolderMultiValueExtendedProperty PSCommand_Update-MgUserMailFolderChildFolderMultiValueExtendedProperty PSFunction_Update-MgUserMailFolderChildFolderSingleValueExtendedProperty PSCommand_Update-MgUserMailFolderChildFolderSingleValueExtendedProperty PSFunction_Update-MgUserMailFolderChildFolderUserConfiguration PSCommand_Update-MgUserMailFolderChildFolderUserConfiguration PSFunction_Update-MgUserMailFolderMessage PSCommand_Update-MgUserMailFolderMessage PSFunction_Update-MgUserMailFolderMessageAttachment PSCommand_Update-MgUserMailFolderMessageAttachment PSFunction_Update-MgUserMailFolderMessageExtension PSCommand_Update-MgUserMailFolderMessageExtension PSFunction_Update-MgUserMailFolderMessageMention PSCommand_Update-MgUserMailFolderMessageMention PSFunction_Update-MgUserMailFolderMessageMultiValueExtendedProperty PSCommand_Update-MgUserMailFolderMessageMultiValueExtendedProperty PSFunction_Update-MgUserMailFolderMessageRule PSCommand_Update-MgUserMailFolderMessageRule PSFunction_Update-MgUserMailFolderMessageSingleValueExtendedProperty PSCommand_Update-MgUserMailFolderMessageSingleValueExtendedProperty PSFunction_Update-MgUserMailFolderMultiValueExtendedProperty PSCommand_Update-MgUserMailFolderMultiValueExtendedProperty PSFunction_Update-MgUserMailFolderSingleValueExtendedProperty PSCommand_Update-MgUserMailFolderSingleValueExtendedProperty PSFunction_Update-MgUserMailFolderUserConfiguration PSCommand_Update-MgUserMailFolderUserConfiguration PSFunction_Update-MgUserMessage PSCommand_Update-MgUserMessage PSFunction_Update-MgUserMessageAttachment PSCommand_Update-MgUserMessageAttachment PSFunction_Update-MgUserMessageExtension PSCommand_Update-MgUserMessageExtension PSFunction_Update-MgUserMessageMention PSCommand_Update-MgUserMessageMention PSFunction_Update-MgUserMessageMultiValueExtendedProperty PSCommand_Update-MgUserMessageMultiValueExtendedProperty PSFunction_Update-MgUserMessageSingleValueExtendedProperty PSCommand_Update-MgUserMessageSingleValueExtendedProperty PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2022-09-30T20:28:22Z</S>
+          <S N="NormalizedVersion">1.12.2</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Microsoft.Graph.Mail.nuspec|Microsoft.Graph.Mail.format.ps1xml|Microsoft.Graph.Mail.psd1|Microsoft.Graph.Mail.psm1|bin\Microsoft.Graph.Mail.private.dll|bin\Microsoft.Graph.Mail.private.deps.json|internal\Microsoft.Graph.Mail.internal.psm1|custom\Microsoft.Graph.Mail.custom.psm1|exports\v1.0\ProxyCmdletDefinitions.ps1|exports\v1.0-beta\ProxyCmdletDefinitions.ps1|.signature.p7s</S>
+          <S N="GUID">6e4d36b5-7ff2-454b-8572-674b3ab0362b</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">4.7.2</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\Josh Work\OneDrive - TDSYNNEX\Documents\PowerShell\Modules\Microsoft.Graph.Mail\1.12.2</S>
+    </MS>
+  </Obj>
+</Objs>
