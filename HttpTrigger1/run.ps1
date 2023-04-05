@@ -259,7 +259,7 @@ catch {
     $E = $_
 }
 
-#Region Http Output
+#Region HTTP Output
     $body = @{
         Result     = $Result
         HostOutput = $HostOutput
