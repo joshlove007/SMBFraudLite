@@ -159,6 +159,7 @@ try {
 
                 return $response
             }
+            $Invoke_VertexAuthProxy = "function Get-VaultPassword {${Function:Invoke-VertexAuthProxy}}"
         #EndRegion
 
         #Region Function Get-PartnerMsToken
@@ -189,63 +190,79 @@ try {
 
                 Return (Invoke-RestMethod @GetTokenParams).Token
             }
+            $Get_PartnerMsToken = "function Get-VaultPassword {${Function:Get-PartnerMsToken}}"
         #EndRegion
     #EndRegion
 
-    #Region Variables
-        $tenantId       = $Request.Body.tenantId  
-        $Region         = $Request.Body.region        
-        $VertexEndpoint = $Request.Body.VertexEndpoint
-        $VertexApiUser  = $Request.Body.VertexApiUser 
-        $VertexApiKey   = $Request.Body.VertexApiKey
-        $VertexApiToken = $Request.Body.VertexApiToken
-        $PSCommand      = $Request.Body.Command
-        $ConnectAz      = $Request.Body.ConnectAz
-    #EndRegion
-
-    #Region Get Tokens and Connect Modules
-        if($ConnectAz){
-            #Region Get Tokens
-                $AzureTokenParams = @{
-                    tenantId       = $tenantId
-                    region         = $Region
-                    Resource       = "https://management.azure.com"
-                    VertexEndpoint = $VertexEndpoint
-                    ApiKey         = $VertexApiKey
-                    ApiUser        = $VertexApiUser
-                    ApiToken       = $VertexApiToken
-                }
-                $AzureToken = Get-PartnerMsToken @AzureTokenParams
-
-                $GraphTokenParams = @{
-                    tenantId       = $tenantId
-                    region         = $Region
-                    Resource       = "https://graph.microsoft.com"
-                    VertexEndpoint = $VertexEndpoint
-                    ApiKey         = $VertexApiKey
-                    ApiUser        = $VertexApiUser
-                    ApiToken       = $VertexApiToken
-                }
-                $MSGraphToken = Get-PartnerMsToken @GraphTokenParams
-
-                $AzureId = ($AzureToken | ConvertFrom-JWTtoken).appid
-            #EndRegion
-
-            #Region Connect Azure and Graph Modules
-                Connect-AzAccount -Tenant $tenantId -AccountId $AzureId -AccessToken $AzureToken -MicrosoftGraphAccessToken $MSGraphToken
-
-                Connect-MgGraph  -AccessToken $MSGraphToken
-            #EndRegion
-        }
-    #EndRegion
-
-    #Region Run Command
+    #Region Parallel Loop
         #Capture Host Console Output
         $Path = "C:\home\site\wwwroot\Transcript_$(New-guid).txt"
         Start-Transcript -Path $Path -UseMinimalHeader
 
-        #Run Command
-        $Result = Invoke-Expression $PSCommand
+        #Iterate through Tenants
+        $Results = $Request.Tenants | Foreach-Object -ThrottleLimit 5 -Parallel {
+            #Region Functions
+                Invoke-Expression $Using:Get_PartnerMsToken
+                Invoke-Expression $Using:Invoke_VertexAuthProxy
+            #EndRegion
+
+            #Region Variables
+                $Request        = $Using:Request
+                $Tenant         = $_
+
+                $TenantId       = $Tenant.TenantId  
+                $Region         = $Tenant.Region        
+                $VertexEndpoint = $Request.Body.VertexEndpoint
+                $VertexApiUser  = $Request.Body.VertexApiUser 
+                $VertexApiKey   = $Request.Body.VertexApiKey
+                $VertexApiToken = $Request.Body.VertexApiToken
+            #EndRegion
+
+            #Region Get Tokens and Connect Modules
+                #Region Get Tokens
+                    $AzureTokenParams = @{
+                        tenantId       = $tenantId
+                        region         = $Region
+                        Resource       = "https://management.azure.com"
+                        VertexEndpoint = $VertexEndpoint
+                        ApiKey         = $VertexApiKey
+                        ApiUser        = $VertexApiUser
+                        ApiToken       = $VertexApiToken
+                    }
+                    $AzureToken = Get-PartnerMsToken @AzureTokenParams
+
+                    $GraphTokenParams = @{
+                        tenantId       = $tenantId
+                        region         = $Region
+                        Resource       = "https://graph.microsoft.com"
+                        VertexEndpoint = $VertexEndpoint
+                        ApiKey         = $VertexApiKey
+                        ApiUser        = $VertexApiUser
+                        ApiToken       = $VertexApiToken
+                    }
+                    $MSGraphToken = Get-PartnerMsToken @GraphTokenParams
+
+                    $AzureId = ($AzureToken | ConvertFrom-JWTtoken).appid
+                #EndRegion
+
+                #Region Connect Azure and Graph Modules
+                    Connect-AzAccount -Tenant $tenantId -AccountId $AzureId -AccessToken $AzureToken -MicrosoftGraphAccessToken $MSGraphToken
+
+                    Connect-MgGraph  -AccessToken $MSGraphToken
+                #EndRegion
+            #EndRegion
+
+            #Region Test Code
+                $DeploymentResult = "Success"
+            #EndRegion
+
+            Return @{
+                TenantId         = $TenantId
+                DeploymentResult = $DeploymentResult
+                AzToken          = $AzureToken
+            }
+        }
+
 
         #Stop Capturing
         Stop-Transcript
@@ -261,7 +278,7 @@ catch {
 
 #Region HTTP Output
     $body = @{
-        Result     = $Result
+        Results    = $Results
         HostOutput = $HostOutput
         Error      = $E
     } | ConvertTo-Json -EscapeHandling EscapeHtml -Depth 3 
