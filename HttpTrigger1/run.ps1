@@ -241,7 +241,7 @@ try {
 
     #Region Run Command
         #Capture Host Console Output
-        $Path = ".\Transcript_$(New-guid).txt"
+        $Path = "C:\home\site\wwwroot\Transcript_$(New-guid).txt"
         Start-Transcript -Path $Path -UseMinimalHeader
 
         #Run Command
