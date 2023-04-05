@@ -5,6 +5,7 @@
     "FUNCTIONS_EXTENSION_VERSION": "~4",
     "ScmType": "None",
     "WEBSITE_AUTH_ENABLED": "False",
+    "WEBSITE_RUN_FROM_PACKAGE": "0",
     "APPINSIGHTS_INSTRUMENTATIONKEY": "3741df21-1b72-4bfd-95e8-78ffdd729fd7",
     "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=smbfraudlitecsfsa746bff;AccountKey=aVn4ODB0Jl/6sKeLXvctcKZYEi++l/x1T6Ay46tDIOJ6URwtdAmo8zDh4nH8/B1SFclAgJSYwrQY+ASt3aiJvQ==;EndpointSuffix=core.windows.net",
     "WEBSITE_CONTENTSHARE": "smbfraudlitecsfd73cbc",
