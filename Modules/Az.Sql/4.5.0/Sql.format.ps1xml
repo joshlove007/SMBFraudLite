@@ -1,0 +1,2236 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+  <ViewDefinitions>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.DataClassification.Model.ManagedDatabaseSensitivityClassificationModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.DataClassification.Model.ManagedDatabaseSensitivityClassificationModel</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <PropertyName>ResourceGroupName</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>InstanceName</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>DatabaseName</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>SensitivityLabels</PropertyName>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.DataClassification.Model.SqlDatabaseSensitivityClassificationModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.DataClassification.Model.SqlDatabaseSensitivityClassificationModel</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <PropertyName>ResourceGroupName</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>ServerName</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>DatabaseName</PropertyName>
+              </ListItem>
+              <ListItem>
+                <PropertyName>SensitivityLabels</PropertyName>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ServiceObjective.Model.AzureSqlServerServiceObjectiveModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ServiceObjective.Model.AzureSqlServerServiceObjectiveModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader><Label>ServiceObjectiveName</Label></TableColumnHeader>
+          <TableColumnHeader><Label>SkuName</Label></TableColumnHeader>
+          <TableColumnHeader><Label>Edition</Label></TableColumnHeader>
+          <TableColumnHeader><Label>Family</Label></TableColumnHeader>
+          <TableColumnHeader><Label>Capacity</Label></TableColumnHeader>
+          <TableColumnHeader><Label>CapacityUnit</Label></TableColumnHeader>
+          <TableColumnHeader><Label>Enabled</Label></TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem><PropertyName>ServiceObjectiveName</PropertyName></TableColumnItem>
+              <TableColumnItem><PropertyName>SkuName</PropertyName></TableColumnItem>
+              <TableColumnItem><PropertyName>Edition</PropertyName></TableColumnItem>
+              <TableColumnItem><PropertyName>Family</PropertyName></TableColumnItem>
+              <TableColumnItem><PropertyName>Capacity</PropertyName></TableColumnItem>
+              <TableColumnItem><PropertyName>CapacityUnit</PropertyName></TableColumnItem>
+              <TableColumnItem><PropertyName>Enabled</PropertyName></TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.AdvancedThreatProtection.Model.ServerAdvancedThreatProtectionPolicyModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.AdvancedThreatProtection.Model.ServerAdvancedThreatProtectionPolicyModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
+            <Label>Enabled</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>IsEnabled</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.VulnerabilityAssessment.Model.DatabaseVulnerabilityAssessmentScanRecordModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.VulnerabilityAssessment.Model.DatabaseVulnerabilityAssessmentScanRecordModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
+            <Label>Scan ID</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
+            <Label>State</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
+            <Label>Scan Results Location Path</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
+            <Label>Trigger Type</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
+            <Label>Start Time</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
+            <Label>End Time</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
+            <Label>Number Of Failed Security Checks</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
+            <Label>Errors</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>ScanId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>State</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>ScanResultsLocationPath</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>TriggerType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>StartTime</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>EndTime</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>NumberOfFailedSecurityChecks</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>Errors</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.VulnerabilityAssessment.Model.DatabaseVulnerabilityAssessmentScanEportModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.VulnerabilityAssessment.Model.DatabaseVulnerabilityAssessmentScanEportModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
+            <Label>Converted Report Location</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>ExportedReportLocation</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.VulnerabilityAssessment.Model.DatabaseVulnerabilityAssessmentRuleBaselineModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.VulnerabilityAssessment.Model.DatabaseVulnerabilityAssessmentRuleBaselineModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
+            <Label>Rule ID</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
+            <Label>Rule Applies To Master</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
+            <Label>Baseline Results</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>RuleId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>RuleAppliesToMaster</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>BaselineResult</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.VulnerabilityAssessment.Model.DatabaseVulnerabilityAssessmentSettingsModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.VulnerabilityAssessment.Model.DatabaseVulnerabilityAssessmentSettingsModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
+            <Label>Storage Account Name</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
+            <Label>Scan Results Container Name</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
+            <Label>Recurring Scans Interval</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
+            <Label>Email Admins</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Alignment>Left</Alignment>
+            <Label>Notification Emails</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>StorageAccountName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>ScanResultsContainerName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>RecurringScansInterval</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>EmailAdmins</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <Alignment>Left</Alignment>
+                <PropertyName>NotificationEmail</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.Location_Capabilities.Model.LocationCapabilityModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.Location_Capabilities.Model.LocationCapabilityModel</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <Label>Location</Label>
+                <PropertyName>LocationName</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>Status</Label>
+                <PropertyName>Status</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>ExpandedDetails</Label>
+                <PropertyName>ExpandedDetails</PropertyName>
+                <ItemSelectionCondition>
+                  <PropertyName>ExpandedDetails</PropertyName>
+                </ItemSelectionCondition>
+              </ListItem>
+              <ListItem>
+                <Label>SupportedServerVersions</Label>
+                <PropertyName>SupportedServerVersions</PropertyName>
+                <ItemSelectionCondition>
+                  <ScriptBlock>$_.ExpandedDetails -eq $null</ScriptBlock>
+                </ItemSelectionCondition>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.FailoverGroup.Model.AzureSqlFailoverGroupModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.FailoverGroup.Model.AzureSqlFailoverGroupModel</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <Label>FailoverGroupName</Label>
+                <PropertyName>FailoverGroupName</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>Location</Label>
+                <PropertyName>Location</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>ResourceGroupName</Label>
+                <PropertyName>ResourceGroupName</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>ServerName</Label>
+                <PropertyName>ServerName</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>PartnerLocation</Label>
+                <PropertyName>PartnerLocation</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>PartnerResourceGroupName</Label>
+                <PropertyName>PartnerResourceGroupName</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>PartnerServerName</Label>
+                <PropertyName>PartnerServerName</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>ReplicationRole</Label>
+                <PropertyName>ReplicationRole</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>ReplicationState</Label>
+                <PropertyName>ReplicationState</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>ReadWriteFailoverPolicy</Label>
+                <PropertyName>ReadWriteFailoverPolicy</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>FailoverWithDataLossGracePeriodHours</Label>
+                <PropertyName>FailoverWithDataLossGracePeriodHours</PropertyName>
+              </ListItem>
+              <ListItem>
+                <Label>DatabaseNames</Label>
+                <PropertyName>DatabaseNames</PropertyName>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.DataSync.Model.AzureSqlSyncAgentLinkedDatabaseModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.DataSync.Model.AzureSqlSyncAgentLinkedDatabaseModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>SeverName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>DatabaseId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>DatabaseName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>DatabaseType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Description</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>UserName</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>SeverName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>DatabaseId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>DatabaseName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>DatabaseType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Description</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>UserName</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.DataSync.Model.AzureSqlSyncGroupModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.DataSync.Model.AzureSqlSyncGroupModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>ResourceId</Label>
+            <width>30</width>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ResourceGroupName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ServerName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>DatabaseName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SyncGroupName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SyncDatabaseId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>IntervalInSeconds</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>HubDatabaseUserName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ConflictResolutionPolicy</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SyncState</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>LastSyncTime</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Schema</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>ResourceId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ResourceGroupName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ServerName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>DatabaseName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SyncGroupName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SyncDatabaseId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>IntervalInSeconds</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>HubDatabaseUserName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ConflictResolutionPolicy</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SyncState</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>LastSyncTime</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Schema</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.DataSync.Model.AzureSqlSyncMemberModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.DataSync.Model.AzureSqlSyncMemberModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>ResourceId</Label>
+            <width>30</width>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ResourceGroupName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ServerName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>DatabaseName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SyncGroupName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SyncMemberName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SyncDirection</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>MemberDatabaseType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SyncAgentId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SqlServerDatabaseId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>MemberServerName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>MemberDatabaseName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>MemberDatabaseUserName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SyncState</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>ResourceId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ResourceGroupName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ServerName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>DatabaseName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SyncGroupName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SyncMemberName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SyncDirection</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>MemberDatabaseType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SyncAgentId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SqlServerDatabaseId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>MemberServerName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>MemberDatabaseName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>MemberDatabaseUserName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SyncState</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.DataSync.Model.AzureSqlSyncAgentModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.DataSync.Model.AzureSqlSyncAgentModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>ResourceId</Label>
+            <width>30</width>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ResourceGroupName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ServerName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SyncAgentName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>SyncDatabaseId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>LastAliveTime</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Version</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>IsUpToDate</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ExpiryTime</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>State</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>ResourceId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ResourceGroupName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ServerName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SyncAgentName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>SyncDatabaseId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>LastAliveTime</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Version</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>IsUpToDate</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ExpiryTime</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>State</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.VirtualNetworkRule.Model.AzureSqlServerVirtualNetworkRuleModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.VirtualNetworkRule.Model.AzureSqlServerVirtualNetworkRuleModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>ResourceGroupName</Label>
+            <Width>20</Width>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ServerName</Label>
+            <Width>20</Width>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>VirtualNetworkRuleName</Label>
+            <Width>25</Width>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>State</Label>
+            <Width>15</Width>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>VirtualNetworkSubnetId</Label>
+            <Width>120</Width>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>ResourceGroupName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ServerName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>VirtualNetworkRuleName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>State</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>VirtualNetworkSubnetId</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.Instance_Pools.Model.AzureSqlInstancePoolModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.Instance_Pools.Model.AzureSqlInstancePoolModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>InstancePoolName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>VCores</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Edition</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ComputeGeneration</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Location</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>LicenseType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ResourceGroupName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Tags</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>InstancePoolName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>VCores</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Edition</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ComputeGeneration</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Location</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>LicenseType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ResourceGroupName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Tags</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.Usages.Models.AzureSqlUsageModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.Usages.Models.AzureSqlUsageModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>Id</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>CurrentValue</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Limit</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Unit</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <ScriptBlock>$(If($_.Id.Split("/")[-4] -eq "managedInstances") { $_.Id.Split("/")[-5] + "/" + $_.Id.Split("/")[-3] } Else { $_.Id.Split("/")[-3] })</ScriptBlock>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>CurrentValue</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Limit</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Unit</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobCredentialModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobCredentialModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>CredentialName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>UserName</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>CredentialName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>UserName</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>JobName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Version</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Description</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StartTime</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EndTime</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ScheduleType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Interval</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Enabled</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>JobName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Version</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Description</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StartTime</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EndTime</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ScheduleType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Interval</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Enabled</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobTargetGroupModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobTargetGroupModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>TargetGroupName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Targets</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>TargetGroupName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <ScriptBlock>
+                  $_.Targets | % { "(" + $(If($_.MembershipType -eq "Exclude") { "-" }) + $_.TargetServerName + $(If($_.TargetElasticPoolName) { "." + $_.TargetElasticPoolName }) + $(If($_.TargetShardMapName) { "." + $_.TargetShardMapName }) + $(If($_.TargetDatabaseName) { "." + $_.TargetDatabaseName }) + ")"}
+                </ScriptBlock>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobTargetModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobTargetModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>TargetGroupName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TargetType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TargetServerName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TargetDatabaseName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TargetElasticPoolName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TargetShardMapName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>RefreshCredentialName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>MembershipType</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>TargetGroupName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TargetType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TargetServerName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TargetDatabaseName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TargetElasticPoolName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TargetShardMapName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <ScriptBlock>$_.RefreshCredentialName.Split("/")[-1]</ScriptBlock>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>MembershipType</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobStepModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobStepModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>JobName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StepName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StepId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TargetGroupName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>CredentialName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Output</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>CommandText</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>JobName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StepName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StepId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TargetGroupName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>CredentialName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <ScriptBlock>
+                  $(If($_.Output.ServerName) { "(" + $_.Output.ServerName }) + $(If($_.Output.DatabaseName) { "." + $_.Output.DatabaseName }) + $(If($_.Output.SchemaName) { "." + $_.Output.SchemaName }) + $(If($_.Output.SchemaName) { "." + $_.Output.TableName + ")" })
+                </ScriptBlock>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>CommandText</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobStepVersionModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobStepVersionModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>JobName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StepName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StepId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TargetGroupName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>CredentialName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Output</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Version</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>CommandText</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>JobName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StepName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StepId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TargetGroupName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>CredentialName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <ScriptBlock>
+                  $(If($_.Output.ServerName) { "(" + $_.Output.ServerName }) + $(If($_.Output.DatabaseName) { "," + $_.Output.DatabaseName }) + $(If($_.Output.SchemaName) { "," + $_.Output.SchemaName }) + $(If($_.Output.SchemaName) { "," + $_.Output.TableName + ")" })
+                </ScriptBlock>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Version</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>CommandText</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobAgentModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobAgentModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>ResourceGroupName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ServerName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>DatabaseName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>AgentName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>State</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Tags</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>ResourceGroupName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ServerName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>DatabaseName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>AgentName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>State</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Tags</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobExecutionModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobExecutionModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>JobName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>JobExecutionId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Lifecycle</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StartTime</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EndTime</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>JobName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>JobExecutionId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Lifecycle</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StartTime</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EndTime</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobStepExecutionModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobStepExecutionModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>JobName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>JobVersion</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StepName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StepId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>JobExecutionId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Lifecycle</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StartTime</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EndTime</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>JobName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>JobVersion</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StepName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StepId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>JobExecutionId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Lifecycle</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StartTime</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EndTime</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobTargetExecutionModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobTargetExecutionModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>JobName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>JobVersion</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StepName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StepId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>JobExecutionId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Lifecycle</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TargetServerName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TargetDatabaseName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StartTime</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EndTime</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>JobName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>JobVersion</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StepName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StepId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>JobExecutionId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Lifecycle</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TargetServerName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TargetDatabaseName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StartTime</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EndTime</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobCredentialModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobCredentialModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>CredentialName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>UserName</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>CredentialName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>UserName</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>JobName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Version</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Description</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StartTime</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EndTime</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ScheduleType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Interval</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Enabled</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>JobName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Version</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Description</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StartTime</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EndTime</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ScheduleType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Interval</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Enabled</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobTargetGroupModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobTargetGroupModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>TargetGroupName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Targets</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>TargetGroupName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <ScriptBlock>
+                  $_.Targets | % { "(" + $_.TargetServerName + $(If($_.TargetElasticPoolName) { "," + $_.TargetElasticPoolName }) + $(If($_.TargetDatabaseName) { "," + $_.TargetDatabaseName }) + ")"} + $(If($_.TargetShardMapName) { "," + $_.TargetShardMapName })
+                </ScriptBlock>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobTargetModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobTargetModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>TargetGroupName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TargetType</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TargetServerName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TargetDatabaseName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TargetElasticPoolName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TargetShardMapName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>RefreshCredentialName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>MembershipType</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>TargetGroupName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TargetType</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TargetServerName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TargetDatabaseName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TargetElasticPoolName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TargetShardMapName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <ScriptBlock>$_.RefreshCredentialName.Split("/")[-1]</ScriptBlock>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>MembershipType</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobStepModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobStepModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>JobName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StepName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StepId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TargetGroupName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>CredentialName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Output</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ExecutionOptions</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>CommandText</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>JobName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StepName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StepId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TargetGroupName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>CredentialName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <ScriptBlock>
+                  $(If($_.Output.ServerName) { "(" + $_.Output.ServerName }) + $(If($_.Output.DatabaseName) { "," + $_.Output.DatabaseName }) + $(If($_.Output.SchemaName) { "," + $_.Output.SchemaName }) + $(If($_.Output.SchemaName) { "," + $_.Output.TableName + ")" })
+                </ScriptBlock>
+              </TableColumnItem>
+              <TableColumnItem>
+                <ScriptBlock>
+                  "(" + $_.ExecutionOptions.TimeoutSeconds + "," + $_.ExecutionOptions.RetryAttempts + "," + $_.ExecutionOptions.InitialRetryIntervalSeconds + "," + $_.ExecutionOptions.MaximumRetryIntervalSeconds + "," + $_.ExecutionOptions.RetryIntervalBackoffMultiplier + ")"
+                </ScriptBlock>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>CommandText</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobStepVersionModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobStepVersionModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>JobName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StepName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StepId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TargetGroupName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>CredentialName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Output</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ExecutionOptions</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>CommandText</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>JobName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StepName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StepId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TargetGroupName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>CredentialName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <ScriptBlock>
+                  $(If($_.Output.ServerName) { "(" + $_.Output.ServerName }) + $(If($_.Output.DatabaseName) { "," + $_.Output.DatabaseName }) + $(If($_.Output.SchemaName) { "," + $_.Output.SchemaName }) + $(If($_.Output.SchemaName) { "," + $_.Output.TableName + ")" })
+                </ScriptBlock>
+              </TableColumnItem>
+              <TableColumnItem>
+                <ScriptBlock>
+                  "(" + $_.ExecutionOptions.TimeoutSeconds + "," + $_.ExecutionOptions.RetryAttempts + "," + $_.ExecutionOptions.InitialRetryIntervalSeconds + "," + $_.ExecutionOptions.MaximumRetryIntervalSeconds + "," + $_.ExecutionOptions.RetryIntervalBackoffMultiplier + ")"
+                </ScriptBlock>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>CommandText</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobAgentModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobAgentModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>ResourceGroupName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>ServerName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>DatabaseName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>AgentName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>State</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Tags</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>ResourceGroupName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>ServerName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>DatabaseName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>AgentName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>State</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Tags</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobExecutionModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobExecutionModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>JobName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>JobExecutionId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Lifecycle</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StartTime</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EndTime</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>JobName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>JobExecutionId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Lifecycle</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StartTime</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EndTime</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobStepExecutionModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobStepExecutionModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>JobName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>JobVersion</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StepName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StepId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>JobExecutionId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Lifecycle</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StartTime</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EndTime</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>JobName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>JobVersion</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StepName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StepId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>JobExecutionId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Lifecycle</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StartTime</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EndTime</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+    <View>
+      <Name>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobTargetExecutionModel</Name>
+      <ViewSelectedBy>
+        <TypeName>Microsoft.Azure.Commands.Sql.ElasticJobs.Model.AzureSqlElasticJobTargetExecutionModel</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+            <Label>JobName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>JobVersion</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StepName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StepId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>JobExecutionId</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>Lifecycle</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TargetServerName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>TargetDatabaseName</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>StartTime</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Label>EndTime</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <Wrap/>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>JobName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>JobVersion</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StepName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StepId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>JobExecutionId</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>Lifecycle</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TargetServerName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>TargetDatabaseName</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>StartTime</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>EndTime</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
+  </ViewDefinitions>
+</Configuration>
+
+<!-- SIG # Begin signature block -->
+<!-- MIInvwYJKoZIhvcNAQcCoIInsDCCJ6wCAQExDzANBglghkgBZQMEAgEFADB5Bgor -->
+<!-- BgEEAYI3AgEEoGswaTA0BgorBgEEAYI3AgEeMCYCAwEAAAQQH8w7YFlLCE63JNLG -->
+<!-- KX7zUQIBAAIBAAIBAAIBAAIBADAxMA0GCWCGSAFlAwQCAQUABCAkkwONlRjDPjNr -->
+<!-- QUvZHZpcTpxOExWAzcNzIfyTSevnW6CCDXYwggX0MIID3KADAgECAhMzAAACy7d1 -->
+<!-- OfsCcUI2AAAAAALLMA0GCSqGSIb3DQEBCwUAMH4xCzAJBgNVBAYTAlVTMRMwEQYD -->
+<!-- VQQIEwpXYXNoaW5ndG9uMRAwDgYDVQQHEwdSZWRtb25kMR4wHAYDVQQKExVNaWNy -->
+<!-- b3NvZnQgQ29ycG9yYXRpb24xKDAmBgNVBAMTH01pY3Jvc29mdCBDb2RlIFNpZ25p -->
+<!-- bmcgUENBIDIwMTEwHhcNMjIwNTEyMjA0NTU5WhcNMjMwNTExMjA0NTU5WjB0MQsw -->
+<!-- CQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMHUmVkbW9u -->
+<!-- ZDEeMBwGA1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMR4wHAYDVQQDExVNaWNy -->
+<!-- b3NvZnQgQ29ycG9yYXRpb24wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB -->
+<!-- AQC3sN0WcdGpGXPZIb5iNfFB0xZ8rnJvYnxD6Uf2BHXglpbTEfoe+mO//oLWkRxA -->
+<!-- wppditsSVOD0oglKbtnh9Wp2DARLcxbGaW4YanOWSB1LyLRpHnnQ5POlh2U5trg4 -->
+<!-- 3gQjvlNZlQB3lL+zrPtbNvMA7E0Wkmo+Z6YFnsf7aek+KGzaGboAeFO4uKZjQXY5 -->
+<!-- RmMzE70Bwaz7hvA05jDURdRKH0i/1yK96TDuP7JyRFLOvA3UXNWz00R9w7ppMDcN -->
+<!-- lXtrmbPigv3xE9FfpfmJRtiOZQKd73K72Wujmj6/Su3+DBTpOq7NgdntW2lJfX3X -->
+<!-- a6oe4F9Pk9xRhkwHsk7Ju9E/AgMBAAGjggFzMIIBbzAfBgNVHSUEGDAWBgorBgEE -->
+<!-- AYI3TAgBBggrBgEFBQcDAzAdBgNVHQ4EFgQUrg/nt/gj+BBLd1jZWYhok7v5/w4w -->
+<!-- RQYDVR0RBD4wPKQ6MDgxHjAcBgNVBAsTFU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEW -->
+<!-- MBQGA1UEBRMNMjMwMDEyKzQ3MDUyODAfBgNVHSMEGDAWgBRIbmTlUAXTgqoXNzci -->
+<!-- tW2oynUClTBUBgNVHR8ETTBLMEmgR6BFhkNodHRwOi8vd3d3Lm1pY3Jvc29mdC5j -->
+<!-- b20vcGtpb3BzL2NybC9NaWNDb2RTaWdQQ0EyMDExXzIwMTEtMDctMDguY3JsMGEG -->
+<!-- CCsGAQUFBwEBBFUwUzBRBggrBgEFBQcwAoZFaHR0cDovL3d3dy5taWNyb3NvZnQu -->
+<!-- Y29tL3BraW9wcy9jZXJ0cy9NaWNDb2RTaWdQQ0EyMDExXzIwMTEtMDctMDguY3J0 -->
+<!-- MAwGA1UdEwEB/wQCMAAwDQYJKoZIhvcNAQELBQADggIBAJL5t6pVjIRlQ8j4dAFJ -->
+<!-- ZnMke3rRHeQDOPFxswM47HRvgQa2E1jea2aYiMk1WmdqWnYw1bal4IzRlSVf4czf -->
+<!-- zx2vjOIOiaGllW2ByHkfKApngOzJmAQ8F15xSHPRvNMmvpC3PFLvKMf3y5SyPJxh -->
+<!-- 922TTq0q5epJv1SgZDWlUlHL/Ex1nX8kzBRhHvc6D6F5la+oAO4A3o/ZC05OOgm4 -->
+<!-- EJxZP9MqUi5iid2dw4Jg/HvtDpCcLj1GLIhCDaebKegajCJlMhhxnDXrGFLJfX8j -->
+<!-- 7k7LUvrZDsQniJZ3D66K+3SZTLhvwK7dMGVFuUUJUfDifrlCTjKG9mxsPDllfyck -->
+<!-- 4zGnRZv8Jw9RgE1zAghnU14L0vVUNOzi/4bE7wIsiRyIcCcVoXRneBA3n/frLXvd -->
+<!-- jDsbb2lpGu78+s1zbO5N0bhHWq4j5WMutrspBxEhqG2PSBjC5Ypi+jhtfu3+x76N -->
+<!-- mBvsyKuxx9+Hm/ALnlzKxr4KyMR3/z4IRMzA1QyppNk65Ui+jB14g+w4vole33M1 -->
+<!-- pVqVckrmSebUkmjnCshCiH12IFgHZF7gRwE4YZrJ7QjxZeoZqHaKsQLRMp653beB -->
+<!-- fHfeva9zJPhBSdVcCW7x9q0c2HVPLJHX9YCUU714I+qtLpDGrdbZxD9mikPqL/To -->
+<!-- /1lDZ0ch8FtePhME7houuoPcMIIHejCCBWKgAwIBAgIKYQ6Q0gAAAAAAAzANBgkq -->
+<!-- hkiG9w0BAQsFADCBiDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24x -->
+<!-- EDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlv -->
+<!-- bjEyMDAGA1UEAxMpTWljcm9zb2Z0IFJvb3QgQ2VydGlmaWNhdGUgQXV0aG9yaXR5 -->
+<!-- IDIwMTEwHhcNMTEwNzA4MjA1OTA5WhcNMjYwNzA4MjEwOTA5WjB+MQswCQYDVQQG -->
+<!-- EwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMHUmVkbW9uZDEeMBwG -->
+<!-- A1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMSgwJgYDVQQDEx9NaWNyb3NvZnQg -->
+<!-- Q29kZSBTaWduaW5nIFBDQSAyMDExMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIIC -->
+<!-- CgKCAgEAq/D6chAcLq3YbqqCEE00uvK2WCGfQhsqa+laUKq4BjgaBEm6f8MMHt03 -->
+<!-- a8YS2AvwOMKZBrDIOdUBFDFC04kNeWSHfpRgJGyvnkmc6Whe0t+bU7IKLMOv2akr -->
+<!-- rnoJr9eWWcpgGgXpZnboMlImEi/nqwhQz7NEt13YxC4Ddato88tt8zpcoRb0Rrrg -->
+<!-- OGSsbmQ1eKagYw8t00CT+OPeBw3VXHmlSSnnDb6gE3e+lD3v++MrWhAfTVYoonpy -->
+<!-- 4BI6t0le2O3tQ5GD2Xuye4Yb2T6xjF3oiU+EGvKhL1nkkDstrjNYxbc+/jLTswM9 -->
+<!-- sbKvkjh+0p2ALPVOVpEhNSXDOW5kf1O6nA+tGSOEy/S6A4aN91/w0FK/jJSHvMAh -->
+<!-- dCVfGCi2zCcoOCWYOUo2z3yxkq4cI6epZuxhH2rhKEmdX4jiJV3TIUs+UsS1Vz8k -->
+<!-- A/DRelsv1SPjcF0PUUZ3s/gA4bysAoJf28AVs70b1FVL5zmhD+kjSbwYuER8ReTB -->
+<!-- w3J64HLnJN+/RpnF78IcV9uDjexNSTCnq47f7Fufr/zdsGbiwZeBe+3W7UvnSSmn -->
+<!-- Eyimp31ngOaKYnhfsi+E11ecXL93KCjx7W3DKI8sj0A3T8HhhUSJxAlMxdSlQy90 -->
+<!-- lfdu+HggWCwTXWCVmj5PM4TasIgX3p5O9JawvEagbJjS4NaIjAsCAwEAAaOCAe0w -->
+<!-- ggHpMBAGCSsGAQQBgjcVAQQDAgEAMB0GA1UdDgQWBBRIbmTlUAXTgqoXNzcitW2o -->
+<!-- ynUClTAZBgkrBgEEAYI3FAIEDB4KAFMAdQBiAEMAQTALBgNVHQ8EBAMCAYYwDwYD -->
+<!-- VR0TAQH/BAUwAwEB/zAfBgNVHSMEGDAWgBRyLToCMZBDuRQFTuHqp8cx0SOJNDBa -->
+<!-- BgNVHR8EUzBRME+gTaBLhklodHRwOi8vY3JsLm1pY3Jvc29mdC5jb20vcGtpL2Ny -->
+<!-- bC9wcm9kdWN0cy9NaWNSb29DZXJBdXQyMDExXzIwMTFfMDNfMjIuY3JsMF4GCCsG -->
+<!-- AQUFBwEBBFIwUDBOBggrBgEFBQcwAoZCaHR0cDovL3d3dy5taWNyb3NvZnQuY29t -->
+<!-- L3BraS9jZXJ0cy9NaWNSb29DZXJBdXQyMDExXzIwMTFfMDNfMjIuY3J0MIGfBgNV -->
+<!-- HSAEgZcwgZQwgZEGCSsGAQQBgjcuAzCBgzA/BggrBgEFBQcCARYzaHR0cDovL3d3 -->
+<!-- dy5taWNyb3NvZnQuY29tL3BraW9wcy9kb2NzL3ByaW1hcnljcHMuaHRtMEAGCCsG -->
+<!-- AQUFBwICMDQeMiAdAEwAZQBnAGEAbABfAHAAbwBsAGkAYwB5AF8AcwB0AGEAdABl -->
+<!-- AG0AZQBuAHQALiAdMA0GCSqGSIb3DQEBCwUAA4ICAQBn8oalmOBUeRou09h0ZyKb -->
+<!-- C5YR4WOSmUKWfdJ5DJDBZV8uLD74w3LRbYP+vj/oCso7v0epo/Np22O/IjWll11l -->
+<!-- hJB9i0ZQVdgMknzSGksc8zxCi1LQsP1r4z4HLimb5j0bpdS1HXeUOeLpZMlEPXh6 -->
+<!-- I/MTfaaQdION9MsmAkYqwooQu6SpBQyb7Wj6aC6VoCo/KmtYSWMfCWluWpiW5IP0 -->
+<!-- wI/zRive/DvQvTXvbiWu5a8n7dDd8w6vmSiXmE0OPQvyCInWH8MyGOLwxS3OW560 -->
+<!-- STkKxgrCxq2u5bLZ2xWIUUVYODJxJxp/sfQn+N4sOiBpmLJZiWhub6e3dMNABQam -->
+<!-- ASooPoI/E01mC8CzTfXhj38cbxV9Rad25UAqZaPDXVJihsMdYzaXht/a8/jyFqGa -->
+<!-- J+HNpZfQ7l1jQeNbB5yHPgZ3BtEGsXUfFL5hYbXw3MYbBL7fQccOKO7eZS/sl/ah -->
+<!-- XJbYANahRr1Z85elCUtIEJmAH9AAKcWxm6U/RXceNcbSoqKfenoi+kiVH6v7RyOA -->
+<!-- 9Z74v2u3S5fi63V4GuzqN5l5GEv/1rMjaHXmr/r8i+sLgOppO6/8MO0ETI7f33Vt -->
+<!-- Y5E90Z1WTk+/gFcioXgRMiF670EKsT/7qMykXcGhiJtXcVZOSEXAQsmbdlsKgEhr -->
+<!-- /Xmfwb1tbWrJUnMTDXpQzTGCGZ8wghmbAgEBMIGVMH4xCzAJBgNVBAYTAlVTMRMw -->
+<!-- EQYDVQQIEwpXYXNoaW5ndG9uMRAwDgYDVQQHEwdSZWRtb25kMR4wHAYDVQQKExVN -->
+<!-- aWNyb3NvZnQgQ29ycG9yYXRpb24xKDAmBgNVBAMTH01pY3Jvc29mdCBDb2RlIFNp -->
+<!-- Z25pbmcgUENBIDIwMTECEzMAAALLt3U5+wJxQjYAAAAAAsswDQYJYIZIAWUDBAIB -->
+<!-- BQCgga4wGQYJKoZIhvcNAQkDMQwGCisGAQQBgjcCAQQwHAYKKwYBBAGCNwIBCzEO -->
+<!-- MAwGCisGAQQBgjcCARUwLwYJKoZIhvcNAQkEMSIEID2Nk6FZZMkVu59rNGjeeKxd -->
+<!-- L0YNf5T+SRTXBm4fDgX3MEIGCisGAQQBgjcCAQwxNDAyoBSAEgBNAGkAYwByAG8A -->
+<!-- cwBvAGYAdKEagBhodHRwOi8vd3d3Lm1pY3Jvc29mdC5jb20wDQYJKoZIhvcNAQEB -->
+<!-- BQAEggEACwmvacPj1fGryNmfnduBz8yLqIztQhsVF+4UxKFzmuVYccDJc3VF2zOR -->
+<!-- pmWqEltYTMNfhvUQ+9YP8fv0wssYwUc2n+/D4GkVeRt8taDkndI00ZaEJQqYA/he -->
+<!-- xSM22P03WfaqfvpzbODlpuWfWl/pkn/NP3nOwE7eE23afQm0XhQlSpH+MEtZJLvn -->
+<!-- Genjyf4NfHDFFCc8gezTj2Dn1rEGHa4KEhpkgjZcAh3YgiCD0bbPfW5o2dLBhSLI -->
+<!-- tXZ9o8uWOw1sROil87NVUVgaHGotCHC9zME1JKMnKMKoqZgBWQ7QCSXtrdymQ4/B -->
+<!-- +HS/fg7ASTrsG4fEiaX5KXROIy3laaGCFykwghclBgorBgEEAYI3AwMBMYIXFTCC -->
+<!-- FxEGCSqGSIb3DQEHAqCCFwIwghb+AgEDMQ8wDQYJYIZIAWUDBAIBBQAwggFZBgsq -->
+<!-- hkiG9w0BCRABBKCCAUgEggFEMIIBQAIBAQYKKwYBBAGEWQoDATAxMA0GCWCGSAFl -->
+<!-- AwQCAQUABCARkKlvnVlYtZGXGz2OCfAmAI0RWc/ecZVict9jbaXtmwIGZBrsGzrw -->
+<!-- GBMyMDIzMDMzMDA1NDQzNy4xMDlaMASAAgH0oIHYpIHVMIHSMQswCQYDVQQGEwJV -->
+<!-- UzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMHUmVkbW9uZDEeMBwGA1UE -->
+<!-- ChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMS0wKwYDVQQLEyRNaWNyb3NvZnQgSXJl -->
+<!-- bGFuZCBPcGVyYXRpb25zIExpbWl0ZWQxJjAkBgNVBAsTHVRoYWxlcyBUU1MgRVNO -->
+<!-- OjJBRDQtNEI5Mi1GQTAxMSUwIwYDVQQDExxNaWNyb3NvZnQgVGltZS1TdGFtcCBT -->
+<!-- ZXJ2aWNloIIReDCCBycwggUPoAMCAQICEzMAAAGxypBD7gvwA6sAAQAAAbEwDQYJ -->
+<!-- KoZIhvcNAQELBQAwfDELMAkGA1UEBhMCVVMxEzARBgNVBAgTCldhc2hpbmd0b24x -->
+<!-- EDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29mdCBDb3Jwb3JhdGlv -->
+<!-- bjEmMCQGA1UEAxMdTWljcm9zb2Z0IFRpbWUtU3RhbXAgUENBIDIwMTAwHhcNMjIw -->
+<!-- OTIwMjAyMTU5WhcNMjMxMjE0MjAyMTU5WjCB0jELMAkGA1UEBhMCVVMxEzARBgNV -->
+<!-- BAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jv -->
+<!-- c29mdCBDb3Jwb3JhdGlvbjEtMCsGA1UECxMkTWljcm9zb2Z0IElyZWxhbmQgT3Bl -->
+<!-- cmF0aW9ucyBMaW1pdGVkMSYwJAYDVQQLEx1UaGFsZXMgVFNTIEVTTjoyQUQ0LTRC -->
+<!-- OTItRkEwMTElMCMGA1UEAxMcTWljcm9zb2Z0IFRpbWUtU3RhbXAgU2VydmljZTCC -->
+<!-- AiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAIaiqz7V7BvH7IOMPEeDM2Uw -->
+<!-- CpM8LxAUPeJ7Uvu9q0RiDBdBgshC/SDre3/YJBqGpn27a7XWOMviiBUfMNff51Nx -->
+<!-- KFoSX62Gpq36YLRZk2hN1wigrCO656z5pVTjJp3Q8jdYAJX3ruJea3ccfTgxAgT3 -->
+<!-- Uv/sP4w0+yZAYa2JZalV3MBgIFi3VwKFA4ClQcr+V4SpGzqz8faqabmYypuJ35Zn -->
+<!-- 8G/201pAN2jDEOu7QaDC0rGyDdwSTVmXcHM46EFV6N2F69nwfj2DZh74gnA1DB7N -->
+<!-- FcZn+4v1kqQWn7AzBJ+lmOxvKrURlV/u19Mw1YP+zVQyzKn5/4r/vuYSRj/thZr+ -->
+<!-- FmZAUtTAacLzouBENuaSBuOY1k330eMp8nndSNUsUjj/nn7gcdFqzdQNudJb+Xxm -->
+<!-- Rwi9LwjA0/8PlOsKTZ8Xw6EEWPVLfNojSuWpZMTaMzz/wzSPp5J02kpYmkdl50lw -->
+<!-- yGRLO5X7iWINKmoXySdQmRdiGMTkvRStXKxIoEm/EJxCaI+k4S3+BWKWC07EV5T3 -->
+<!-- UG7wbFb4LfvgbbaKM58HytAyjDnO9fEi0vrp8JFTtGhdtwhEEkraMtGVt+CvnG0Z -->
+<!-- lH4mvpPRPuJbqE509e6CqmHwzTuUZPFMFWvJn4fPv0d32Ws9jv2YYmE/0WR1fULs -->
+<!-- +TxxpWgn1z0PAOsxSZRPAgMBAAGjggFJMIIBRTAdBgNVHQ4EFgQU9Jtnke8NrYSK -->
+<!-- 9fFnoVE0pr0OOZMwHwYDVR0jBBgwFoAUn6cVXQBeYl2D9OXSZacbUzUZ6XIwXwYD -->
+<!-- VR0fBFgwVjBUoFKgUIZOaHR0cDovL3d3dy5taWNyb3NvZnQuY29tL3BraW9wcy9j -->
+<!-- cmwvTWljcm9zb2Z0JTIwVGltZS1TdGFtcCUyMFBDQSUyMDIwMTAoMSkuY3JsMGwG -->
+<!-- CCsGAQUFBwEBBGAwXjBcBggrBgEFBQcwAoZQaHR0cDovL3d3dy5taWNyb3NvZnQu -->
+<!-- Y29tL3BraW9wcy9jZXJ0cy9NaWNyb3NvZnQlMjBUaW1lLVN0YW1wJTIwUENBJTIw -->
+<!-- MjAxMCgxKS5jcnQwDAYDVR0TAQH/BAIwADAWBgNVHSUBAf8EDDAKBggrBgEFBQcD -->
+<!-- CDAOBgNVHQ8BAf8EBAMCB4AwDQYJKoZIhvcNAQELBQADggIBANjnN5JqpeVShIrQ -->
+<!-- IaAQnNVOv1cDEmCkD6oQufX9NGOX28Jw/gdkGtMJyagA0lVbumwQla5LPhBm5LjI -->
+<!-- UW/5aYhzSlZ7lxeDykw57wp2AqoMAJm7bXcXtJt/HyaRlN35hAhBV+DmGnBIRcE5 -->
+<!-- C2bSFFY3asD50KUSCPmKl/0NFadPeoNqbj5ZUna8VAfMSDsdxeyxjs8r/9Vpqy8l -->
+<!-- gIVBqRrXtFt6n1+GFpJ+2AjPspfPO7Y+Y/ozv5dTEYum5eDLDdD1thQmHkW8s0BB -->
+<!-- DbIOT3d+dWdPETkf50fM/nALkMEdvYo2gyiJrOSG0a9Z2S/6mbJBUrgrkgPp2HjL -->
+<!-- kycR4Nhwl67ehAhWxJGKD2gRk88T2KKXLiRHAoYTZVpHbgkYLspBLJs9C77ZkuxX -->
+<!-- uvIOGaId7EJCBOVRMJygtx8FXpoSu3jWEdau0WBMXxhVAzEHTu7UKW3Dw+KGgW7R -->
+<!-- Rlhrt589SK8lrPSvPM6PPnqEFf6PUsTVO0bOkzKnC3TOgui4JhlWliigtEtg1SlP -->
+<!-- MxcdMuc9uYdWSe1/2YWmr9ZrV1RuvpSSKvJLSYDlOf6aJrpnX7YKLMRoyKdzTkcv -->
+<!-- Xw1JZfikJeGJjfRs2cT2JIbiNEGK4i5srQbVCvgCvdYVEVZXVW1Iz/LJLK9XbIkM -->
+<!-- MjmECJEsa07oadKcO4ed9vY6YYBGMIIHcTCCBVmgAwIBAgITMwAAABXF52ueAptJ -->
+<!-- mQAAAAAAFTANBgkqhkiG9w0BAQsFADCBiDELMAkGA1UEBhMCVVMxEzARBgNVBAgT -->
+<!-- Cldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoTFU1pY3Jvc29m -->
+<!-- dCBDb3Jwb3JhdGlvbjEyMDAGA1UEAxMpTWljcm9zb2Z0IFJvb3QgQ2VydGlmaWNh -->
+<!-- dGUgQXV0aG9yaXR5IDIwMTAwHhcNMjEwOTMwMTgyMjI1WhcNMzAwOTMwMTgzMjI1 -->
+<!-- WjB8MQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMH -->
+<!-- UmVkbW9uZDEeMBwGA1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMSYwJAYDVQQD -->
+<!-- Ex1NaWNyb3NvZnQgVGltZS1TdGFtcCBQQ0EgMjAxMDCCAiIwDQYJKoZIhvcNAQEB -->
+<!-- BQADggIPADCCAgoCggIBAOThpkzntHIhC3miy9ckeb0O1YLT/e6cBwfSqWxOdcjK -->
+<!-- NVf2AX9sSuDivbk+F2Az/1xPx2b3lVNxWuJ+Slr+uDZnhUYjDLWNE893MsAQGOhg -->
+<!-- fWpSg0S3po5GawcU88V29YZQ3MFEyHFcUTE3oAo4bo3t1w/YJlN8OWECesSq/XJp -->
+<!-- rx2rrPY2vjUmZNqYO7oaezOtgFt+jBAcnVL+tuhiJdxqD89d9P6OU8/W7IVWTe/d -->
+<!-- vI2k45GPsjksUZzpcGkNyjYtcI4xyDUoveO0hyTD4MmPfrVUj9z6BVWYbWg7mka9 -->
+<!-- 7aSueik3rMvrg0XnRm7KMtXAhjBcTyziYrLNueKNiOSWrAFKu75xqRdbZ2De+JKR -->
+<!-- Hh09/SDPc31BmkZ1zcRfNN0Sidb9pSB9fvzZnkXftnIv231fgLrbqn427DZM9itu -->
+<!-- qBJR6L8FA6PRc6ZNN3SUHDSCD/AQ8rdHGO2n6Jl8P0zbr17C89XYcz1DTsEzOUyO -->
+<!-- ArxCaC4Q6oRRRuLRvWoYWmEBc8pnol7XKHYC4jMYctenIPDC+hIK12NvDMk2ZItb -->
+<!-- oKaDIV1fMHSRlJTYuVD5C4lh8zYGNRiER9vcG9H9stQcxWv2XFJRXRLbJbqvUAV6 -->
+<!-- bMURHXLvjflSxIUXk8A8FdsaN8cIFRg/eKtFtvUeh17aj54WcmnGrnu3tz5q4i6t -->
+<!-- AgMBAAGjggHdMIIB2TASBgkrBgEEAYI3FQEEBQIDAQABMCMGCSsGAQQBgjcVAgQW -->
+<!-- BBQqp1L+ZMSavoKRPEY1Kc8Q/y8E7jAdBgNVHQ4EFgQUn6cVXQBeYl2D9OXSZacb -->
+<!-- UzUZ6XIwXAYDVR0gBFUwUzBRBgwrBgEEAYI3TIN9AQEwQTA/BggrBgEFBQcCARYz -->
+<!-- aHR0cDovL3d3dy5taWNyb3NvZnQuY29tL3BraW9wcy9Eb2NzL1JlcG9zaXRvcnku -->
+<!-- aHRtMBMGA1UdJQQMMAoGCCsGAQUFBwMIMBkGCSsGAQQBgjcUAgQMHgoAUwB1AGIA -->
+<!-- QwBBMAsGA1UdDwQEAwIBhjAPBgNVHRMBAf8EBTADAQH/MB8GA1UdIwQYMBaAFNX2 -->
+<!-- VsuP6KJcYmjRPZSQW9fOmhjEMFYGA1UdHwRPME0wS6BJoEeGRWh0dHA6Ly9jcmwu -->
+<!-- bWljcm9zb2Z0LmNvbS9wa2kvY3JsL3Byb2R1Y3RzL01pY1Jvb0NlckF1dF8yMDEw -->
+<!-- LTA2LTIzLmNybDBaBggrBgEFBQcBAQROMEwwSgYIKwYBBQUHMAKGPmh0dHA6Ly93 -->
+<!-- d3cubWljcm9zb2Z0LmNvbS9wa2kvY2VydHMvTWljUm9vQ2VyQXV0XzIwMTAtMDYt -->
+<!-- MjMuY3J0MA0GCSqGSIb3DQEBCwUAA4ICAQCdVX38Kq3hLB9nATEkW+Geckv8qW/q -->
+<!-- XBS2Pk5HZHixBpOXPTEztTnXwnE2P9pkbHzQdTltuw8x5MKP+2zRoZQYIu7pZmc6 -->
+<!-- U03dmLq2HnjYNi6cqYJWAAOwBb6J6Gngugnue99qb74py27YP0h1AdkY3m2CDPVt -->
+<!-- I1TkeFN1JFe53Z/zjj3G82jfZfakVqr3lbYoVSfQJL1AoL8ZthISEV09J+BAljis -->
+<!-- 9/kpicO8F7BUhUKz/AyeixmJ5/ALaoHCgRlCGVJ1ijbCHcNhcy4sa3tuPywJeBTp -->
+<!-- kbKpW99Jo3QMvOyRgNI95ko+ZjtPu4b6MhrZlvSP9pEB9s7GdP32THJvEKt1MMU0 -->
+<!-- sHrYUP4KWN1APMdUbZ1jdEgssU5HLcEUBHG/ZPkkvnNtyo4JvbMBV0lUZNlz138e -->
+<!-- W0QBjloZkWsNn6Qo3GcZKCS6OEuabvshVGtqRRFHqfG3rsjoiV5PndLQTHa1V1QJ -->
+<!-- sWkBRH58oWFsc/4Ku+xBZj1p/cvBQUl+fpO+y/g75LcVv7TOPqUxUYS8vwLBgqJ7 -->
+<!-- Fx0ViY1w/ue10CgaiQuPNtq6TPmb/wrpNPgkNWcr4A245oyZ1uEi6vAnQj0llOZ0 -->
+<!-- dFtq0Z4+7X6gMTN9vMvpe784cETRkPHIqzqKOghif9lwY1NNje6CbaUFEMFxBmoQ -->
+<!-- tB1VM1izoXBm8qGCAtQwggI9AgEBMIIBAKGB2KSB1TCB0jELMAkGA1UEBhMCVVMx -->
+<!-- EzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoT -->
+<!-- FU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEtMCsGA1UECxMkTWljcm9zb2Z0IElyZWxh -->
+<!-- bmQgT3BlcmF0aW9ucyBMaW1pdGVkMSYwJAYDVQQLEx1UaGFsZXMgVFNTIEVTTjoy -->
+<!-- QUQ0LTRCOTItRkEwMTElMCMGA1UEAxMcTWljcm9zb2Z0IFRpbWUtU3RhbXAgU2Vy -->
+<!-- dmljZaIjCgEBMAcGBSsOAwIaAxUA7WSxvqQDbA7vyy69Tn0wP5BGxyuggYMwgYCk -->
+<!-- fjB8MQswCQYDVQQGEwJVUzETMBEGA1UECBMKV2FzaGluZ3RvbjEQMA4GA1UEBxMH -->
+<!-- UmVkbW9uZDEeMBwGA1UEChMVTWljcm9zb2Z0IENvcnBvcmF0aW9uMSYwJAYDVQQD -->
+<!-- Ex1NaWNyb3NvZnQgVGltZS1TdGFtcCBQQ0EgMjAxMDANBgkqhkiG9w0BAQUFAAIF -->
+<!-- AOfPTVEwIhgPMjAyMzAzMzAwNzUwNDFaGA8yMDIzMDMzMTA3NTA0MVowdDA6Bgor -->
+<!-- BgEEAYRZCgQBMSwwKjAKAgUA589NUQIBADAHAgEAAgIVQzAHAgEAAgITPjAKAgUA -->
+<!-- 59Ce0QIBADA2BgorBgEEAYRZCgQCMSgwJjAMBgorBgEEAYRZCgMCoAowCAIBAAID -->
+<!-- B6EgoQowCAIBAAIDAYagMA0GCSqGSIb3DQEBBQUAA4GBAEK531ulFvf3zarXzH6v -->
+<!-- rwjQOlbGg9dWlYcAYCtNzwkKzpiQbFhC2+8NpK4f/BNjVBTNtfqAOwRJd3C5NW3O -->
+<!-- hmGzeuQSOF2tszUiiOsgJ7hC6VeOvLiBf4q5/odTeIyJZBH45EQQ5a+UJctNGve/ -->
+<!-- 98DiImrNPHqYUrmNz7LNsmouMYIEDTCCBAkCAQEwgZMwfDELMAkGA1UEBhMCVVMx -->
+<!-- EzARBgNVBAgTCldhc2hpbmd0b24xEDAOBgNVBAcTB1JlZG1vbmQxHjAcBgNVBAoT -->
+<!-- FU1pY3Jvc29mdCBDb3Jwb3JhdGlvbjEmMCQGA1UEAxMdTWljcm9zb2Z0IFRpbWUt -->
+<!-- U3RhbXAgUENBIDIwMTACEzMAAAGxypBD7gvwA6sAAQAAAbEwDQYJYIZIAWUDBAIB -->
+<!-- BQCgggFKMBoGCSqGSIb3DQEJAzENBgsqhkiG9w0BCRABBDAvBgkqhkiG9w0BCQQx -->
+<!-- IgQgRzbOSUwZqjAhhRABQ2IqNq1rlsnJk8deZdKiS1nGmbgwgfoGCyqGSIb3DQEJ -->
+<!-- EAIvMYHqMIHnMIHkMIG9BCCD7Q2LFFvfqeDoy9gpu35t6dYerrDO0cMTlOIomzTP -->
+<!-- bDCBmDCBgKR+MHwxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpXYXNoaW5ndG9uMRAw -->
+<!-- DgYDVQQHEwdSZWRtb25kMR4wHAYDVQQKExVNaWNyb3NvZnQgQ29ycG9yYXRpb24x -->
+<!-- JjAkBgNVBAMTHU1pY3Jvc29mdCBUaW1lLVN0YW1wIFBDQSAyMDEwAhMzAAABscqQ -->
+<!-- Q+4L8AOrAAEAAAGxMCIEIF/JCZDJgzBzU05HNQ8RPcxpw0FRg2tTGbg1TcseoWrt -->
+<!-- MA0GCSqGSIb3DQEBCwUABIICABir5tunAnvYSi0O922u0rLllUckeGl0Eb2cjXPJ -->
+<!-- KfmFniT02im+kl4Yn3XAooEVOTnGXF+BjUn2qa8TODmDM+gTQlCQ9WPFKPvOaeBG -->
+<!-- vZ+3I735O/Rb14/yG/oDtuPptqpk0CnPAcXBShgo0edLLZ20MLGErXui4vjpUGSQ -->
+<!-- YXRubF7KAZVzsty0FoXpISrMldEANuUB2ga3uyDkZlY5v+MhIlFDW+/W3I+l2P9U -->
+<!-- sxTaSDPhCWY6GQWxwVJS8/j2lY5mFZqWfpHyjKuJP23Dqcd3KG+BOMsf7VE5aYiQ -->
+<!-- vH+YtWml1aEb8TlPblss1vYotliN6LehRyioKD1/akQnsWAm/twLgwxvtEEbT61L -->
+<!-- XK6VmscwBPlbNLAnBI+5SK68k1VEHq8mlNfhkk4AgR3boxn3Z77/ECOKEJTItrTb -->
+<!-- O49DCTN+qnCGmnm8e5Zlbto82NqdzMWrpuAiQ/YV6fearSJSxuouK4LkzyMn8hsp -->
+<!-- 8+UC6mEVVCk/5npw5Tg/eNVi5KDQtLTZtvggTlOge6diAUBJN0tZK3vprjU4A4Sp -->
+<!-- iwjUSMRUbwdoy1GD/o3I3lF3aSQqYjE1UiuX44iYXcuUIgDOr6iyRPicAFyZhaIn -->
+<!-- y14HYh/LzDnd/PbnkAEFtVI9ip2BOrrbem0PDJK1/z4zjH0bMvDG8iGrVwnemuVs -->
+<!-- OHQT -->
+<!-- SIG # End signature block -->

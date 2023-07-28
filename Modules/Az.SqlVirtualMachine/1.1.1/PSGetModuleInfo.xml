@@ -1,0 +1,202 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">Az.SqlVirtualMachine</S>
+      <Version N="Version">1.1.1</Version>
+      <S N="Type">Module</S>
+      <S N="Description">Microsoft Azure PowerShell - SqlVirtualMachine service cmdlets for Azure Resource Manager in Windows PowerShell and PowerShell Core.</S>
+      <S N="Author">Microsoft Corporation</S>
+      <S N="CompanyName">azure-sdk</S>
+      <S N="Copyright">Microsoft Corporation. All rights reserved.</S>
+      <DT N="PublishedDate">2023-04-04T04:12:59-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2022-09-30T15:29:02.4502187-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Deserialized.Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>Deserialized.System.Enum</T>
+              <T>Deserialized.System.ValueType</T>
+              <T>Deserialized.System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Obj N="UpdatedDate" RefId="3">
+        <DT>2023-04-20T11:43:58.2723691-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="4">
+            <TN RefId="2">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <URI N="LicenseUri">https://aka.ms/azps-license</URI>
+      <URI N="ProjectUri">https://github.com/Azure/azure-powershell</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="5">
+        <TN RefId="3">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>Azure</S>
+          <S>ResourceManager</S>
+          <S>ARM</S>
+          <S>SqlVirtualMachine</S>
+          <S>PSModule</S>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="6">
+        <TN RefId="4">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="3" />
+              <LST>
+                <S>New-AzSqlVM</S>
+                <S>Get-AzSqlVM</S>
+                <S>Update-AzSqlVM</S>
+                <S>Remove-AzSqlVM</S>
+                <S>New-AzSqlVMConfig</S>
+                <S>Set-AzSqlVMConfigGroup</S>
+                <S>New-AzSqlVMGroup</S>
+                <S>Get-AzSqlVMGroup</S>
+                <S>Update-AzSqlVMGroup</S>
+                <S>Remove-AzSqlVMGroup</S>
+                <S>New-AzAvailabilityGroupListener</S>
+                <S>Get-AzAvailabilityGroupListener</S>
+                <S>Update-AzAvailabilityGroupListener</S>
+                <S>Remove-AzAvailabilityGroupListener</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="8">
+              <TNRef RefId="3" />
+              <LST>
+                <S>New-AzSqlVM</S>
+                <S>Get-AzSqlVM</S>
+                <S>Update-AzSqlVM</S>
+                <S>Remove-AzSqlVM</S>
+                <S>New-AzSqlVMConfig</S>
+                <S>Set-AzSqlVMConfigGroup</S>
+                <S>New-AzSqlVMGroup</S>
+                <S>Get-AzSqlVMGroup</S>
+                <S>Update-AzSqlVMGroup</S>
+                <S>Remove-AzSqlVMGroup</S>
+                <S>New-AzAvailabilityGroupListener</S>
+                <S>Get-AzAvailabilityGroupListener</S>
+                <S>Update-AzAvailabilityGroupListener</S>
+                <S>Remove-AzAvailabilityGroupListener</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="9">
+              <TNRef RefId="3" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="9" />
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="9" />
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="9" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">* Added breaking change notification for cmdlets to be removed and parameters to be changed._x000D__x000A_    * Cmdlet 'New-AzSqlVMConfig' will be removed._x000D__x000A_    * Cmdlet 'Set-AzSqlVMConfigGroup' will be removed._x000D__x000A_    * Cmdlet 'Update-AzAvailabilityGroupListener' will be removed._x000D__x000A_    * Parameter 'SqlVM' will be removed from cmdlet 'New-AzSqlVM'._x000D__x000A_    * Parameter 'SqlVMGroupObject' will be removed from cmdlet 'Get-AzAvailabilityGroupListener' and 'Remove-AzAvailabilityGroupListener'._x000D__x000A_    * Parameter alias 'SqlVM' will be removed from 'InputObject' of cmdlet 'Remove-AzSqlVM'._x000D__x000A_    * Parameter alias 'SqlVMGroup' will be removed from 'InputObject' of cmdlet 'Update-AzSqlVMGroup' and 'Remove-AzSqlVMGroup'._x000D__x000A_* Added breaking change notification for SqlManagementType</S>
+      <Obj N="Dependencies" RefId="10">
+        <TNRef RefId="3" />
+        <LST>
+          <Obj RefId="11">
+            <TN RefId="5">
+              <T>System.Collections.Specialized.OrderedDictionary</T>
+              <T>System.Object</T>
+            </TN>
+            <DCT>
+              <En>
+                <S N="Key">Name</S>
+                <S N="Value">Az.Accounts</S>
+              </En>
+              <En>
+                <S N="Key">MinimumVersion</S>
+                <S N="Value">2.12.1</S>
+              </En>
+              <En>
+                <S N="Key">CanonicalId</S>
+                <S N="Value">nuget:Az.Accounts/2.12.1</S>
+              </En>
+            </DCT>
+          </Obj>
+        </LST>
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="12">
+        <TN RefId="6">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">Microsoft Corporation. All rights reserved.</S>
+          <S N="description">Microsoft Azure PowerShell - SqlVirtualMachine service cmdlets for Azure Resource Manager in Windows PowerShell and PowerShell Core.</S>
+          <S N="requireLicenseAcceptance">True</S>
+          <S N="releaseNotes">* Added breaking change notification for cmdlets to be removed and parameters to be changed._x000D__x000A_    * Cmdlet 'New-AzSqlVMConfig' will be removed._x000D__x000A_    * Cmdlet 'Set-AzSqlVMConfigGroup' will be removed._x000D__x000A_    * Cmdlet 'Update-AzAvailabilityGroupListener' will be removed._x000D__x000A_    * Parameter 'SqlVM' will be removed from cmdlet 'New-AzSqlVM'._x000D__x000A_    * Parameter 'SqlVMGroupObject' will be removed from cmdlet 'Get-AzAvailabilityGroupListener' and 'Remove-AzAvailabilityGroupListener'._x000D__x000A_    * Parameter alias 'SqlVM' will be removed from 'InputObject' of cmdlet 'Remove-AzSqlVM'._x000D__x000A_    * Parameter alias 'SqlVMGroup' will be removed from 'InputObject' of cmdlet 'Update-AzSqlVMGroup' and 'Remove-AzSqlVMGroup'._x000D__x000A_* Added breaking change notification for SqlManagementType</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">597198</S>
+          <S N="downloadCount">43044659</S>
+          <S N="packageSize">144800</S>
+          <S N="published">4/4/2023 4:12:59 AM -05:00</S>
+          <S N="created">4/4/2023 4:12:59 AM -05:00</S>
+          <S N="lastUpdated">4/20/2023 4:37:23 PM -05:00</S>
+          <S N="tags">Azure ResourceManager ARM SqlVirtualMachine PSModule PSEdition_Core PSEdition_Desktop PSCmdlet_New-AzSqlVM PSCommand_New-AzSqlVM PSCmdlet_Get-AzSqlVM PSCommand_Get-AzSqlVM PSCmdlet_Update-AzSqlVM PSCommand_Update-AzSqlVM PSCmdlet_Remove-AzSqlVM PSCommand_Remove-AzSqlVM PSCmdlet_New-AzSqlVMConfig PSCommand_New-AzSqlVMConfig PSCmdlet_Set-AzSqlVMConfigGroup PSCommand_Set-AzSqlVMConfigGroup PSCmdlet_New-AzSqlVMGroup PSCommand_New-AzSqlVMGroup PSCmdlet_Get-AzSqlVMGroup PSCommand_Get-AzSqlVMGroup PSCmdlet_Update-AzSqlVMGroup PSCommand_Update-AzSqlVMGroup PSCmdlet_Remove-AzSqlVMGroup PSCommand_Remove-AzSqlVMGroup PSCmdlet_New-AzAvailabilityGroupListener PSCommand_New-AzAvailabilityGroupListener PSCmdlet_Get-AzAvailabilityGroupListener PSCommand_Get-AzAvailabilityGroupListener PSCmdlet_Update-AzAvailabilityGroupListener PSCommand_Update-AzAvailabilityGroupListener PSCmdlet_Remove-AzAvailabilityGroupListener PSCommand_Remove-AzAvailabilityGroupListener PSIncludes_Cmdlet</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2023-04-20T16:37:23Z</S>
+          <S N="NormalizedVersion">1.1.1</S>
+          <S N="Authors">Microsoft Corporation</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Module</S>
+          <S N="FileList">Az.SqlVirtualMachine.nuspec|Az.SqlVirtualMachine.psd1|Az.SqlVirtualMachine.psm1|Microsoft.Azure.Management.SqlVirtualMachine.dll|Microsoft.Azure.PowerShell.Cmdlets.SqlVirtualMachine.deps.json|Microsoft.Azure.PowerShell.Cmdlets.SqlVirtualMachine.dll|Microsoft.Azure.PowerShell.Cmdlets.SqlVirtualMachine.dll-Help.xml|Microsoft.Azure.PowerShell.Cmdlets.SqlVirtualMachine.generated.format.ps1xml</S>
+          <S N="GUID">91832aaa-dc11-4583-8239-bce5fd531604</S>
+          <S N="PowerShellVersion">5.1</S>
+          <S N="DotNetFrameworkVersion">4.7.2</S>
+          <S N="CompanyName">Microsoft Corporation</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\Josh Work\OneDrive - TDSYNNEX\Documents\PowerShell\Modules\Az.SqlVirtualMachine\1.1.1</S>
+    </MS>
+  </Obj>
+</Objs>

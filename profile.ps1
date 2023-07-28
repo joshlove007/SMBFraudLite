@@ -15,6 +15,11 @@ if ($env:MSI_SECRET) {
     Disable-AzContextAutosave -Scope Process | Out-Null
     Connect-AzAccount -Identity
 }
+else{
+    $IdentityAzParams = (Invoke-WebRequest $env:Local_Token_Endpoint).Content | ConvertFrom-Json -AsHashtable
+
+    $null = Connect-AzAccount @IdentityAzParams
+}
 
 # Uncomment the next line to enable legacy AzureRm alias in Azure PowerShell.
 # Enable-AzureRmAlias

@@ -5,11 +5,16 @@
     "FUNCTIONS_EXTENSION_VERSION": "~4",
     "ScmType": "ExternalGit",
     "WEBSITE_AUTH_ENABLED": "False",
-    "APPINSIGHTS_INSTRUMENTATIONKEY": "3741df21-1b72-4bfd-95e8-78ffdd729fd7",
-    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=smbfraudlitecsfsa746bff;AccountKey=aVn4ODB0Jl/6sKeLXvctcKZYEi++l/x1T6Ay46tDIOJ6URwtdAmo8zDh4nH8/B1SFclAgJSYwrQY+ASt3aiJvQ==;EndpointSuffix=core.windows.net",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "",
     "WEBSITE_CONTENTSHARE": "smbfraudlitecsfd73cbc",
     "FUNCTIONS_WORKER_RUNTIME": "powershell",
+    "FUNCTIONS_WORKER_RUNTIME_VERSION": "7.2",
     "WEBSITE_SITE_NAME": "SMBFraudLiteCSF",
-    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=smbfraudlitecsfsa746bff;AccountKey=aVn4ODB0Jl/6sKeLXvctcKZYEi++l/x1T6Ay46tDIOJ6URwtdAmo8zDh4nH8/B1SFclAgJSYwrQY+ASt3aiJvQ==;EndpointSuffix=core.windows.net"
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "SEC_STOR_RGName": "SMBFraudLiteCSF_group",
+    "SEC_STOR_StorageAcc": "smbfraudlitesecuresa",
+    "SEC_STOR_StorageCon": "fileuploads",
+    "Local_Token_Endpoint": ""
   }
 }
